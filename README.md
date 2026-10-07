@@ -127,3 +127,24 @@ Changes made after a critical review of the ASCAT 2027 manuscript:
 * The survey of the "43 programs" enumerates the programs of length at most 8 that contain `S` and at least
   one turn, with no two turns cyclically adjacent, up to cyclic shifts and mirroring (powers are not
   identified); `progs.py`.
+
+## Revision of 2026-10-07, second round (tag `ascat2027` moved to this commit)
+
+* `verify_cert_exact.py` — exact re-verification of the exit property (obligation O5 / condition (V3)) of a
+  certificate without floating-point arithmetic: squared distances, dot products and segment parameters are
+  computed in Q(sqrt 5), the square roots of the margin condition are enclosed by rational interval bounds.
+  All 22 certificates pass; the rigorous lower bound of the smallest margin surplus is 1.887 for (SSSR)*
+  (0.675 over all certificates).  `verify_cert.py`'s floating-point check remains as a first filter.
+* `collect_cert_roots.py` → `results/unbounded_certs/certs_roots.json` — one record per certificate file with the
+  designated root pass families (id, type, lowest level, lengths, exact recurrence) and the results of
+  `verify_cert.py`, `indep_check.py` and `verify_cert_exact.py`.  `PROGRAMS.md` is now generated from these records,
+  so every row of its table C refers to exactly one certificate file (the earlier version had attached the root of
+  `cert_SSSR.json` to the file name `cert2_SSSR_1p_1.json`).
+* `notebook_src/corona_margin_exact.wl` — the distance from the centre triangle to the boundary of each of the 30
+  coronas, in exact algebraic arithmetic: it equals sin 36 degrees for every corona.  The proof of Theorem 1 only uses
+  that this minimum is positive.
+* `PROGRAMS.md` — the "WL check" column of table A now reports the agreement recorded by `verify_all.wl`, which
+  compares the number of initial states, the absence of escapes and time-outs and the period spectrum; the names in
+  table B no longer carry the internal "@level" suffix.
+* `notebook_src/verify_classes.wl force` recomputes all class data, ignoring the cached `verify_classes.wxf`
+  (the cache distributed with the tag was regenerated with the hash-free comparison; see `data/verify_classes_force.log`).

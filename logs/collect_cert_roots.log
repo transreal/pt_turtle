@@ -1,0 +1,23 @@
+cert2_SSSR_1p_1.json SSSR valid roots [(4, [1, 1], [202, 874, 3562], 4, 66)] O5 exact OK
+cert_SLSR.json SLSR valid roots [] O5 exact OK
+cert_SLSRSLSR.json SLSRSLSR valid roots [] O5 exact OK
+cert_SLSRSR.json SLSRSR valid roots [(96, [1, 1], [591, 2415, 9711], 4, 51)] O5 exact OK
+cert_SLSRSRSR.json SLSRSRSR valid roots [(17, [1, 1], [1070, 4398, 17710], 4, 118)] O5 exact OK
+cert_SRSRSRSRSRSSR.json SRSRSRSRSRSSR valid roots [(21, [1, -1], [2738, 12482, 51458], 4, 1530)] O5 exact OK
+cert_SRSRSRSRSSR.json SRSRSRSRSSR valid roots [(788, [1, 1], [3446, 14390, 58166], 4, 606)] O5 exact OK
+cert_SRSSR.json SRSSR valid roots [(1, [1, -1], [1270, 5446, 22150], 4, 366)] O5 exact OK
+cert_SSLSSR.json SSLSSR valid roots [(178, [1, 1], [703, 2943, 11903], 4, 131)] O5 exact OK
+cert_SSLSSRSR.json SSLSSRSR valid roots [(7, [1, 1], [633, 2553, 10233], 4, 21)] O5 exact OK
+cert_SSRSLSSR.json SSRSLSSR valid roots [(10, [1, -1], [2177, 9377, 38177], 4, 669)] O5 exact OK
+cert_SSRSR.json SSRSR valid roots [(7, [1, -1], [1270, 5446, 22150], 4, 366)] O5 exact OK
+cert_SSRSRSR.json SSRSRSR valid roots [(5, [1, -1], [4421, 18757, 76101], 4, 1073)] O5 exact OK
+cert_SSRSRSSR.json SSRSRSSR valid roots [(9, [1, 1], [1194, 5034, 20394], 4, 258)] O5 exact OK
+cert_SSSLSSSR.json SSSLSSSR valid roots [(88, [1, 1], [705, 3009, 12225], 4, 189)] O5 exact OK
+cert_SSSR.json SSSR valid roots [(6, [1, -1], [204, 876, 3564], 4, 60)] O5 exact OK
+cert_SSSRSR.json SSSRSR valid roots [(230, [1, -1], [1910, 8054, 32630], 4, 414)] O5 exact OK
+cert_SSSRSRSR.json SSSRSRSR valid roots [(13, [1, 1], [1281, 5281, 21281], 4, 157)] O5 exact OK
+cert_SSSRSSR.json SSSRSSR valid roots [(13, [1, 1], [4651, 20331, 83051], 4, 1727)] O5 exact OK
+cert_SSSRSSSR.json SSSRSSSR valid roots [(6, [1, -1], [204, 876, 3564], 4, 60)] O5 exact OK
+cert_SSSSRSR.json SSSSRSR valid roots [(294, [1, -1], [2042, 9082, 37242], 4, 914)] O5 exact OK
+cert_SSSSSR.json SSSSSR valid roots [(14, [1, 1], [922, 3962, 16122], 4, 274)] O5 exact OK
+written 22 records

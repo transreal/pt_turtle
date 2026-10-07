@@ -15,7 +15,7 @@ escapes and the period spectrum agree between the two implementations.
 
 Count: 59 programs; 56 up to cyclic shifts and mirroring; 52 up to cyclic shifts, mirroring and powers.
 
-| program | n | initial states | periods | classes | WL check |
+| program | n | initial states | periods | classes | WL check (`verify_all.wl`: states, escapes, period spectrum) |
 |---|---:|---:|---|---:|---|
 | `LS` | 7 | 54240 | 3, 4, 5, 6, 7 | 7 | agree |
 | `LSLS` | 7 | 54240 | 2, 3, 5, 7 | 7 | agree |
@@ -23,7 +23,7 @@ Count: 59 programs; 56 up to cyclic shifts and mirroring; 52 up to cyclic shifts
 | `LSLSLSLS` | 7 | 54240 | 1, 3, 5, 7 | 7 | agree |
 | `LSS` | 7 | 54240 | 10, 12, 28, 30, 50, 80, 100 | 7 | agree |
 | `LSSLSS` | 7 | 54240 | 5, 6, 14, 15, 25, 40, 50 | 7 | agree |
-| `LSSLSSSS` | 9 | 360920 | 4, 5, 8, 42, ..., 253, 309 (13 values) | 13 | agree |
+| `LSSLSSSS` | 9 | 360920 | 4, 5, 8, 42, ..., 253, 309 (13 values) | - | agree |
 | `SR` | 7 | 54240 | 3, 4, 5, 6, 7 | 7 | agree |
 | `SRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSSR` | 7 | 54240 | 2, 4, 14 | 10 | agree |
 | `SRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSSR` | 7 | 54240 | 4, 8, 60, 64, 80 | 9 | agree |
@@ -37,45 +37,45 @@ Count: 59 programs; 56 up to cyclic shifts and mirroring; 52 up to cyclic shifts
 | `SRSRSRSRSRSRSRSRSRSSR` | 7 | 54240 | 2, 10, 22, 50 | 8 | agree |
 | `SRSRSRSRSRSRSRSSR` | 7 | 54240 | 2, 6, 10, 18, 42 | 5 | agree |
 | `SRSRSRSRSRSRSSR` | 7 | 54240 | 10, 12, 28, 50, 80 | 7 | agree |
-| `SRSRSRSRSSRSRSSRSRSRSRSSSR` | 9 | 360920 | 1, 2, 3, 7, ..., 253, 285 (20 values) | 22 | agree |
+| `SRSRSRSRSSRSRSSRSRSRSRSSSR` | 9 | 360920 | 1, 2, 3, 7, ..., 253, 285 (20 values) | - | agree |
 | `SRSRSRSSR` | 7 | 54240 | 2, 10, 12, 26, 50 | 7 | agree |
-| `SRSRSRSSRSRSRSRSRSSRSRSRSSSR` | 9 | 360920 | 1, 2, 5, 10, ..., 240, 287 (22 values) | 24 | agree |
-| `SRSRSRSSRSRSSRSRSRSRSRSSSR` | 9 | 360920 | 1, 2, 3, 7, ..., 253, 285 (20 values) | 22 | agree |
-| `SRSRSRSSRSRSSRSSSR` | 10 | 938200 | 1, 2, 5, 10, ..., 684, 743 (16 values) | 18 | agree |
-| `SRSRSRSSRSRSSSR` | 9 | 360920 | 10, 70, 90, 100, 254, 600, 756, 912 | 8 | agree |
+| `SRSRSRSSRSRSRSRSRSSRSRSRSSSR` | 9 | 360920 | 1, 2, 5, 10, ..., 240, 287 (22 values) | - | agree |
+| `SRSRSRSSRSRSSRSRSRSRSRSSSR` | 9 | 360920 | 1, 2, 3, 7, ..., 253, 285 (20 values) | - | agree |
+| `SRSRSRSSRSRSSRSSSR` | 10 | 938200 | 1, 2, 5, 10, ..., 684, 743 (16 values) | - | agree |
+| `SRSRSRSSRSRSSSR` | 9 | 360920 | 10, 70, 90, 100, 254, 600, 756, 912 | - | agree |
 | `SRSRSRSSRSSRSSSR` | 8 | 139440 | 1, 2, 3, 5, ..., 65, 70 (11 values) | 18 | agree |
-| `SRSRSSRSRSRSRSRSSRSRSRSRSSSR` | 9 | 360920 | 1, 2, 5, 10, ..., 240, 287 (22 values) | 24 | agree |
+| `SRSRSSRSRSRSRSRSSRSRSRSRSSSR` | 9 | 360920 | 1, 2, 5, 10, ..., 240, 287 (22 values) | - | agree |
 | `SRSRSSRSRSSRSRSSSR` | 8 | 139440 | 1, 2, 5, 6, ..., 155, 192 (19 values) | 23 | agree |
-| `SRSSRSRSRSRSRSRSSRSRSRSRSRSRSSRSRSRSSR` | 9 | 360920 | 1, 5, 8, 13, ..., 174, 247 (13 values) | 14 | agree |
-| `SRSSRSRSRSRSRSRSSRSRSRSSRSRSRSRSSR` | 8 | 139440 | 1, 2, 3, 4, ..., 303, 395 (17 values) | 21 | agree |
-| `SRSSRSRSRSRSSRSRSRSSR` | 9 | 360920 | 4, 12, 18, 44, ..., 572, 620 (10 values) | 11 | agree |
-| `SRSSRSRSRSRSSRSRSRSSRSRSRSRSRSRSSR` | 8 | 139440 | 1, 2, 3, 4, ..., 303, 395 (17 values) | 21 | agree |
-| `SRSSRSRSRSRSSSR` | 9 | 360920 | 10, 70, 90, 100, 254, 600, 756, 912 | 8 | agree |
-| `SRSSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSRSSR` | 9 | 360920 | 1, 5, 8, 13, ..., 174, 247 (13 values) | 14 | agree |
-| `SRSSRSRSRSSRSRSRSRSSR` | 9 | 360920 | 4, 12, 18, 44, ..., 572, 620 (10 values) | 11 | agree |
+| `SRSSRSRSRSRSRSRSSRSRSRSRSRSRSSRSRSRSSR` | 9 | 360920 | 1, 5, 8, 13, ..., 174, 247 (13 values) | - | agree |
+| `SRSSRSRSRSRSRSRSSRSRSRSSRSRSRSRSSR` | 8 | 139440 | 1, 2, 3, 4, ..., 303, 395 (17 values) | - | agree |
+| `SRSSRSRSRSRSSRSRSRSSR` | 9 | 360920 | 4, 12, 18, 44, ..., 572, 620 (10 values) | - | agree |
+| `SRSSRSRSRSRSSRSRSRSSRSRSRSRSRSRSSR` | 8 | 139440 | 1, 2, 3, 4, ..., 303, 395 (17 values) | - | agree |
+| `SRSSRSRSRSRSSSR` | 9 | 360920 | 10, 70, 90, 100, 254, 600, 756, 912 | - | agree |
+| `SRSSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSRSSR` | 9 | 360920 | 1, 5, 8, 13, ..., 174, 247 (13 values) | - | agree |
+| `SRSSRSRSRSSRSRSRSRSSR` | 9 | 360920 | 4, 12, 18, 44, ..., 572, 620 (10 values) | - | agree |
 | `SRSSRSRSRSSRSRSRSSR` | 7 | 54240 | 4, 12, 16, 28, 32 | 8 | agree |
-| `SRSSRSRSSRSRSRSRSRSSRSRSRSRSSR` | 10 | 938200 | 1, 2, 3, 4, ..., 535, 591 (17 values) | 19 | agree |
-| `SRSSRSRSSRSRSRSRSSRSRSRSRSRSSR` | 10 | 938200 | 1, 2, 3, 4, ..., 535, 591 (17 values) | 19 | agree |
-| `SRSSRSRSSRSRSRSRSSRSRSRSRSSR` | 8 | 139440 | 1, 5, 14, 16, 23, 61, 75, 77 | 9 | agree |
+| `SRSSRSRSSRSRSRSRSRSSRSRSRSRSSR` | 10 | 938200 | 1, 2, 3, 4, ..., 535, 591 (17 values) | - | agree |
+| `SRSSRSRSSRSRSRSRSSRSRSRSRSRSSR` | 10 | 938200 | 1, 2, 3, 4, ..., 535, 591 (17 values) | - | agree |
+| `SRSSRSRSSRSRSRSRSSRSRSRSRSSR` | 8 | 139440 | 1, 5, 14, 16, 23, 61, 75, 77 | - | agree |
 | `SRSSRSRSSRSRSRSSSR` | 8 | 139440 | 1, 2, 5, 6, ..., 155, 192 (19 values) | 23 | agree |
 | `SSR` | 7 | 54240 | 10, 12, 28, 30, 50, 80, 100 | 7 | agree |
 | `SSRSRSRSRSSR` | 7 | 54240 | 1, 5, 6, 13, 14, 25, 40 | 12 | agree |
-| `SSRSRSRSRSSRSRSRSRSRSSRSRSRSSR` | 9 | 360920 | 1, 2, 3, 5, ..., 405, 490 (14 values) | 15 | agree |
+| `SSRSRSRSRSSRSRSRSRSRSSRSRSRSSR` | 9 | 360920 | 1, 2, 3, 5, ..., 405, 490 (14 values) | - | agree |
 | `SSRSRSRSRSSRSRSRSRSSR` | 7 | 54240 | 2, 4, 10, 20, 50, 72, 80 | 11 | agree |
 | `SSRSRSRSRSSRSRSRSRSSRSRSRSRSSR` | 7 | 54240 | 1, 2, 3, 4, ..., 25, 40 (11 values) | 15 | agree |
-| `SSRSRSRSSRSRSRSRSRSSRSRSRSRSSR` | 9 | 360920 | 1, 2, 3, 5, ..., 405, 490 (14 values) | 15 | agree |
-| `SSRSRSRSSRSRSRSSR` | 9 | 360920 | 8, 10, 20, 40, ..., 306, 350 (14 values) | 20 | agree |
-| `SSRSRSSRSRSRSRSSSR` | 10 | 938200 | 1, 2, 5, 10, ..., 684, 743 (16 values) | 18 | agree |
-| `SSRSSRSRSRSRSRSSRSRSRSRSSR` | 9 | 360920 | 1, 5, 7, 9, ..., 255, 433 (17 values) | 24 | agree |
+| `SSRSRSRSSRSRSRSRSRSSRSRSRSRSSR` | 9 | 360920 | 1, 2, 3, 5, ..., 405, 490 (14 values) | - | agree |
+| `SSRSRSRSSRSRSRSSR` | 9 | 360920 | 8, 10, 20, 40, ..., 306, 350 (14 values) | - | agree |
+| `SSRSRSSRSRSRSRSSSR` | 10 | 938200 | 1, 2, 5, 10, ..., 684, 743 (16 values) | - | agree |
+| `SSRSSRSRSRSRSRSSRSRSRSRSSR` | 9 | 360920 | 1, 5, 7, 9, ..., 255, 433 (17 values) | - | agree |
 | `SSRSSRSRSRSRSSR` | 7 | 54240 | 4, 6, 10, 26, 36, 50 | 7 | agree |
-| `SSRSSRSRSRSRSSRSRSRSRSRSSR` | 9 | 360920 | 1, 5, 7, 9, ..., 255, 433 (17 values) | 24 | agree |
+| `SSRSSRSRSRSRSSRSRSRSRSRSSR` | 9 | 360920 | 1, 5, 7, 9, ..., 255, 433 (17 values) | - | agree |
 | `SSRSSRSRSRSRSSRSRSRSRSSR` | 7 | 54240 | 5, 6, 14, 25, 40, 60 | 7 | agree |
 | `SSRSSRSRSRSRSSSR` | 8 | 139440 | 1, 2, 3, 5, ..., 65, 70 (11 values) | 18 | agree |
-| `SSRSSRSRSRSSRSRSRSSR` | 9 | 360920 | 1, 5, 7, 9, ..., 127, 200 (10 values) | 10 | agree |
+| `SSRSSRSRSRSSRSRSRSSR` | 9 | 360920 | 1, 5, 7, 9, ..., 127, 200 (10 values) | - | agree |
 | `SSRSSRSSRSRSRSRSRSSR` | 7 | 54240 | 1, 2, 3, 5, ..., 56, 90 (14 values) | 20 | agree |
 | `SSRSSRSSRSRSRSRSSR` | 7 | 54240 | 2, 4, 5, 6, ..., 35, 40 (11 values) | 13 | agree |
 | `SSRSSRSSRSRSRSSR` | 7 | 54240 | 1, 3, 5, 10, ..., 50, 75 (14 values) | 19 | agree |
-| `SSRSSSSR` | 9 | 360920 | 4, 5, 8, 42, ..., 253, 309 (13 values) | 13 | agree |
+| `SSRSSSSR` | 9 | 360920 | 4, 5, 8, 42, ..., 253, 309 (13 values) | - | agree |
 
 ## B. Further bounded programs (not counted in the theorems)
 
@@ -88,48 +88,48 @@ candidate threshold of the survey); see `notebook_src/verify_extra.wl` and `note
 | `SRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSSR` | 7 | 54240 | 2, 4, 8, 14 | 0 |
 | `SRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSSR` | 7 | 54240 | 2, 6, 10, 14, 38 | 0 |
 | `SRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSRSSR` | 7 | 54240 | 2, 6, 16, 44, 70, 100 | 0 |
-| `SRSRSRSRSSRSRSRSRSSSSR@10` | 10 | 938200 | 2, 7, 10, 11, ..., 479, 648 (16 values) | 0 |
-| `SRSRSRSRSSRSSRSRSRSRSSSR@10` | 10 | 938200 | 1, 2, 3, 5, ..., 469, 530 (18 values) | 0 |
-| `SRSRSRSSRSRSRSRSRSSSSR@10` | 10 | 938200 | 2, 7, 10, 11, ..., 479, 648 (16 values) | 0 |
-| `SRSRSRSSRSSRSRSRSRSRSSSR@10` | 10 | 938200 | 1, 2, 3, 5, ..., 469, 530 (18 values) | 0 |
-| `SRSRSSRSRSRSSRSRSRSRSSRSRSRSRSSR@10` | 10 | 938200 | 5, 6, 7, 20, ..., 698, 990 (9 values) | 0 |
-| `SRSRSSRSRSSSR@10` | 10 | 938200 | 2, 20, 40, 112, ..., 298, 362 (9 values) | 0 |
-| `SRSSRSRSRSRSSRSRSRSRSRSRSSRSRSRSSR@10` | 10 | 938200 | 1, 4, 5, 15, ..., 442, 483 (25 values) | 0 |
-| `SRSSRSRSRSSRSRSRSRSRSRSSRSRSRSRSSR@10` | 10 | 938200 | 1, 4, 5, 15, ..., 442, 483 (25 values) | 0 |
-| `SRSSRSRSRSSSR@10` | 10 | 938200 | 2, 20, 40, 112, ..., 298, 362 (9 values) | 0 |
-| `SSRSRSRSRSRSSRSRSRSRSRSSRSRSSR@10` | 10 | 938200 | 2, 3, 5, 10, ..., 1086, 1440 (20 values) | 0 |
-| `SSRSRSSRSRSRSRSRSSRSRSRSRSRSSR@10` | 10 | 938200 | 2, 3, 5, 10, ..., 1086, 1440 (20 values) | 0 |
+| `SRSRSRSRSSRSRSRSRSSSSR` | 10 | 938200 | 2, 7, 10, 11, ..., 479, 648 (16 values) | 0 |
+| `SRSRSRSRSSRSSRSRSRSRSSSR` | 10 | 938200 | 1, 2, 3, 5, ..., 469, 530 (18 values) | 0 |
+| `SRSRSRSSRSRSRSRSRSSSSR` | 10 | 938200 | 2, 7, 10, 11, ..., 479, 648 (16 values) | 0 |
+| `SRSRSRSSRSSRSRSRSRSRSSSR` | 10 | 938200 | 1, 2, 3, 5, ..., 469, 530 (18 values) | 0 |
+| `SRSRSSRSRSRSSRSRSRSRSSRSRSRSRSSR` | 10 | 938200 | 5, 6, 7, 20, ..., 698, 990 (9 values) | 0 |
+| `SRSRSSRSRSSSR` | 10 | 938200 | 2, 20, 40, 112, ..., 298, 362 (9 values) | 0 |
+| `SRSSRSRSRSRSSRSRSRSRSRSRSSRSRSRSSR` | 10 | 938200 | 1, 4, 5, 15, ..., 442, 483 (25 values) | 0 |
+| `SRSSRSRSRSSRSRSRSRSRSRSSRSRSRSRSSR` | 10 | 938200 | 1, 4, 5, 15, ..., 442, 483 (25 values) | 0 |
+| `SRSSRSRSRSSSR` | 10 | 938200 | 2, 20, 40, 112, ..., 298, 362 (9 values) | 0 |
+| `SSRSRSRSRSRSSRSRSRSRSRSSRSRSSR` | 10 | 938200 | 2, 3, 5, 10, ..., 1086, 1440 (20 values) | 0 |
+| `SSRSRSSRSRSRSRSRSSRSRSRSRSRSSR` | 10 | 938200 | 2, 3, 5, 10, ..., 1086, 1440 (20 values) | 0 |
 
 ## C. Unbounded programs (Theorem 5 of the ASCAT paper / Theorem 6 of the full version)
 
-Each line is one certificate of a pass-substitution system (`results/unbounded_certs/`), accepted by both checkers
-`verify_cert.py` and `indep_check.py`.  B is the base level, "root" the type and lowest level m0 of the self-reproducing
-pass family, N its lengths at the levels m0, m0+2, ..., and the last column the exact recurrence proved by obligation O6.
-Several certificates may belong to the same program (e.g. roots of different type); the programs are
+Each line is one designated root of one certificate file (`results/unbounded_certs/`; data from `collect_cert_roots.py`).
+B is the base level, "root" the id, type and lowest level m0 of the self-reproducing pass family, N its lengths at the
+levels m0, m0+2, ..., and "recurrence" the exact recurrence proved by obligation O6 / condition (V5).  The last column
+gives the results of `verify_cert.py`, of the independently written `indep_check.py` (from summary.json) and of the exact
+re-verification of the exit property (V3) by `verify_cert_exact.py`, with a rigorous lower bound of the margin surplus.
+`cert2_SSSR_1p_1.json` designates the positive obtuse root used in the paper; `cert_SSSR.json` is the same system with
+the negative obtuse root designated.  The programs are
 20 up to cyclic shifts and mirroring, and 18 up to cyclic shifts, mirroring and powers (the count used in the theorems).
 
-| program | B | pass families | port families | identities | root (type, m0) | N(m0), N(m0+2), ... | recurrence | certificate | checkers |
+| program | B | pass families | port families | identities | root (id: type, m0) | N(m0), N(m0+2), ... | recurrence | certificate | checkers |
 |---|---:|---:|---:|---:|---|---|---|---|---|
-| `SLSR` | 6 | 12 | 24 | 64 | obtuse (-), 7 | 98, 386, 1538, 6146 | N(m+2) = 4 N(m) - 6 | `cert_SLSR.json` | both accept |
-| `SSSR` | 6 | 60 | 120 | 320 | obtuse (-), 7 | 204, 876, 3564, 14316 | N(m+2) = 4 N(m) + 60 | `cert2_SSSR_1p_1.json` | both accept |
-| `SRSSR` | 8 | 132 | 264 | 704 | obtuse (-), 9 | 1270, 5446, 22150, 88966 | N(m+2) = 4 N(m) + 366 | `cert_SRSSR.json` | both accept |
-| `SSRSR` | 8 | 132 | 264 | 704 | obtuse (-), 9 | 1270, 5446, 22150, 88966 | N(m+2) = 4 N(m) + 366 | `cert_SSRSR.json` | both accept |
-| `SLSRSR` | 8 | 84 | 168 | 448 | obtuse (+), 9 | 591, 2415, 9711, 38895 | N(m+2) = 4 N(m) + 51 | `cert_SLSRSR.json` | both accept |
-| `SSLSSR` | 8 | 72 | 144 | 384 | obtuse (+), 9 | 703, 2943, 11903, 47743 | N(m+2) = 4 N(m) + 131 | `cert_SSLSSR.json` | both accept |
-| `SSSRSR` | 8 | 168 | 336 | 896 | obtuse (-), 9 | 1910, 8054, 32630, 130934 | N(m+2) = 4 N(m) + 414 | `cert_SSSRSR.json` | both accept |
-| `SSSSSR` | 8 | 108 | 216 | 576 | obtuse (+), 9 | 922, 3962, 16122, 64762 | N(m+2) = 4 N(m) + 274 | `cert_SSSSSR.json` | both accept |
-| `SSRSRSR` | 8 | 396 | 792 | 2112 | obtuse (-), 9 | 4421, 18757, 76101, 305477 | N(m+2) = 4 N(m) + 1073 | `cert_SSRSRSR.json` | both accept |
-| `SSSRSSR` | 8 | 564 | 1128 | 3008 | obtuse (+), 9 | 4651, 20331, 83051, 333931 | N(m+2) = 4 N(m) + 1727 | `cert_SSSRSSR.json` | both accept |
-| `SSSSRSR` | 8 | 264 | 528 | 1408 | obtuse (-), 9 | 2042, 9082, 37242, 149882 | N(m+2) = 4 N(m) + 914 | `cert_SSSSRSR.json` | both accept |
-| `SLSRSLSR` | 6 | 24 | 48 | 128 | obtuse (-), 7 | 98, 386, 1538, 6146 | N(m+2) = 4 N(m) - 6 | `cert_SLSRSLSR.json` | both accept |
-| `SLSRSRSR` | 8 | 60 | 120 | 320 | obtuse (+), 9 | 1070, 4398, 17710, 70958 | N(m+2) = 4 N(m) + 118 | `cert_SLSRSRSR.json` | both accept |
-| `SSLSSRSR` | 8 | 108 | 216 | 576 | obtuse (+), 9 | 633, 2553, 10233, 40953 | N(m+2) = 4 N(m) + 21 | `cert_SSLSSRSR.json` | both accept |
-| `SSRSLSSR` | 8 | 204 | 408 | 1088 | obtuse (-), 9 | 2177, 9377, 38177, 153377 | N(m+2) = 4 N(m) + 669 | `cert_SSRSLSSR.json` | both accept |
-| `SSRSRSSR` | 8 | 108 | 216 | 576 | obtuse (+), 9 | 1194, 5034, 20394, 81834 | N(m+2) = 4 N(m) + 258 | `cert_SSRSRSSR.json` | both accept |
-| `SSSLSSSR` | 8 | 84 | 168 | 448 | obtuse (+), 9 | 705, 3009, 12225, 49089 | N(m+2) = 4 N(m) + 189 | `cert_SSSLSSSR.json` | both accept |
-| `SSSRSRSR` | 8 | 96 | 192 | 512 | obtuse (+), 9 | 1281, 5281, 21281, 85281 | N(m+2) = 4 N(m) + 157 | `cert_SSSRSRSR.json` | both accept |
-| `SSSRSSSR` | 6 | 60 | 120 | 320 | obtuse (-), 7 | 204, 876, 3564, 14316 | N(m+2) = 4 N(m) + 60 | `cert_SSSRSSSR.json` | both accept |
-| `SRSRSRSRSSR` | 8 | 780 | 1560 | 4160 | obtuse (+), 9 | 3446, 14390, 58166, 233270 | N(m+2) = 4 N(m) + 606 | `cert_SRSRSRSRSSR.json` | both accept |
-| `SRSRSRSRSRSSR` | 8 | 192 | 384 | 1024 | obtuse (-), 9 | 2738, 12482, 51458, 207362 | N(m+2) = 4 N(m) + 1530 | `cert_SRSRSRSRSRSSR.json` | both accept |
-
-The certificate of the positive obtuse root of (SSSR)* used in the paper (N = 202, 874, 3562, ...; N(m+2) = 4N(m) + 66) is `cert2_SSSR_1p_1.json`.
+| `SSSR` | 6 | 60 | 120 | 320 | 4: obtuse (+), 7 | 202, 874, 3562, 14314 | N(m+2) = 4 N(m) + 66 | `cert2_SSSR_1p_1.json` | valid, indep. checker accepts, (V3) exact (surplus >= 1.887) |
+| `SLSRSR` | 8 | 84 | 168 | 448 | 96: obtuse (+), 9 | 591, 2415, 9711, 38895 | N(m+2) = 4 N(m) + 51 | `cert_SLSRSR.json` | valid, indep. checker accepts, (V3) exact (surplus >= 11.904) |
+| `SLSRSRSR` | 8 | 60 | 120 | 320 | 17: obtuse (+), 9 | 1070, 4398, 17710, 70958 | N(m+2) = 4 N(m) + 118 | `cert_SLSRSRSR.json` | valid, indep. checker accepts, (V3) exact (surplus >= 4.324) |
+| `SRSRSRSRSRSSR` | 8 | 192 | 384 | 1024 | 21: obtuse (-), 9 | 2738, 12482, 51458, 207362 | N(m+2) = 4 N(m) + 1530 | `cert_SRSRSRSRSRSSR.json` | valid, indep. checker accepts, (V3) exact (surplus >= 6.879) |
+| `SRSRSRSRSSR` | 8 | 780 | 1560 | 4160 | 788: obtuse (+), 9 | 3446, 14390, 58166, 233270 | N(m+2) = 4 N(m) + 606 | `cert_SRSRSRSRSSR.json` | valid, indep. checker accepts, (V3) exact (surplus >= 0.675) |
+| `SRSSR` | 8 | 132 | 264 | 704 | 1: obtuse (-), 9 | 1270, 5446, 22150, 88966 | N(m+2) = 4 N(m) + 366 | `cert_SRSSR.json` | valid, indep. checker accepts, (V3) exact (surplus >= 5.478) |
+| `SSLSSR` | 8 | 72 | 144 | 384 | 178: obtuse (+), 9 | 703, 2943, 11903, 47743 | N(m+2) = 4 N(m) + 131 | `cert_SSLSSR.json` | valid, indep. checker accepts, (V3) exact (surplus >= 1.294) |
+| `SSLSSRSR` | 8 | 108 | 216 | 576 | 7: obtuse (+), 9 | 633, 2553, 10233, 40953 | N(m+2) = 4 N(m) + 21 | `cert_SSLSSRSR.json` | valid, indep. checker accepts, (V3) exact (surplus >= 8.741) |
+| `SSRSLSSR` | 8 | 204 | 408 | 1088 | 10: obtuse (-), 9 | 2177, 9377, 38177, 153377 | N(m+2) = 4 N(m) + 669 | `cert_SSRSLSSR.json` | valid, indep. checker accepts, (V3) exact (surplus >= 4.126) |
+| `SSRSR` | 8 | 132 | 264 | 704 | 7: obtuse (-), 9 | 1270, 5446, 22150, 88966 | N(m+2) = 4 N(m) + 366 | `cert_SSRSR.json` | valid, indep. checker accepts, (V3) exact (surplus >= 5.478) |
+| `SSRSRSR` | 8 | 396 | 792 | 2112 | 5: obtuse (-), 9 | 4421, 18757, 76101, 305477 | N(m+2) = 4 N(m) + 1073 | `cert_SSRSRSR.json` | valid, indep. checker accepts, (V3) exact (surplus >= 0.675) |
+| `SSRSRSSR` | 8 | 108 | 216 | 576 | 9: obtuse (+), 9 | 1194, 5034, 20394, 81834 | N(m+2) = 4 N(m) + 258 | `cert_SSRSRSSR.json` | valid, indep. checker accepts, (V3) exact (surplus >= 5.478) |
+| `SSSLSSSR` | 8 | 84 | 168 | 448 | 88: obtuse (+), 9 | 705, 3009, 12225, 49089 | N(m+2) = 4 N(m) + 189 | `cert_SSSLSSSR.json` | valid, indep. checker accepts, (V3) exact (surplus >= 2.996) |
+| `SSSR` | 6 | 60 | 120 | 320 | 6: obtuse (-), 7 | 204, 876, 3564, 14316 | N(m+2) = 4 N(m) + 60 | `cert_SSSR.json` | valid, indep. checker accepts, (V3) exact (surplus >= 1.887) |
+| `SSSRSR` | 8 | 168 | 336 | 896 | 230: obtuse (-), 9 | 1910, 8054, 32630, 130934 | N(m+2) = 4 N(m) + 414 | `cert_SSSRSR.json` | valid, indep. checker accepts, (V3) exact (surplus >= 2.996) |
+| `SSSRSRSR` | 8 | 96 | 192 | 512 | 13: obtuse (+), 9 | 1281, 5281, 21281, 85281 | N(m+2) = 4 N(m) + 157 | `cert_SSSRSRSR.json` | valid, indep. checker accepts, (V3) exact (surplus >= 8.741) |
+| `SSSRSSR` | 8 | 564 | 1128 | 3008 | 13: obtuse (+), 9 | 4651, 20331, 83051, 333931 | N(m+2) = 4 N(m) + 1727 | `cert_SSSRSSR.json` | valid, indep. checker accepts, (V3) exact (surplus >= 5.478) |
+| `SSSRSSSR` | 6 | 60 | 120 | 320 | 6: obtuse (-), 7 | 204, 876, 3564, 14316 | N(m+2) = 4 N(m) + 60 | `cert_SSSRSSSR.json` | valid, indep. checker accepts, (V3) exact (surplus >= 1.887) |
+| `SSSSRSR` | 8 | 264 | 528 | 1408 | 294: obtuse (-), 9 | 2042, 9082, 37242, 149882 | N(m+2) = 4 N(m) + 914 | `cert_SSSSRSR.json` | valid, indep. checker accepts, (V3) exact (surplus >= 5.478) |
+| `SSSSSR` | 8 | 108 | 216 | 576 | 14: obtuse (+), 9 | 922, 3962, 16122, 64762 | N(m+2) = 4 N(m) + 274 | `cert_SSSSSR.json` | valid, indep. checker accepts, (V3) exact (surplus >= 8.741) |

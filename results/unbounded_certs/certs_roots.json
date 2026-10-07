@@ -1,0 +1,730 @@
+[
+ {
+  "file": "cert2_SSSR_1p_1.json",
+  "prog": "SSSR",
+  "B": 6,
+  "npass": 60,
+  "nports": 120,
+  "identities": 320,
+  "roots": [
+   {
+    "id": 4,
+    "type": [
+     1,
+     1
+    ],
+    "parity": 1,
+    "N": [
+     202,
+     874,
+     3562,
+     14314,
+     57322,
+     229354,
+     917482
+    ],
+    "a": 4,
+    "b": 66,
+    "m0": 7
+   }
+  ],
+  "valid": true,
+  "o5_surplus": 1.89,
+  "o5_exact_ok": true,
+  "o5_exact_surplus_lb": 1.88701,
+  "indep_ok": true
+ },
+ {
+  "file": "cert_SLSR.json",
+  "prog": "SLSR",
+  "B": 6,
+  "npass": 12,
+  "nports": 24,
+  "identities": 64,
+  "roots": [],
+  "valid": true,
+  "o5_surplus": 2.52,
+  "o5_exact_ok": true,
+  "o5_exact_surplus_lb": 2.515063,
+  "indep_ok": true
+ },
+ {
+  "file": "cert_SLSRSLSR.json",
+  "prog": "SLSRSLSR",
+  "B": 6,
+  "npass": 24,
+  "nports": 48,
+  "identities": 128,
+  "roots": [],
+  "valid": true,
+  "o5_surplus": 2.52,
+  "o5_exact_ok": true,
+  "o5_exact_surplus_lb": 2.515063,
+  "indep_ok": true
+ },
+ {
+  "file": "cert_SLSRSR.json",
+  "prog": "SLSRSR",
+  "B": 8,
+  "npass": 84,
+  "nports": 168,
+  "identities": 448,
+  "roots": [
+   {
+    "id": 96,
+    "type": [
+     1,
+     1
+    ],
+    "parity": 1,
+    "N": [
+     591,
+     2415,
+     9711,
+     38895,
+     155631,
+     622575,
+     2490351
+    ],
+    "a": 4,
+    "b": 51,
+    "m0": 9
+   }
+  ],
+  "valid": true,
+  "o5_surplus": 11.9,
+  "o5_exact_ok": true,
+  "o5_exact_surplus_lb": 11.903931,
+  "indep_ok": true
+ },
+ {
+  "file": "cert_SLSRSRSR.json",
+  "prog": "SLSRSRSR",
+  "B": 8,
+  "npass": 60,
+  "nports": 120,
+  "identities": 320,
+  "roots": [
+   {
+    "id": 17,
+    "type": [
+     1,
+     1
+    ],
+    "parity": 1,
+    "N": [
+     1070,
+     4398,
+     17710,
+     70958,
+     283950,
+     1135918,
+     4543790
+    ],
+    "a": 4,
+    "b": 118,
+    "m0": 9
+   }
+  ],
+  "valid": true,
+  "o5_surplus": 4.32,
+  "o5_exact_ok": true,
+  "o5_exact_surplus_lb": 4.32368,
+  "indep_ok": true
+ },
+ {
+  "file": "cert_SRSRSRSRSRSSR.json",
+  "prog": "SRSRSRSRSRSSR",
+  "B": 8,
+  "npass": 192,
+  "nports": 384,
+  "identities": 1024,
+  "roots": [
+   {
+    "id": 21,
+    "type": [
+     1,
+     -1
+    ],
+    "parity": 1,
+    "N": [
+     2738,
+     12482,
+     51458,
+     207362,
+     830978,
+     3325442,
+     13303298
+    ],
+    "a": 4,
+    "b": 1530,
+    "m0": 9
+   }
+  ],
+  "valid": true,
+  "o5_surplus": 6.88,
+  "o5_exact_ok": true,
+  "o5_exact_surplus_lb": 6.879141,
+  "indep_ok": true
+ },
+ {
+  "file": "cert_SRSRSRSRSSR.json",
+  "prog": "SRSRSRSRSSR",
+  "B": 8,
+  "npass": 780,
+  "nports": 1560,
+  "identities": 4160,
+  "roots": [
+   {
+    "id": 788,
+    "type": [
+     1,
+     1
+    ],
+    "parity": 1,
+    "N": [
+     3446,
+     14390,
+     58166,
+     233270,
+     933686,
+     3735350,
+     14942006
+    ],
+    "a": 4,
+    "b": 606,
+    "m0": 9
+   }
+  ],
+  "valid": true,
+  "o5_surplus": 0.67,
+  "o5_exact_ok": true,
+  "o5_exact_surplus_lb": 0.674829,
+  "indep_ok": true
+ },
+ {
+  "file": "cert_SRSSR.json",
+  "prog": "SRSSR",
+  "B": 8,
+  "npass": 132,
+  "nports": 264,
+  "identities": 704,
+  "roots": [
+   {
+    "id": 1,
+    "type": [
+     1,
+     -1
+    ],
+    "parity": 1,
+    "N": [
+     1270,
+     5446,
+     22150,
+     88966,
+     356230,
+     1425286,
+     5701510
+    ],
+    "a": 4,
+    "b": 366,
+    "m0": 9
+   }
+  ],
+  "valid": true,
+  "o5_surplus": 5.48,
+  "o5_exact_ok": true,
+  "o5_exact_surplus_lb": 5.478075,
+  "indep_ok": true
+ },
+ {
+  "file": "cert_SSLSSR.json",
+  "prog": "SSLSSR",
+  "B": 8,
+  "npass": 72,
+  "nports": 144,
+  "identities": 384,
+  "roots": [
+   {
+    "id": 178,
+    "type": [
+     1,
+     1
+    ],
+    "parity": 1,
+    "N": [
+     703,
+     2943,
+     11903,
+     47743,
+     191103,
+     764543,
+     3058303
+    ],
+    "a": 4,
+    "b": 131,
+    "m0": 9
+   }
+  ],
+  "valid": true,
+  "o5_surplus": 1.29,
+  "o5_exact_ok": true,
+  "o5_exact_surplus_lb": 1.294499,
+  "indep_ok": true
+ },
+ {
+  "file": "cert_SSLSSRSR.json",
+  "prog": "SSLSSRSR",
+  "B": 8,
+  "npass": 108,
+  "nports": 216,
+  "identities": 576,
+  "roots": [
+   {
+    "id": 7,
+    "type": [
+     1,
+     1
+    ],
+    "parity": 1,
+    "N": [
+     633,
+     2553,
+     10233,
+     40953,
+     163833,
+     655353,
+     2621433
+    ],
+    "a": 4,
+    "b": 21,
+    "m0": 9
+   }
+  ],
+  "valid": true,
+  "o5_surplus": 8.74,
+  "o5_exact_ok": true,
+  "o5_exact_surplus_lb": 8.741112,
+  "indep_ok": true
+ },
+ {
+  "file": "cert_SSRSLSSR.json",
+  "prog": "SSRSLSSR",
+  "B": 8,
+  "npass": 204,
+  "nports": 408,
+  "identities": 1088,
+  "roots": [
+   {
+    "id": 10,
+    "type": [
+     1,
+     -1
+    ],
+    "parity": 1,
+    "N": [
+     2177,
+     9377,
+     38177,
+     153377,
+     614177,
+     2457377,
+     9830177
+    ],
+    "a": 4,
+    "b": 669,
+    "m0": 9
+   }
+  ],
+  "valid": true,
+  "o5_surplus": 4.13,
+  "o5_exact_ok": true,
+  "o5_exact_surplus_lb": 4.126377,
+  "indep_ok": true
+ },
+ {
+  "file": "cert_SSRSR.json",
+  "prog": "SSRSR",
+  "B": 8,
+  "npass": 132,
+  "nports": 264,
+  "identities": 704,
+  "roots": [
+   {
+    "id": 7,
+    "type": [
+     1,
+     -1
+    ],
+    "parity": 1,
+    "N": [
+     1270,
+     5446,
+     22150,
+     88966,
+     356230,
+     1425286,
+     5701510
+    ],
+    "a": 4,
+    "b": 366,
+    "m0": 9
+   }
+  ],
+  "valid": true,
+  "o5_surplus": 5.48,
+  "o5_exact_ok": true,
+  "o5_exact_surplus_lb": 5.478075,
+  "indep_ok": true
+ },
+ {
+  "file": "cert_SSRSRSR.json",
+  "prog": "SSRSRSR",
+  "B": 8,
+  "npass": 396,
+  "nports": 792,
+  "identities": 2112,
+  "roots": [
+   {
+    "id": 5,
+    "type": [
+     1,
+     -1
+    ],
+    "parity": 1,
+    "N": [
+     4421,
+     18757,
+     76101,
+     305477,
+     1222981,
+     4892997,
+     19573061
+    ],
+    "a": 4,
+    "b": 1073,
+    "m0": 9
+   }
+  ],
+  "valid": true,
+  "o5_surplus": 0.67,
+  "o5_exact_ok": true,
+  "o5_exact_surplus_lb": 0.674829,
+  "indep_ok": true
+ },
+ {
+  "file": "cert_SSRSRSSR.json",
+  "prog": "SSRSRSSR",
+  "B": 8,
+  "npass": 108,
+  "nports": 216,
+  "identities": 576,
+  "roots": [
+   {
+    "id": 9,
+    "type": [
+     1,
+     1
+    ],
+    "parity": 1,
+    "N": [
+     1194,
+     5034,
+     20394,
+     81834,
+     327594,
+     1310634,
+     5242794
+    ],
+    "a": 4,
+    "b": 258,
+    "m0": 9
+   }
+  ],
+  "valid": true,
+  "o5_surplus": 5.48,
+  "o5_exact_ok": true,
+  "o5_exact_surplus_lb": 5.478075,
+  "indep_ok": true
+ },
+ {
+  "file": "cert_SSSLSSSR.json",
+  "prog": "SSSLSSSR",
+  "B": 8,
+  "npass": 84,
+  "nports": 168,
+  "identities": 448,
+  "roots": [
+   {
+    "id": 88,
+    "type": [
+     1,
+     1
+    ],
+    "parity": 1,
+    "N": [
+     705,
+     3009,
+     12225,
+     49089,
+     196545,
+     786369,
+     3145665
+    ],
+    "a": 4,
+    "b": 189,
+    "m0": 9
+   }
+  ],
+  "valid": true,
+  "o5_surplus": 3.0,
+  "o5_exact_ok": true,
+  "o5_exact_surplus_lb": 2.9958,
+  "indep_ok": true
+ },
+ {
+  "file": "cert_SSSR.json",
+  "prog": "SSSR",
+  "B": 6,
+  "npass": 60,
+  "nports": 120,
+  "identities": 320,
+  "roots": [
+   {
+    "id": 6,
+    "type": [
+     1,
+     -1
+    ],
+    "parity": 1,
+    "N": [
+     204,
+     876,
+     3564,
+     14316,
+     57324,
+     229356,
+     917484
+    ],
+    "a": 4,
+    "b": 60,
+    "m0": 7
+   }
+  ],
+  "valid": true,
+  "o5_surplus": 1.89,
+  "o5_exact_ok": true,
+  "o5_exact_surplus_lb": 1.88701,
+  "indep_ok": true
+ },
+ {
+  "file": "cert_SSSRSR.json",
+  "prog": "SSSRSR",
+  "B": 8,
+  "npass": 168,
+  "nports": 336,
+  "identities": 896,
+  "roots": [
+   {
+    "id": 230,
+    "type": [
+     1,
+     -1
+    ],
+    "parity": 1,
+    "N": [
+     1910,
+     8054,
+     32630,
+     130934,
+     524150,
+     2097014,
+     8388470
+    ],
+    "a": 4,
+    "b": 414,
+    "m0": 9
+   }
+  ],
+  "valid": true,
+  "o5_surplus": 3.0,
+  "o5_exact_ok": true,
+  "o5_exact_surplus_lb": 2.9958,
+  "indep_ok": true
+ },
+ {
+  "file": "cert_SSSRSRSR.json",
+  "prog": "SSSRSRSR",
+  "B": 8,
+  "npass": 96,
+  "nports": 192,
+  "identities": 512,
+  "roots": [
+   {
+    "id": 13,
+    "type": [
+     1,
+     1
+    ],
+    "parity": 1,
+    "N": [
+     1281,
+     5281,
+     21281,
+     85281,
+     341281,
+     1365281,
+     5461281
+    ],
+    "a": 4,
+    "b": 157,
+    "m0": 9
+   }
+  ],
+  "valid": true,
+  "o5_surplus": 8.74,
+  "o5_exact_ok": true,
+  "o5_exact_surplus_lb": 8.741112,
+  "indep_ok": true
+ },
+ {
+  "file": "cert_SSSRSSR.json",
+  "prog": "SSSRSSR",
+  "B": 8,
+  "npass": 564,
+  "nports": 1128,
+  "identities": 3008,
+  "roots": [
+   {
+    "id": 13,
+    "type": [
+     1,
+     1
+    ],
+    "parity": 1,
+    "N": [
+     4651,
+     20331,
+     83051,
+     333931,
+     1337451,
+     5351531,
+     21407851
+    ],
+    "a": 4,
+    "b": 1727,
+    "m0": 9
+   }
+  ],
+  "valid": true,
+  "o5_surplus": 5.48,
+  "o5_exact_ok": true,
+  "o5_exact_surplus_lb": 5.478075,
+  "indep_ok": true
+ },
+ {
+  "file": "cert_SSSRSSSR.json",
+  "prog": "SSSRSSSR",
+  "B": 6,
+  "npass": 60,
+  "nports": 120,
+  "identities": 320,
+  "roots": [
+   {
+    "id": 6,
+    "type": [
+     1,
+     -1
+    ],
+    "parity": 1,
+    "N": [
+     204,
+     876,
+     3564,
+     14316,
+     57324,
+     229356,
+     917484
+    ],
+    "a": 4,
+    "b": 60,
+    "m0": 7
+   }
+  ],
+  "valid": true,
+  "o5_surplus": 1.89,
+  "o5_exact_ok": true,
+  "o5_exact_surplus_lb": 1.88701,
+  "indep_ok": true
+ },
+ {
+  "file": "cert_SSSSRSR.json",
+  "prog": "SSSSRSR",
+  "B": 8,
+  "npass": 264,
+  "nports": 528,
+  "identities": 1408,
+  "roots": [
+   {
+    "id": 294,
+    "type": [
+     1,
+     -1
+    ],
+    "parity": 1,
+    "N": [
+     2042,
+     9082,
+     37242,
+     149882,
+     600442,
+     2402682,
+     9611642
+    ],
+    "a": 4,
+    "b": 914,
+    "m0": 9
+   }
+  ],
+  "valid": true,
+  "o5_surplus": 5.48,
+  "o5_exact_ok": true,
+  "o5_exact_surplus_lb": 5.478075,
+  "indep_ok": true
+ },
+ {
+  "file": "cert_SSSSSR.json",
+  "prog": "SSSSSR",
+  "B": 8,
+  "npass": 108,
+  "nports": 216,
+  "identities": 576,
+  "roots": [
+   {
+    "id": 14,
+    "type": [
+     1,
+     1
+    ],
+    "parity": 1,
+    "N": [
+     922,
+     3962,
+     16122,
+     64762,
+     259322,
+     1037562,
+     4150522
+    ],
+    "a": 4,
+    "b": 274,
+    "m0": 9
+   }
+  ],
+  "valid": true,
+  "o5_surplus": 8.74,
+  "o5_exact_ok": true,
+  "o5_exact_surplus_lb": 8.741112,
+  "indep_ok": true
+ }
+]
