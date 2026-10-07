@@ -1,0 +1,44 @@
+FrontEndObject::notavail: 
+   A front end is not available; certain operations require a front end.
+FrontEndObject::notavail: 
+   A front end is not available; certain operations require a front end.
+FrontEndObject::notavail: 
+   A front end is not available; certain operations require a front end.
+General::stop: Further output of FrontEndObject::notavail
+     will be suppressed during this calculation.
+SetOptions::optnf: NotebookBrowseDirectory is not a known option for Null.
+Options::optnf: NotebookBrowseDirectory is not a known option for Null.
+program (SSR)*  n=7  patches: 30
+  corona 0: rhombs 6201  starts 1288  closed 1288  boundary 0  open 0   [2 s]
+  corona 1: rhombs 8344  starts 2068  closed 2068  boundary 0  open 0   [4 s]
+  corona 2: rhombs 7365  starts 2068  closed 2068  boundary 0  open 0   [6 s]
+  corona 3: rhombs 6760  starts 2068  closed 2068  boundary 0  open 0   [9 s]
+  corona 4: rhombs 4435  starts 1288  closed 1288  boundary 0  open 0   [10 s]
+  corona 5: rhombs 7972  starts 2068  closed 2068  boundary 0  open 0   [12 s]
+  corona 6: rhombs 5786  starts 1288  closed 1288  boundary 0  open 0   [14 s]
+  corona 7: rhombs 7365  starts 2068  closed 2068  boundary 0  open 0   [16 s]
+  corona 8: rhombs 5409  starts 2068  closed 2068  boundary 0  open 0   [18 s]
+  corona 9: rhombs 4435  starts 1288  closed 1288  boundary 0  open 0   [20 s]
+  corona 10: rhombs 6201  starts 1288  closed 1288  boundary 0  open 0   [21 s]
+  corona 11: rhombs 6993  starts 2068  closed 2068  boundary 0  open 0   [23 s]
+  corona 12: rhombs 8344  starts 2068  closed 2068  boundary 0  open 0   [26 s]
+  corona 13: rhombs 6573  starts 1288  closed 1288  boundary 0  open 0   [28 s]
+  corona 14: rhombs 7365  starts 2068  closed 2068  boundary 0  open 0   [30 s]
+  corona 15: rhombs 7972  starts 2068  closed 2068  boundary 0  open 0   [32 s]
+  corona 16: rhombs 6760  starts 2068  closed 2068  boundary 0  open 0   [34 s]
+  corona 17: rhombs 5786  starts 1288  closed 1288  boundary 0  open 0   [36 s]
+  corona 18: rhombs 6993  starts 2068  closed 2068  boundary 0  open 0   [38 s]
+  corona 19: rhombs 5409  starts 2068  closed 2068  boundary 0  open 0   [40 s]
+  corona 20: rhombs 6201  starts 1288  closed 1288  boundary 0  open 0   [42 s]
+  corona 21: rhombs 6993  starts 2068  closed 2068  boundary 0  open 0   [44 s]
+  corona 22: rhombs 6201  starts 1288  closed 1288  boundary 0  open 0   [46 s]
+  corona 23: rhombs 8344  starts 2068  closed 2068  boundary 0  open 0   [48 s]
+  corona 24: rhombs 6993  starts 2068  closed 2068  boundary 0  open 0   [50 s]
+  corona 25: rhombs 8344  starts 2068  closed 2068  boundary 0  open 0   [53 s]
+  corona 26: rhombs 6573  starts 1288  closed 1288  boundary 0  open 0   [55 s]
+  corona 27: rhombs 7365  starts 2068  closed 2068  boundary 0  open 0   [57 s]
+  corona 28: rhombs 6993  starts 2068  closed 2068  boundary 0  open 0   [59 s]
+  corona 29: rhombs 6993  starts 2068  closed 2068  boundary 0  open 0   [61 s]
+TOTAL: <|starts -> 54240, closed -> 54240, boundary -> 0, open -> 0|>
+period spectrum: <|10 -> 5570, 12 -> 5550, 28 -> 7970, 30 -> 2410, 50 -> 10380, 80 -> 14250, 100 -> 8110|>
+ALL CLOSED: independent WL verification passed

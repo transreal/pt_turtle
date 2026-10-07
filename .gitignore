@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.exe
+*.obj
+*.exp
+*.lib
+win_*.npz
+results/patches_*.json
+notebook_src/data/win*.wxf

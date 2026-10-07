@@ -1,0 +1,891 @@
+(3,)               SSR                          closed= 98.8% to=     0 classes=   7 maxP=    100 maxR=    4.3
+(4,)               SRSSR                        closed= 90.2% to=     0 classes=  76 maxP=  11400 maxR=  120.8
+(5,)               SRSRSSR                      closed= 88.4% to=     0 classes=  36 maxP=  23990 maxR=  124.9
+(6,)               SRSRSRSSR                    closed= 99.4% to=     0 classes=   7 maxP=     50 maxR=    2.5
+(7,)               SRSRSRSRSSR                  closed= 86.7% to=     0 classes=  54 maxP=  24410 maxR=  125.5
+(8,)               SRSRSRSRSRSSR                closed= 90.8% to=     0 classes=  47 maxP=   9480 maxR=  124.9
+(2, 3)             SSSR                         closed= 90.3% to=     0 classes=  63 maxP=   7615 maxR=  126.5
+(2, 4)             SRSSSR                       closed= 89.2% to=     0 classes=  69 maxP=  10250 maxR=  124.9
+(2, 5)             SRSRSSSR                     closed= 89.4% to=     0 classes=  97 maxP=  16265 maxR=  416.1
+(2, 6)             SRSRSRSSSR                   closed= 94.1% to=     0 classes=  50 maxP=  10260 maxR=  124.1
+(2, 7)             SRSRSRSRSSSR                 closed= 90.6% to=     0 classes=  85 maxP=  13180 maxR=  126.4
+(2, 8)             SRSRSRSRSRSSSR               closed= 81.3% to=     0 classes= 310 maxP=  10029 maxR=  433.8
+(3, 4)             SSRSRSSR                     closed= 86.9% to=     0 classes= 123 maxP=   9410 maxR=  125.8
+(3, 5)             SSRSRSRSSR                   closed= 93.4% to=     0 classes=  73 maxP=   5565 maxR=  124.1
+(3, 6)             SSRSRSRSRSSR                 closed= 99.1% to=     0 classes=  12 maxP=     40 maxR=    4.3
+(3, 7)             SSRSRSRSRSRSSR               closed= 88.2% to=     0 classes= 115 maxP=   9505 maxR=  125.9
+(3, 8)             SSRSRSRSRSRSRSSR             closed= 89.1% to=     0 classes=  74 maxP=  13395 maxR=  126.4
+(4, 5)             SRSSRSRSRSSR                 closed= 94.3% to=     0 classes=  46 maxP=   6845 maxR=  124.9
+(4, 6)             SRSSRSRSRSRSSR               closed= 91.4% to=     0 classes=  41 maxP=  15820 maxR=  124.9
+(4, 7)             SRSSRSRSRSRSRSSR             closed= 77.2% to=     0 classes= 159 maxP=  12615 maxR=  258.3
+(4, 8)             SRSSRSRSRSRSRSRSSR           closed= 90.6% to=     0 classes=  76 maxP=   9090 maxR=  124.9
+(5, 6)             SRSRSSRSRSRSRSSR             closed= 94.9% to=     0 classes=  49 maxP=   8125 maxR=  124.1
+(5, 7)             SRSRSSRSRSRSRSRSSR           closed= 95.8% to=     0 classes=  50 maxP=   4255 maxR=  122.8
+(5, 8)             SRSRSSRSRSRSRSRSRSSR         closed= 92.0% to=     0 classes=  62 maxP=   8765 maxR=  124.9
+(6, 7)             SRSRSRSSRSRSRSRSRSSR         closed= 92.6% to=     0 classes=  45 maxP=  15820 maxR=  124.9
+(6, 8)             SRSRSRSSRSRSRSRSRSRSSR       closed= 94.4% to=     0 classes=  48 maxP=   8550 maxR=  124.1
+(7, 8)             SRSRSRSRSSRSRSRSRSRSRSSR     closed= 89.8% to=     0 classes= 151 maxP=  13852 maxR=  391.2
+(2, 2, 3)          SSSSR                        closed= 77.2% to=     0 classes= 163 maxP=  26504 maxR=  378.5
+(2, 2, 4)          SRSSSSR                      closed= 90.1% to=     0 classes=  94 maxP=  10300 maxR=  131.7
+(2, 2, 5)          SRSRSSSSR                    closed= 75.7% to=     0 classes= 221 maxP=  17820 maxR=  148.0
+(2, 2, 6)          SRSRSRSSSSR                  closed= 75.6% to=     0 classes= 209 maxP=  15310 maxR=  142.9
+(2, 2, 7)          SRSRSRSRSSSSR                closed= 88.1% to=     0 classes= 188 maxP=   9690 maxR=  132.6
+(2, 2, 8)          SRSRSRSRSRSSSSR              closed= 56.3% to=     0 classes= 258 maxP=  16900 maxR=  272.9
+(2, 3, 3)          SSRSSSR                      closed= 83.2% to=     0 classes=  45 maxP=  21200 maxR=  127.3
+(2, 3, 4)          SSRSRSSSR                    closed= 18.5% to=     0 classes= 129 maxP=  23670 maxR=  196.4
+(2, 3, 5)          SSRSRSRSSSR                  closed= 29.1% to=636609 classes=  22 maxP=   6790 maxR=  122.2
+(2, 3, 6)          SSRSRSRSRSSSR                closed= 18.0% to=     0 classes=  34 maxP=   7150 maxR=  118.4
+(2, 3, 7)          SSRSRSRSRSRSSSR              closed= 20.2% to=     0 classes=  76 maxP=   5266 maxR=  129.6
+(2, 3, 8)          SSRSRSRSRSRSRSSSR            closed= 69.0% to=     0 classes= 179 maxP=  31020 maxR=  131.7
+(2, 4, 3)          SRSSRSSSR                    closed= 18.4% to=     0 classes= 121 maxP=  23670 maxR=  196.4
+(2, 4, 4)          SRSSRSRSSSR                  closed= 84.5% to=     0 classes= 104 maxP=  18730 maxR=  132.6
+(2, 4, 5)          SRSSRSRSRSSSR                closed= 95.0% to=     0 classes=  32 maxP=    362 maxR=   16.5
+(2, 4, 6)          SRSSRSRSRSRSSSR              closed= 95.2% to=     0 classes=  81 maxP=    912 maxR=   19.3
+(2, 4, 7)          SRSSRSRSRSRSRSSSR            closed= 83.7% to=     0 classes= 184 maxP=  13546 maxR=   81.8
+(2, 4, 8)          SRSSRSRSRSRSRSRSSSR          closed= 88.3% to=     0 classes= 246 maxP=   6050 maxR=   49.4
+(2, 5, 3)          SRSRSSRSSSR                  closed= 29.1% to=615765 classes=  22 maxP=   6790 maxR=  122.2
+(2, 5, 4)          SRSRSSRSRSSSR                closed= 95.0% to=     0 classes=  30 maxP=    362 maxR=   16.5
+(2, 5, 5)          SRSRSSRSRSRSSSR              closed= 76.3% to=     0 classes= 135 maxP=  21020 maxR=  133.1
+(2, 5, 6)          SRSRSSRSRSRSRSSSR            closed= 87.9% to=     0 classes= 144 maxP=   6338 maxR=   47.0
+(2, 5, 7)          SRSRSSRSRSRSRSRSSSR          closed= 20.7% to= 37945 classes=  95 maxP=   2814 maxR=   66.6
+(2, 5, 8)          SRSRSSRSRSRSRSRSRSSSR        closed= 21.3% to=     0 classes=  41 maxP=  12970 maxR=  116.8
+(2, 6, 3)          SRSRSRSSRSSSR                closed= 18.0% to=     0 classes=  34 maxP=   7150 maxR=  118.4
+(2, 6, 4)          SRSRSRSSRSRSSSR              closed= 95.2% to=     0 classes=  79 maxP=    912 maxR=   19.3
+(2, 6, 5)          SRSRSRSSRSRSRSSSR            closed= 87.8% to=     0 classes= 151 maxP=   6338 maxR=   47.0
+(2, 6, 6)          SRSRSRSSRSRSRSRSSSR          closed= 83.7% to=     0 classes= 121 maxP=  16992 maxR=  412.7
+(2, 6, 7)          SRSRSRSSRSRSRSRSRSSSR        closed= 90.1% to=     0 classes=  61 maxP=  14730 maxR=  125.5
+(2, 6, 8)          SRSRSRSSRSRSRSRSRSRSSSR      closed= 63.8% to=     0 classes= 111 maxP=  42240 maxR=  107.4
+(2, 7, 3)          SRSRSRSRSSRSSSR              closed= 19.9% to=     0 classes=  76 maxP=   5266 maxR=  129.6
+(2, 7, 4)          SRSRSRSRSSRSRSSSR            closed= 83.8% to=     0 classes= 184 maxP=  13546 maxR=   81.8
+(2, 7, 5)          SRSRSRSRSSRSRSRSSSR          closed= 20.8% to=   892 classes=  96 maxP=   2814 maxR=   66.6
+(2, 7, 6)          SRSRSRSRSSRSRSRSRSSSR        closed= 90.1% to=     0 classes=  61 maxP=  14730 maxR=  125.5
+(2, 7, 7)          SRSRSRSRSSRSRSRSRSRSSSR      closed= 78.8% to=     0 classes= 149 maxP=  23680 maxR=  145.4
+(2, 7, 8)          SRSRSRSRSSRSRSRSRSRSRSSSR    closed= 14.4% to=     0 classes=  19 maxP=  15694 maxR=  175.2
+(2, 8, 3)          SRSRSRSRSRSSRSSSR            closed= 69.0% to=     0 classes= 181 maxP=  31020 maxR=  131.7
+(2, 8, 4)          SRSRSRSRSRSSRSRSSSR          closed= 88.3% to=     0 classes= 240 maxP=   6050 maxR=   49.4
+(2, 8, 5)          SRSRSRSRSRSSRSRSRSSSR        closed= 21.3% to=     0 classes=  41 maxP=  12970 maxR=  116.8
+(2, 8, 6)          SRSRSRSRSRSSRSRSRSRSSSR      closed= 64.5% to=     0 classes= 113 maxP=  42240 maxR=  107.4
+(2, 8, 7)          SRSRSRSRSRSSRSRSRSRSRSSSR    closed= 15.0% to=     0 classes=  19 maxP=  15962 maxR=  198.2
+(2, 8, 8)          SRSRSRSRSRSSRSRSRSRSRSRSSSR  closed= 81.4% to=     0 classes= 186 maxP=  17510 maxR=  133.5
+(3, 3, 4)          SSRSSRSRSSR                  closed= 67.1% to=     0 classes= 181 maxP=  28360 maxR=  366.9
+(3, 3, 5)          SSRSSRSRSRSSR                closed= 84.0% to=     0 classes=  90 maxP=  17790 maxR=  132.8
+(3, 3, 6)          SSRSSRSRSRSRSSR              closed= 99.0% to=     0 classes=  10 maxP=     50 maxR=    4.1
+(3, 3, 7)          SSRSSRSRSRSRSRSSR            closed= 56.7% to=     0 classes= 145 maxP=  13600 maxR=  357.9
+(3, 3, 8)          SSRSSRSRSRSRSRSRSSR          closed= 82.1% to=     0 classes= 118 maxP=  12250 maxR=  133.3
+(3, 4, 4)          SSRSRSSRSRSSR                closed= 77.1% to=     0 classes= 282 maxP=  11850 maxR=  165.1
+(3, 4, 5)          SSRSRSSRSRSRSSR              closed= 86.5% to=     0 classes=  50 maxP=  16760 maxR=  130.6
+(3, 4, 6)          SSRSRSSRSRSRSRSSR            closed= 86.6% to=     0 classes= 221 maxP=   3192 maxR=   43.5
+(3, 4, 7)          SSRSRSSRSRSRSRSRSSR          closed= 19.2% to=  2675 classes=  27 maxP=    148 maxR=   17.9
+(3, 4, 8)          SSRSRSSRSRSRSRSRSRSSR        closed= 25.2% to=     0 classes=  19 maxP=  11670 maxR=  204.8
+(3, 5, 4)          SSRSRSRSSRSRSSR              closed= 86.5% to=     0 classes=  50 maxP=  16760 maxR=  130.6
+(3, 5, 5)          SSRSRSRSSRSRSRSSR            closed= 97.3% to=     0 classes=  43 maxP=    350 maxR=   14.3
+(3, 5, 6)          SSRSRSRSSRSRSRSRSSR          closed= 56.0% to=     0 classes=  79 maxP=  38480 maxR=  260.2
+(3, 5, 7)          SSRSRSRSSRSRSRSRSRSSR        closed= 10.7% to= 28284 classes=  21 maxP=  22340 maxR=  205.6
+(3, 5, 8)          SSRSRSRSSRSRSRSRSRSRSSR      closed= 16.9% to= 33032 classes=  24 maxP=  99840 maxR=  272.3
+(3, 6, 4)          SSRSRSRSRSSRSRSSR            closed= 86.8% to=     0 classes= 228 maxP=   3192 maxR=   43.5
+(3, 6, 5)          SSRSRSRSRSSRSRSRSSR          closed= 56.0% to=     0 classes=  79 maxP=  38480 maxR=  260.2
+(3, 6, 6)          SSRSRSRSRSSRSRSRSRSSR        closed= 98.9% to=     0 classes=  11 maxP=     80 maxR=    4.3
+(3, 6, 7)          SSRSRSRSRSSRSRSRSRSRSSR      closed= 91.7% to=     0 classes=  51 maxP=  13770 maxR=  122.6
+(3, 6, 8)          SSRSRSRSRSSRSRSRSRSRSRSSR    closed= 61.1% to=     0 classes= 119 maxP=  21740 maxR=  214.1
+(3, 7, 4)          SSRSRSRSRSRSSRSRSSR          closed= 19.2% to=     0 classes=  27 maxP=    148 maxR=   17.9
+(3, 7, 5)          SSRSRSRSRSRSSRSRSRSSR        closed= 10.6% to= 16727 classes=  21 maxP=  22340 maxR=  205.6
+(3, 7, 6)          SSRSRSRSRSRSSRSRSRSRSSR      closed= 91.7% to=     0 classes=  51 maxP=  13770 maxR=  122.6
+(3, 7, 7)          SSRSRSRSRSRSSRSRSRSRSRSSR    closed= 87.2% to=     0 classes= 143 maxP=  17700 maxR=  125.5
+(3, 7, 8)          SSRSRSRSRSRSSRSRSRSRSRSRSSR  closed= 90.9% to=     0 classes= 145 maxP=   2036 maxR=   37.0
+(3, 8, 4)          SSRSRSRSRSRSRSSRSRSSR        closed= 25.2% to=     0 classes=  19 maxP=  11670 maxR=  204.8
+(3, 8, 5)          SSRSRSRSRSRSRSSRSRSRSSR      closed= 16.9% to= 35594 classes=  23 maxP=  99840 maxR=  272.3
+(3, 8, 6)          SSRSRSRSRSRSRSSRSRSRSRSSR    closed= 61.1% to=     0 classes= 117 maxP=  21740 maxR=  214.1
+(3, 8, 7)          SSRSRSRSRSRSRSSRSRSRSRSRSSR  closed= 90.7% to=     0 classes= 142 maxP=   2036 maxR=   37.0
+(3, 8, 8)          SSRSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 73.8% to=     0 classes= 216 maxP=  77780 maxR=  251.9
+(4, 4, 5)          SRSSRSRSSRSRSRSSR            closed= 87.8% to=     0 classes=  56 maxP=  16690 maxR=  125.6
+(4, 4, 6)          SRSSRSRSSRSRSRSRSSR          closed= 88.4% to=     0 classes= 115 maxP=  12910 maxR=  127.8
+(4, 4, 7)          SRSSRSRSSRSRSRSRSRSSR        closed= 62.9% to=     0 classes= 182 maxP=  18822 maxR=  362.4
+(4, 4, 8)          SRSSRSRSSRSRSRSRSRSRSSR      closed= 89.7% to=     0 classes=  87 maxP=   9230 maxR=  152.2
+(4, 5, 5)          SRSSRSRSRSSRSRSRSSR          closed= 98.9% to=     0 classes=   8 maxP=     32 maxR=    4.8
+(4, 5, 6)          SRSSRSRSRSSRSRSRSRSSR        closed= 95.7% to=     0 classes=  28 maxP=    620 maxR=   20.7
+(4, 5, 7)          SRSSRSRSRSSRSRSRSRSRSSR      closed= 70.3% to=     0 classes= 179 maxP=  75940 maxR=  221.5
+(4, 5, 8)          SRSSRSRSRSSRSRSRSRSRSRSSR    closed= 29.5% to=  2494 classes=  63 maxP=  53364 maxR=  275.1
+(4, 6, 5)          SRSSRSRSRSRSSRSRSRSSR        closed= 95.7% to=     0 classes=  26 maxP=    620 maxR=   20.7
+(4, 6, 6)          SRSSRSRSRSRSSRSRSRSRSSR      closed= 95.0% to=     0 classes=  38 maxP=   8580 maxR=  124.9
+(4, 6, 7)          SRSSRSRSRSRSSRSRSRSRSRSSR    closed= 96.7% to=     0 classes=  50 maxP=   3640 maxR=  125.5
+(4, 6, 8)          SRSSRSRSRSRSSRSRSRSRSRSRSSR  closed= 18.7% to=     0 classes=  18 maxP=  28176 maxR=  203.7
+(4, 7, 5)          SRSSRSRSRSRSRSSRSRSRSSR      closed= 71.1% to=     0 classes= 181 maxP=  75940 maxR=  221.5
+(4, 7, 6)          SRSSRSRSRSRSRSSRSRSRSRSSR    closed= 96.7% to=     0 classes=  50 maxP=   3640 maxR=  125.5
+(4, 7, 7)          SRSSRSRSRSRSRSSRSRSRSRSRSSR  closed= 75.7% to=     0 classes= 203 maxP=  14880 maxR=  263.4
+(4, 7, 8)          SRSSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 51.2% to=119687 classes= 230 maxP=  49230 maxR=  137.5
+(4, 8, 5)          SRSSRSRSRSRSRSRSSRSRSRSSR    closed= 29.6% to= 74699 classes=  68 maxP=  53364 maxR=  275.1
+(4, 8, 6)          SRSSRSRSRSRSRSRSSRSRSRSRSSR  closed= 18.7% to=     0 classes=  19 maxP=  28176 maxR=  203.7
+(4, 8, 7)          SRSSRSRSRSRSRSRSSRSRSRSRSRSSR closed= 51.2% to=109310 classes= 227 maxP=  49230 maxR=  137.5
+(4, 8, 8)          SRSSRSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 84.6% to=     0 classes= 217 maxP=  12190 maxR=  130.6
+(5, 5, 6)          SRSRSSRSRSRSSRSRSRSRSSR      closed= 85.1% to=     0 classes=  36 maxP=  27550 maxR=  127.1
+(5, 5, 7)          SRSRSSRSRSRSSRSRSRSRSRSSR    closed= 76.8% to=     0 classes= 160 maxP=   8476 maxR=  411.2
+(5, 5, 8)          SRSRSSRSRSRSSRSRSRSRSRSRSSR  closed= 86.2% to=     0 classes=  92 maxP=  12050 maxR=  134.1
+(5, 6, 6)          SRSRSSRSRSRSRSSRSRSRSRSSR    closed= 85.5% to=     0 classes= 104 maxP=  14220 maxR=  122.2
+(5, 6, 7)          SRSRSSRSRSRSRSSRSRSRSRSRSSR  closed= 59.8% to=  6280 classes=  98 maxP=  47200 maxR=  131.1
+(5, 6, 8)          SRSRSSRSRSRSRSSRSRSRSRSRSRSSR closed= 74.3% to=     0 classes= 214 maxP=  60810 maxR=  217.7
+(5, 7, 6)          SRSRSSRSRSRSRSRSSRSRSRSRSSR  closed= 59.7% to= 14229 classes= 100 maxP=  47200 maxR=  131.1
+(5, 7, 7)          SRSRSSRSRSRSRSRSSRSRSRSRSRSSR closed= 79.9% to=     0 classes= 141 maxP=  15170 maxR=  131.7
+(5, 7, 8)          SRSRSSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 21.1% to=531551 classes=  36 maxP=   3700 maxR=   56.9
+(5, 8, 6)          SRSRSSRSRSRSRSRSRSSRSRSRSRSSR closed= 74.3% to=     0 classes= 223 maxP=  60810 maxR=  217.7
+(5, 8, 7)          SRSRSSRSRSRSRSRSRSSRSRSRSRSRSSR closed= 21.1% to=524644 classes=  40 maxP=   3700 maxR=   56.9
+(5, 8, 8)          SRSRSSRSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 84.3% to=     0 classes= 179 maxP=   9050 maxR=  135.0
+(6, 6, 7)          SRSRSRSSRSRSRSRSSRSRSRSRSRSSR closed= 84.6% to=     0 classes= 133 maxP=  19232 maxR=  375.9
+(6, 6, 8)          SRSRSRSSRSRSRSRSSRSRSRSRSRSRSSR closed= 87.7% to=     0 classes=  43 maxP=  25040 maxR=  126.0
+(6, 7, 7)          SRSRSRSSRSRSRSRSRSSRSRSRSRSRSSR closed= 91.1% to=     0 classes=  83 maxP=  11660 maxR=  128.2
+(6, 7, 8)          SRSRSRSSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 41.2% to=     0 classes=  22 maxP=   4480 maxR=   92.3
+(6, 8, 7)          SRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSSR closed= 41.2% to=     0 classes=  21 maxP=   4480 maxR=   92.3
+(6, 8, 8)          SRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 77.1% to=     0 classes= 179 maxP=  11940 maxR=  158.9
+(7, 7, 8)          SRSRSRSRSSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 93.3% to=     0 classes= 150 maxP=   4100 maxR=  125.3
+(7, 8, 8)          SRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 74.7% to=     0 classes= 192 maxP=  32120 maxR=  150.9
+(2, 2, 2, 3)       SSSSSR                       closed= 91.9% to=     0 classes= 127 maxP=   7545 maxR=  124.0
+(2, 2, 2, 4)       SRSSSSSR                     closed= 87.7% to=     0 classes= 194 maxP=   9310 maxR=  132.5
+(2, 2, 2, 5)       SRSRSSSSSR                   closed= 69.6% to=     0 classes= 501 maxP=  22456 maxR=  454.5
+(2, 2, 2, 6)       SRSRSRSSSSSR                 closed= 76.1% to=     0 classes= 281 maxP=  19510 maxR=  195.0
+(2, 2, 2, 7)       SRSRSRSRSSSSSR               closed= 84.5% to=     0 classes= 288 maxP=   6710 maxR=  147.4
+(2, 2, 2, 8)       SRSRSRSRSRSSSSSR             closed= 62.3% to=     0 classes= 637 maxP=  10470 maxR=  263.1
+(2, 2, 3, 3)       SSRSSSSR                     closed= 96.0% to=     0 classes=  38 maxP=    309 maxR=   18.8
+(2, 2, 3, 4)       SSRSRSSSSR                   closed= 79.0% to=     0 classes= 268 maxP=  26540 maxR=  139.7
+(2, 2, 3, 5)       SSRSRSRSSSSR                 closed= 12.6% to=     0 classes=  69 maxP=  28225 maxR=  266.5
+(2, 2, 3, 6)       SSRSRSRSRSSSSR               closed= 49.7% to=110611 classes= 138 maxP=  46433 maxR=  253.0
+(2, 2, 3, 7)       SSRSRSRSRSRSSSSR             closed= 21.7% to=     0 classes=  45 maxP=  19540 maxR=  148.5
+(2, 2, 3, 8)       SSRSRSRSRSRSRSSSSR           closed= 29.6% to=     0 classes=  69 maxP=  10245 maxR=  183.3
+(2, 2, 4, 3)       SRSSRSSSSR                   closed= 79.0% to=     0 classes= 277 maxP=  26540 maxR=  139.7
+(2, 2, 4, 4)       SRSSRSRSSSSR                 closed= 14.9% to=     0 classes=  41 maxP=   1810 maxR=   45.5
+(2, 2, 4, 5)       SRSSRSRSRSSSSR               closed= 79.5% to=     0 classes= 110 maxP=  23790 maxR=  147.4
+(2, 2, 4, 6)       SRSSRSRSRSRSSSSR             closed= 90.3% to=     0 classes=  90 maxP=   9620 maxR=  129.9
+(2, 2, 4, 7)       SRSSRSRSRSRSRSSSSR           closed= 50.6% to=     0 classes= 180 maxP=  37624 maxR=  248.3
+(2, 2, 4, 8)       SRSSRSRSRSRSRSRSSSSR         closed= 35.0% to=120970 classes= 100 maxP=  38134 maxR=  270.7
+(2, 2, 5, 3)       SRSRSSRSSSSR                 closed= 12.9% to=     0 classes=  72 maxP=  28225 maxR=  266.5
+(2, 2, 5, 4)       SRSRSSRSRSSSSR               closed= 79.5% to=     0 classes= 110 maxP=  23790 maxR=  147.4
+(2, 2, 5, 5)       SRSRSSRSRSRSSSSR             closed= 79.1% to=     0 classes= 248 maxP=  12080 maxR=   74.8
+(2, 2, 5, 6)       SRSRSSRSRSRSRSSSSR           closed= 58.4% to=     0 classes=  65 maxP=  68650 maxR=  172.0
+(2, 2, 5, 7)       SRSRSSRSRSRSRSRSSSSR         closed= 31.2% to=     0 classes= 102 maxP=  74955 maxR=  244.5
+(2, 2, 5, 8)       SRSRSSRSRSRSRSRSRSSSSR       closed= 31.0% to=     0 classes= 128 maxP=  35748 maxR=  374.4
+(2, 2, 6, 3)       SRSRSRSSRSSSSR               closed= 49.7% to=110611 classes= 136 maxP=  46433 maxR=  253.0
+(2, 2, 6, 4)       SRSRSRSSRSRSSSSR             closed= 90.3% to=     0 classes=  89 maxP=   9620 maxR=  129.9
+(2, 2, 6, 5)       SRSRSRSSRSRSRSSSSR           closed= 58.4% to=     0 classes=  66 maxP=  68650 maxR=  172.0
+(2, 2, 6, 6)       SRSRSRSSRSRSRSRSSSSR         closed= 23.1% to=     0 classes=  59 maxP=  12945 maxR=  216.7
+(2, 2, 6, 7)       SRSRSRSSRSRSRSRSRSSSSR       closed= 92.8% to=     0 classes= 133 maxP=    648 maxR=   27.0
+(2, 2, 6, 8)       SRSRSRSSRSRSRSRSRSRSSSSR     closed= 29.6% to=     0 classes=  72 maxP=  23365 maxR=  251.4
+(2, 2, 7, 3)       SRSRSRSRSSRSSSSR             closed= 21.7% to=     0 classes=  44 maxP=  19540 maxR=  148.5
+(2, 2, 7, 4)       SRSRSRSRSSRSRSSSSR           closed= 50.6% to=     0 classes= 180 maxP=  37624 maxR=  248.3
+(2, 2, 7, 5)       SRSRSRSRSSRSRSRSSSSR         closed= 31.1% to=     0 classes= 103 maxP=  74955 maxR=  244.5
+(2, 2, 7, 6)       SRSRSRSRSSRSRSRSRSSSSR       closed= 92.8% to=     0 classes= 133 maxP=    648 maxR=   27.0
+(2, 2, 7, 7)       SRSRSRSRSSRSRSRSRSRSSSSR     closed= 81.0% to=     0 classes= 105 maxP=  12850 maxR=  125.5
+(2, 2, 7, 8)       SRSRSRSRSSRSRSRSRSRSRSSSSR   closed= 13.4% to=     0 classes=  49 maxP=  20315 maxR=  289.1
+(2, 2, 8, 3)       SRSRSRSRSRSSRSSSSR           closed= 29.6% to=     0 classes=  69 maxP=  10245 maxR=  183.3
+(2, 2, 8, 4)       SRSRSRSRSRSSRSRSSSSR         closed= 35.0% to=120970 classes= 100 maxP=  38134 maxR=  270.7
+(2, 2, 8, 5)       SRSRSRSRSRSSRSRSRSSSSR       closed= 32.3% to=     0 classes= 127 maxP=  37467 maxR=  395.1
+(2, 2, 8, 6)       SRSRSRSRSRSSRSRSRSRSSSSR     closed= 29.7% to=     0 classes=  71 maxP=  23365 maxR=  251.4
+(2, 2, 8, 7)       SRSRSRSRSRSSRSRSRSRSRSSSSR   closed= 13.4% to=     0 classes=  49 maxP=  20315 maxR=  289.1
+(2, 2, 8, 8)       SRSRSRSRSRSSRSRSRSRSRSRSSSSR closed= 11.5% to=     0 classes=  23 maxP=   7535 maxR=  199.3
+(2, 3, 2, 4)       SSSRSRSSSR                   closed= 90.5% to=     0 classes= 240 maxP=   5970 maxR=  417.5
+(2, 3, 2, 5)       SSSRSRSRSSSR                 closed= 90.6% to=     0 classes= 128 maxP=   3855 maxR=  125.8
+(2, 3, 2, 6)       SSSRSRSRSRSSSR               closed= 87.7% to=     0 classes= 151 maxP=   9340 maxR=  142.8
+(2, 3, 2, 7)       SSSRSRSRSRSRSSSR             closed= 73.1% to=     0 classes= 339 maxP=  11810 maxR=  386.1
+(2, 3, 2, 8)       SSSRSRSRSRSRSRSSSR           closed= 82.6% to=     0 classes= 201 maxP=  10340 maxR=  147.1
+(2, 3, 3, 3)       SSRSSRSSSR                   closed= 94.6% to=     0 classes=  52 maxP=   8095 maxR=  124.1
+(2, 3, 3, 4)       SSRSSRSRSSSR                 closed= 81.3% to=     0 classes= 166 maxP=  21040 maxR=  134.0
+(2, 3, 3, 5)       SSRSSRSRSRSSSR               closed= 82.2% to=     0 classes= 105 maxP=  26610 maxR=  154.2
+(2, 3, 3, 6)       SSRSSRSRSRSRSSSR             closed= 98.5% to=     0 classes=  22 maxP=     70 maxR=    8.0
+(2, 3, 3, 7)       SSRSSRSRSRSRSRSSSR           closed= 35.7% to=106760 classes= 149 maxP=  36570 maxR=  255.6
+(2, 3, 3, 8)       SSRSSRSRSRSRSRSRSSSR         closed= 79.1% to=     0 classes= 254 maxP=  18770 maxR=  138.3
+(2, 3, 4, 3)       SSRSRSSRSSSR                 closed= 90.6% to=     0 classes= 114 maxP=   6215 maxR=  126.7
+(2, 3, 4, 4)       SSRSRSSRSRSSSR               closed= 64.1% to= 19855 classes= 198 maxP=  48320 maxR=  164.2
+(2, 3, 4, 5)       SSRSRSSRSRSRSSSR             closed= 81.2% to=     0 classes= 179 maxP=  15050 maxR=  142.9
+(2, 3, 4, 6)       SSRSRSSRSRSRSRSSSR           closed= 95.5% to=     0 classes=  62 maxP=    743 maxR=   23.6
+(2, 3, 4, 7)       SSRSRSSRSRSRSRSRSSSR         closed= 60.8% to= 17239 classes= 180 maxP=  38017 maxR=  262.9
+(2, 3, 4, 8)       SSRSRSSRSRSRSRSRSRSSSR       closed= 18.2% to=     0 classes=  74 maxP=  48965 maxR=  215.2
+(2, 3, 5, 3)       SSRSRSRSSRSSSR               closed= 87.8% to=     0 classes= 161 maxP=  12686 maxR=  336.2
+(2, 3, 5, 4)       SSRSRSRSSRSRSSSR             closed= 45.2% to=     0 classes= 156 maxP=  33829 maxR=  357.5
+(2, 3, 5, 5)       SSRSRSRSSRSRSRSSSR           closed= 35.3% to=   838 classes= 156 maxP=  27910 maxR=  215.4
+(2, 3, 5, 6)       SSRSRSRSSRSRSRSRSSSR         closed= 82.9% to=     0 classes= 141 maxP=  33720 maxR=  150.1
+(2, 3, 5, 7)       SSRSRSRSSRSRSRSRSRSSSR       closed= 39.8% to=     0 classes= 143 maxP=  17265 maxR=  226.5
+(2, 3, 5, 8)       SSRSRSRSSRSRSRSRSRSRSSSR     closed= 69.8% to=     0 classes= 334 maxP=  35695 maxR=  179.8
+(2, 3, 6, 3)       SSRSRSRSRSSRSSSR             closed= 90.5% to=     0 classes= 123 maxP=  27650 maxR=  388.0
+(2, 3, 6, 4)       SSRSRSRSRSSRSRSSSR           closed= 47.4% to=     0 classes= 129 maxP=  32373 maxR=  418.8
+(2, 3, 6, 5)       SSRSRSRSRSSRSRSRSSSR         closed= 55.4% to=  3242 classes= 271 maxP=  31100 maxR=  152.1
+(2, 3, 6, 6)       SSRSRSRSRSSRSRSRSRSSSR       closed= 94.8% to=     0 classes=  45 maxP=   9385 maxR=  124.9
+(2, 3, 6, 7)       SSRSRSRSRSSRSRSRSRSRSSSR     closed= 84.3% to=     0 classes= 285 maxP=  10539 maxR=   81.0
+(2, 3, 6, 8)       SSRSRSRSRSSRSRSRSRSRSRSSSR   closed= 20.3% to= 67475 classes=  40 maxP=   8275 maxR=  102.3
+(2, 3, 7, 3)       SSRSRSRSRSRSSRSSSR           closed= 85.9% to=     0 classes= 223 maxP=  12406 maxR=  415.7
+(2, 3, 7, 4)       SSRSRSRSRSRSSRSRSSSR         closed= 64.4% to=     0 classes= 159 maxP=  79432 maxR=  403.6
+(2, 3, 7, 5)       SSRSRSRSRSRSSRSRSRSSSR       closed= 87.9% to=     0 classes=  87 maxP=  13020 maxR=  133.4
+(2, 3, 7, 6)       SSRSRSRSRSRSSRSRSRSRSSSR     closed= 92.5% to=     0 classes= 123 maxP=   7370 maxR=  124.9
+(2, 3, 7, 7)       SSRSRSRSRSRSSRSRSRSRSRSSSR   closed= 74.9% to=     0 classes= 276 maxP=  36665 maxR=  160.4
+(2, 3, 7, 8)       SSRSRSRSRSRSSRSRSRSRSRSRSSSR closed= 39.8% to=     0 classes= 147 maxP=  41295 maxR=  257.1
+(2, 3, 8, 3)       SSRSRSRSRSRSRSSRSSSR         closed= 84.2% to=     0 classes= 196 maxP=  11825 maxR=  408.0
+(2, 3, 8, 4)       SSRSRSRSRSRSRSSRSRSSSR       closed= 84.5% to=     0 classes= 242 maxP=  21438 maxR=  443.9
+(2, 3, 8, 5)       SSRSRSRSRSRSRSSRSRSRSSSR     closed= 57.3% to=     0 classes= 160 maxP=  69415 maxR=  375.6
+(2, 3, 8, 6)       SSRSRSRSRSRSRSSRSRSRSRSSSR   closed= 80.4% to=     0 classes= 130 maxP=  24155 maxR=  146.6
+(2, 3, 8, 7)       SSRSRSRSRSRSRSSRSRSRSRSRSSSR closed= 30.1% to=     0 classes= 121 maxP=  39270 maxR=  229.4
+(2, 3, 8, 8)       SSRSRSRSRSRSRSSRSRSRSRSRSRSSSR closed= 68.8% to=     0 classes= 174 maxP=  31655 maxR=  136.4
+(2, 4, 2, 5)       SRSSSRSRSRSSSR               closed= 82.6% to=     0 classes= 214 maxP=   8540 maxR=  168.0
+(2, 4, 2, 6)       SRSSSRSRSRSRSSSR             closed= 79.6% to=     0 classes= 315 maxP=   7625 maxR=  243.8
+(2, 4, 2, 7)       SRSSSRSRSRSRSRSSSR           closed= 86.4% to=     0 classes= 121 maxP=   9540 maxR=  126.7
+(2, 4, 2, 8)       SRSSSRSRSRSRSRSRSSSR         closed= 83.5% to=     0 classes= 168 maxP=  11955 maxR=  370.5
+(2, 4, 3, 3)       SRSSRSSRSSSR                 closed= 81.4% to=     0 classes= 170 maxP=  21040 maxR=  134.0
+(2, 4, 3, 4)       SRSSRSSRSRSSSR               closed= 83.3% to=     0 classes= 238 maxP=  29342 maxR=  389.0
+(2, 4, 3, 5)       SRSSRSSRSRSRSSSR             closed= 87.2% to=     0 classes=  81 maxP=  17460 maxR=  130.6
+(2, 4, 3, 6)       SRSSRSSRSRSRSRSSSR           closed= 72.6% to=     0 classes= 193 maxP=  20530 maxR=  158.3
+(2, 4, 3, 7)       SRSSRSSRSRSRSRSRSSSR         closed= 34.4% to=     0 classes=  49 maxP=  12985 maxR=  186.5
+(2, 4, 3, 8)       SRSSRSSRSRSRSRSRSRSSSR       closed= 47.6% to=     0 classes= 214 maxP=  12635 maxR=  172.3
+(2, 4, 4, 3)       SRSSRSRSSRSSSR               closed= 63.6% to= 21991 classes= 188 maxP=  48320 maxR=  164.2
+(2, 4, 4, 4)       SRSSRSRSSRSRSSSR             closed= 83.5% to=     0 classes= 294 maxP=  18346 maxR=  384.4
+(2, 4, 4, 5)       SRSSRSRSSRSRSRSSSR           closed= 97.3% to=     0 classes=  44 maxP=    192 maxR=   10.0
+(2, 4, 4, 6)       SRSSRSRSSRSRSRSRSSSR         closed= 69.6% to=     0 classes= 169 maxP=  16900 maxR=  285.3
+(2, 4, 4, 7)       SRSSRSRSSRSRSRSRSRSSSR       closed= 27.1% to=     0 classes= 108 maxP=   4663 maxR=  150.2
+(2, 4, 4, 8)       SRSSRSRSSRSRSRSRSRSRSSSR     closed= 15.3% to=     0 classes=  25 maxP=   9119 maxR=  264.1
+(2, 4, 5, 3)       SRSSRSRSRSSRSSSR             closed= 45.3% to=     0 classes= 146 maxP=  33829 maxR=  357.5
+(2, 4, 5, 4)       SRSSRSRSRSSRSRSSSR           closed= 87.4% to=     0 classes= 194 maxP=  31930 maxR=  380.7
+(2, 4, 5, 5)       SRSSRSRSRSSRSRSRSSSR         closed= 94.6% to=     0 classes= 108 maxP=   2855 maxR=  123.5
+(2, 4, 5, 6)       SRSSRSRSRSSRSRSRSRSSSR       closed= 71.7% to=     0 classes= 186 maxP=  12600 maxR=  244.8
+(2, 4, 5, 7)       SRSSRSRSRSSRSRSRSRSRSSSR     closed= 69.5% to=     0 classes= 123 maxP=  40115 maxR=  201.4
+(2, 4, 5, 8)       SRSSRSRSRSSRSRSRSRSRSRSSSR   closed= 88.4% to=     0 classes= 232 maxP=  10715 maxR=  124.9
+(2, 4, 6, 3)       SRSSRSRSRSRSSRSSSR           closed= 47.4% to=     0 classes= 123 maxP=  32373 maxR=  418.8
+(2, 4, 6, 4)       SRSSRSRSRSRSSRSRSSSR         closed= 84.7% to=     0 classes= 171 maxP=  36966 maxR=  344.3
+(2, 4, 6, 5)       SRSSRSRSRSRSSRSRSRSSSR       closed= 89.1% to=     0 classes=  80 maxP=   8325 maxR=  129.4
+(2, 4, 6, 6)       SRSSRSRSRSRSSRSRSRSRSSSR     closed= 86.7% to=     0 classes= 223 maxP=  10315 maxR=  416.1
+(2, 4, 6, 7)       SRSSRSRSRSRSSRSRSRSRSRSSSR   closed= 56.5% to=     0 classes= 294 maxP=  17830 maxR=  361.5
+(2, 4, 6, 8)       SRSSRSRSRSRSSRSRSRSRSRSRSSSR closed= 84.5% to=     0 classes= 159 maxP=  16210 maxR=  137.2
+(2, 4, 7, 3)       SRSSRSRSRSRSRSSRSSSR         closed= 64.5% to=     0 classes= 165 maxP=  79432 maxR=  403.6
+(2, 4, 7, 4)       SRSSRSRSRSRSRSSRSRSSSR       closed= 78.8% to=     0 classes= 186 maxP=  21650 maxR=  383.7
+(2, 4, 7, 5)       SRSSRSRSRSRSRSSRSRSRSSSR     closed= 47.1% to=     0 classes= 106 maxP=  17640 maxR=  249.0
+(2, 4, 7, 6)       SRSSRSRSRSRSRSSRSRSRSRSSSR   closed= 59.3% to=     0 classes= 358 maxP=  29355 maxR=  382.0
+(2, 4, 7, 7)       SRSSRSRSRSRSRSSRSRSRSRSRSSSR closed= 53.6% to= 36811 classes= 277 maxP=  49685 maxR=  133.3
+(2, 4, 7, 8)       SRSSRSRSRSRSRSSRSRSRSRSRSRSSSR closed= 28.3% to=     0 classes= 100 maxP=  22939 maxR=  250.4
+(2, 4, 8, 3)       SRSSRSRSRSRSRSRSSRSSSR       closed= 84.4% to=     0 classes= 237 maxP=  21438 maxR=  443.9
+(2, 4, 8, 4)       SRSSRSRSRSRSRSRSSRSRSSSR     closed= 85.7% to=     0 classes= 193 maxP=  36025 maxR=  346.3
+(2, 4, 8, 5)       SRSSRSRSRSRSRSRSSRSRSRSSSR   closed= 57.6% to=     0 classes= 229 maxP=  19035 maxR=  159.6
+(2, 4, 8, 6)       SRSSRSRSRSRSRSRSSRSRSRSRSSSR closed= 51.5% to=     0 classes= 120 maxP=  25160 maxR=  161.4
+(2, 4, 8, 7)       SRSSRSRSRSRSRSRSSRSRSRSRSRSSSR closed= 58.8% to= 12702 classes= 102 maxP=  45740 maxR=  247.9
+(2, 4, 8, 8)       SRSSRSRSRSRSRSRSSRSRSRSRSRSRSSSR closed= 21.6% to=     0 classes=  34 maxP=   7035 maxR=  260.8
+(2, 5, 2, 6)       SRSRSSSRSRSRSRSSSR           closed= 87.2% to=     0 classes= 133 maxP=  20082 maxR=  389.5
+(2, 5, 2, 7)       SRSRSSSRSRSRSRSRSSSR         closed= 77.4% to=     0 classes= 205 maxP=  21709 maxR=  399.8
+(2, 5, 2, 8)       SRSRSSSRSRSRSRSRSRSSSR       closed= 83.2% to=     0 classes= 345 maxP=   9975 maxR=  452.1
+(2, 5, 3, 3)       SRSRSSRSSRSSSR               closed= 82.2% to=     0 classes= 107 maxP=  26610 maxR=  154.2
+(2, 5, 3, 4)       SRSRSSRSSRSRSSSR             closed= 87.2% to=     0 classes=  78 maxP=  17460 maxR=  130.6
+(2, 5, 3, 5)       SRSRSSRSSRSRSRSSSR           closed= 83.4% to=     0 classes= 225 maxP=  13753 maxR=  388.2
+(2, 5, 3, 6)       SRSRSSRSSRSRSRSRSSSR         closed= 82.3% to=     0 classes= 198 maxP=  16035 maxR=  136.4
+(2, 5, 3, 7)       SRSRSSRSSRSRSRSRSRSSSR       closed= 16.5% to=     0 classes= 119 maxP=   6860 maxR=  224.8
+(2, 5, 3, 8)       SRSRSSRSSRSRSRSRSRSRSSSR     closed= 48.8% to=     0 classes= 180 maxP=  58050 maxR=  249.1
+(2, 5, 4, 3)       SRSRSSRSRSSRSSSR             closed= 81.4% to=     0 classes= 174 maxP=  15050 maxR=  142.9
+(2, 5, 4, 4)       SRSRSSRSRSSRSRSSSR           closed= 97.2% to=     0 classes=  44 maxP=    192 maxR=   10.0
+(2, 5, 4, 5)       SRSRSSRSRSSRSRSRSSSR         closed= 89.3% to=     0 classes=  48 maxP=  19555 maxR=  124.6
+(2, 5, 4, 6)       SRSRSSRSRSSRSRSRSRSSSR       closed= 81.9% to=     0 classes= 179 maxP=  33491 maxR=  405.5
+(2, 5, 4, 7)       SRSRSSRSRSSRSRSRSRSRSSSR     closed= 88.2% to=     0 classes= 158 maxP=  11385 maxR=  129.6
+(2, 5, 4, 8)       SRSRSSRSRSSRSRSRSRSRSRSSSR   closed= 61.2% to=     0 classes= 187 maxP=  46495 maxR=  169.1
+(2, 5, 5, 3)       SRSRSSRSRSRSSRSSSR           closed= 35.3% to=  3557 classes= 163 maxP=  27910 maxR=  215.4
+(2, 5, 5, 4)       SRSRSSRSRSRSSRSRSSSR         closed= 94.6% to=     0 classes= 107 maxP=   2855 maxR=  123.5
+(2, 5, 5, 5)       SRSRSSRSRSRSSRSRSRSSSR       closed= 94.1% to=     0 classes=  74 maxP=   6430 maxR=  127.3
+(2, 5, 5, 6)       SRSRSSRSRSRSSRSRSRSRSSSR     closed= 87.9% to=     0 classes= 137 maxP=  12820 maxR=  133.6
+(2, 5, 5, 7)       SRSRSSRSRSRSSRSRSRSRSRSSSR   closed= 82.3% to=     0 classes= 123 maxP=  27535 maxR=  149.1
+(2, 5, 5, 8)       SRSRSSRSRSRSSRSRSRSRSRSRSSSR closed= 89.9% to=     0 classes= 186 maxP=  35555 maxR=  383.6
+(2, 5, 6, 3)       SRSRSSRSRSRSRSSRSSSR         closed= 55.8% to=     0 classes= 267 maxP=  31100 maxR=  152.1
+(2, 5, 6, 4)       SRSRSSRSRSRSRSSRSRSSSR       closed= 89.1% to=     0 classes=  80 maxP=   8325 maxR=  129.4
+(2, 5, 6, 5)       SRSRSSRSRSRSRSSRSRSRSSSR     closed= 88.0% to=     0 classes= 116 maxP=  14550 maxR=  128.6
+(2, 5, 6, 6)       SRSRSSRSRSRSRSSRSRSRSRSSSR   closed= 77.9% to=     0 classes= 382 maxP=  61904 maxR=  412.2
+(2, 5, 6, 7)       SRSRSSRSRSRSRSSRSRSRSRSRSSSR closed= 83.3% to=     0 classes= 129 maxP=  29215 maxR=  138.0
+(2, 5, 6, 8)       SRSRSSRSRSRSRSSRSRSRSRSRSRSSSR closed= 48.6% to=     0 classes=  84 maxP=  11895 maxR=  143.7
+(2, 5, 7, 3)       SRSRSSRSRSRSRSRSSRSSSR       closed= 87.9% to=     0 classes=  89 maxP=  13020 maxR=  133.4
+(2, 5, 7, 4)       SRSRSSRSRSRSRSRSSRSRSSSR     closed= 47.1% to=     0 classes= 105 maxP=  17640 maxR=  249.0
+(2, 5, 7, 5)       SRSRSSRSRSRSRSRSSRSRSRSSSR   closed= 91.7% to=     0 classes= 100 maxP=  34702 maxR=  395.8
+(2, 5, 7, 6)       SRSRSSRSRSRSRSRSSRSRSRSRSSSR closed= 96.0% to=     0 classes=  67 maxP=    287 maxR=   19.3
+(2, 5, 7, 7)       SRSRSSRSRSRSRSRSSRSRSRSRSRSSSR closed= 84.4% to=     0 classes= 242 maxP=   9220 maxR=  150.0
+(2, 5, 7, 8)       SRSRSSRSRSRSRSRSSRSRSRSRSRSRSSSR closed= 44.5% to=116543 classes=  64 maxP=  68055 maxR=  191.8
+(2, 5, 8, 3)       SRSRSSRSRSRSRSRSRSSRSSSR     closed= 57.2% to=     0 classes= 157 maxP=  69415 maxR=  375.6
+(2, 5, 8, 4)       SRSRSSRSRSRSRSRSRSSRSRSSSR   closed= 57.8% to=     0 classes= 225 maxP=  19035 maxR=  159.6
+(2, 5, 8, 5)       SRSRSSRSRSRSRSRSRSSRSRSRSSSR closed= 86.1% to=     0 classes= 192 maxP=  34143 maxR=  372.2
+(2, 5, 8, 6)       SRSRSSRSRSRSRSRSRSSRSRSRSRSSSR closed= 81.9% to=     0 classes= 119 maxP=  19860 maxR=  132.3
+(2, 5, 8, 7)       SRSRSSRSRSRSRSRSRSSRSRSRSRSRSSSR closed= 45.3% to=     0 classes=  73 maxP=  14900 maxR=  188.7
+(2, 5, 8, 8)       SRSRSSRSRSRSRSRSRSSRSRSRSRSRSRSSSR closed= 83.3% to=     0 classes= 185 maxP=  19990 maxR=  142.0
+(2, 6, 2, 7)       SRSRSRSSSRSRSRSRSRSSSR       closed= 86.7% to=     0 classes= 217 maxP=   5530 maxR=  350.7
+(2, 6, 2, 8)       SRSRSRSSSRSRSRSRSRSRSSSR     closed= 79.3% to=     0 classes= 213 maxP=   7500 maxR=  151.1
+(2, 6, 3, 3)       SRSRSRSSRSSRSSSR             closed= 98.5% to=     0 classes=  22 maxP=     70 maxR=    8.0
+(2, 6, 3, 4)       SRSRSRSSRSSRSRSSSR           closed= 72.5% to=     0 classes= 187 maxP=  20530 maxR=  158.3
+(2, 6, 3, 5)       SRSRSRSSRSSRSRSRSSSR         closed= 82.3% to=     0 classes= 202 maxP=  16035 maxR=  136.4
+(2, 6, 3, 6)       SRSRSRSSRSSRSRSRSRSSSR       closed= 89.3% to=     0 classes= 148 maxP=  10320 maxR=  131.4
+(2, 6, 3, 7)       SRSRSRSSRSSRSRSRSRSRSSSR     closed= 94.6% to=     0 classes= 116 maxP=    530 maxR=   23.2
+(2, 6, 3, 8)       SRSRSRSSRSSRSRSRSRSRSRSSSR   closed= 76.8% to=     0 classes= 268 maxP=  18105 maxR=  141.4
+(2, 6, 4, 3)       SRSRSRSSRSRSSRSSSR           closed= 95.6% to=     0 classes=  60 maxP=    743 maxR=   23.6
+(2, 6, 4, 4)       SRSRSRSSRSRSSRSRSSSR         closed= 68.7% to=     0 classes= 175 maxP=  16900 maxR=  171.2
+(2, 6, 4, 5)       SRSRSRSSRSRSSRSRSRSSSR       closed= 82.0% to=     0 classes= 185 maxP=  33491 maxR=  405.5
+(2, 6, 4, 6)       SRSRSRSSRSRSSRSRSRSRSSSR     closed= 93.2% to=     0 classes=  52 maxP=   9695 maxR=  124.1
+(2, 6, 4, 7)       SRSRSRSSRSRSSRSRSRSRSRSSSR   closed= 96.5% to=     0 classes=  47 maxP=    285 maxR=   17.7
+(2, 6, 4, 8)       SRSRSRSSRSRSSRSRSRSRSRSRSSSR closed= 26.8% to= 31707 classes=  74 maxP=  45095 maxR=  246.1
+(2, 6, 5, 3)       SRSRSRSSRSRSRSSRSSSR         closed= 82.9% to=     0 classes= 137 maxP=  33720 maxR=  150.1
+(2, 6, 5, 4)       SRSRSRSSRSRSRSSRSRSSSR       closed= 71.4% to=     0 classes= 189 maxP=  12600 maxR=  244.8
+(2, 6, 5, 5)       SRSRSRSSRSRSRSSRSRSRSSSR     closed= 87.9% to=     0 classes= 134 maxP=  12820 maxR=  133.6
+(2, 6, 5, 6)       SRSRSRSSRSRSRSSRSRSRSRSSSR   closed= 95.5% to=     0 classes=  57 maxP=   7885 maxR=  124.0
+(2, 6, 5, 7)       SRSRSRSSRSRSRSSRSRSRSRSRSSSR closed= 81.2% to=     0 classes= 142 maxP=  28275 maxR=  147.8
+(2, 6, 5, 8)       SRSRSRSSRSRSRSSRSRSRSRSRSRSSSR closed= 36.6% to=   203 classes= 166 maxP=  96710 maxR=  243.7
+(2, 6, 6, 3)       SRSRSRSSRSRSRSRSSRSSSR       closed= 94.8% to=     0 classes=  43 maxP=   9385 maxR=  124.9
+(2, 6, 6, 4)       SRSRSRSSRSRSRSRSSRSRSSSR     closed= 86.6% to=     0 classes= 226 maxP=  10315 maxR=  416.1
+(2, 6, 6, 5)       SRSRSRSSRSRSRSRSSRSRSRSSSR   closed= 77.7% to=     0 classes= 386 maxP=  61904 maxR=  412.2
+(2, 6, 6, 6)       SRSRSRSSRSRSRSRSSRSRSRSRSSSR closed= 88.0% to=     0 classes= 169 maxP=   8545 maxR=  412.4
+(2, 6, 6, 7)       SRSRSRSSRSRSRSRSSRSRSRSRSRSSSR closed= 48.9% to= 83824 classes= 162 maxP=  95650 maxR=  216.2
+(2, 6, 6, 8)       SRSRSRSSRSRSRSRSSRSRSRSRSRSRSSSR closed= 86.1% to=     0 classes= 100 maxP=  18790 maxR=  133.7
+(2, 6, 7, 3)       SRSRSRSSRSRSRSRSRSSRSSSR     closed= 92.5% to=     0 classes= 123 maxP=   7370 maxR=  124.9
+(2, 6, 7, 4)       SRSRSRSSRSRSRSRSRSSRSRSSSR   closed= 59.3% to=     0 classes= 355 maxP=  29355 maxR=  382.0
+(2, 6, 7, 5)       SRSRSRSSRSRSRSRSRSSRSRSRSSSR closed= 96.0% to=     0 classes=  66 maxP=    287 maxR=   19.3
+(2, 6, 7, 6)       SRSRSRSSRSRSRSRSRSSRSRSRSRSSSR closed= 90.5% to=     0 classes=  64 maxP=  16755 maxR=  125.5
+(2, 6, 7, 7)       SRSRSRSSRSRSRSRSRSSRSRSRSRSRSSSR closed= 65.4% to=  6408 classes= 188 maxP=  49280 maxR=  150.6
+(2, 6, 7, 8)       SRSRSRSSRSRSRSRSRSSRSRSRSRSRSRSSSR closed= 80.3% to=     0 classes= 267 maxP=  27739 maxR=  376.7
+(2, 6, 8, 3)       SRSRSRSSRSRSRSRSRSRSSRSSSR   closed= 80.4% to=     0 classes= 128 maxP=  24155 maxR=  146.6
+(2, 6, 8, 4)       SRSRSRSSRSRSRSRSRSRSSRSRSSSR closed= 51.6% to=     0 classes= 125 maxP=  25160 maxR=  161.4
+(2, 6, 8, 5)       SRSRSRSSRSRSRSRSRSRSSRSRSRSSSR closed= 82.1% to=     0 classes= 114 maxP=  19860 maxR=  132.3
+(2, 6, 8, 6)       SRSRSRSSRSRSRSRSRSRSSRSRSRSRSSSR closed= 94.0% to=     0 classes=  69 maxP=   5130 maxR=  124.1
+(2, 6, 8, 7)       SRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSSSR closed= 68.7% to=     0 classes= 165 maxP=  47875 maxR=  217.7
+(2, 6, 8, 8)       SRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSRSSSR closed= 82.4% to=     0 classes= 206 maxP=  14385 maxR=  129.9
+(2, 7, 2, 8)       SRSRSRSRSSSRSRSRSRSRSRSSSR   closed= 76.9% to=     0 classes= 336 maxP=  30580 maxR=  421.3
+(2, 7, 3, 3)       SRSRSRSRSSRSSRSSSR           closed= 36.7% to=106760 classes= 148 maxP=  36570 maxR=  255.6
+(2, 7, 3, 4)       SRSRSRSRSSRSSRSRSSSR         closed= 34.4% to=     0 classes=  50 maxP=  12985 maxR=  186.5
+(2, 7, 3, 5)       SRSRSRSRSSRSSRSRSRSSSR       closed= 16.5% to=     0 classes= 127 maxP=   6860 maxR=  224.8
+(2, 7, 3, 6)       SRSRSRSRSSRSSRSRSRSRSSSR     closed= 94.6% to=     0 classes= 112 maxP=    530 maxR=   23.2
+(2, 7, 3, 7)       SRSRSRSRSSRSSRSRSRSRSRSSSR   closed= 88.7% to=     0 classes= 171 maxP=  10300 maxR=  131.8
+(2, 7, 3, 8)       SRSRSRSRSSRSSRSRSRSRSRSRSSSR closed= 11.4% to=     0 classes=  22 maxP=  14905 maxR=  247.5
+(2, 7, 4, 3)       SRSRSRSRSSRSRSSRSSSR         closed= 61.3% to= 14548 classes= 182 maxP=  38017 maxR=  262.9
+(2, 7, 4, 4)       SRSRSRSRSSRSRSSRSRSSSR       closed= 27.1% to=     0 classes= 103 maxP=   4663 maxR=  150.2
+(2, 7, 4, 5)       SRSRSRSRSSRSRSSRSRSRSSSR     closed= 88.2% to=     0 classes= 160 maxP=  11385 maxR=  129.6
+(2, 7, 4, 6)       SRSRSRSRSSRSRSSRSRSRSRSSSR   closed= 96.6% to=     0 classes=  47 maxP=    285 maxR=   17.7
+(2, 7, 4, 7)       SRSRSRSRSSRSRSSRSRSRSRSRSSSR closed= 85.5% to=     0 classes= 192 maxP=   9650 maxR=  148.7
+(2, 7, 4, 8)       SRSRSRSRSSRSRSSRSRSRSRSRSRSSSR closed= 72.1% to=     0 classes= 193 maxP=  26561 maxR=  204.6
+(2, 7, 5, 3)       SRSRSRSRSSRSRSRSSRSSSR       closed= 40.2% to=     0 classes= 147 maxP=  17265 maxR=  226.5
+(2, 7, 5, 4)       SRSRSRSRSSRSRSRSSRSRSSSR     closed= 69.5% to=     0 classes= 122 maxP=  40115 maxR=  201.4
+(2, 7, 5, 5)       SRSRSRSRSSRSRSRSSRSRSRSSSR   closed= 82.3% to=     0 classes= 119 maxP=  27535 maxR=  149.1
+(2, 7, 5, 6)       SRSRSRSRSSRSRSRSSRSRSRSRSSSR closed= 81.2% to=     0 classes= 137 maxP=  28275 maxR=  147.8
+(2, 7, 5, 7)       SRSRSRSRSSRSRSRSSRSRSRSRSRSSSR closed= 62.3% to=     0 classes= 326 maxP=   9706 maxR=  441.5
+(2, 7, 5, 8)       SRSRSRSRSSRSRSRSSRSRSRSRSRSRSSSR closed= 78.6% to=     0 classes= 234 maxP=  22890 maxR=  153.4
+(2, 7, 6, 3)       SRSRSRSRSSRSRSRSRSSRSSSR     closed= 84.2% to=     0 classes= 287 maxP=  10539 maxR=   81.0
+(2, 7, 6, 4)       SRSRSRSRSSRSRSRSRSSRSRSSSR   closed= 56.5% to=     0 classes= 300 maxP=  17830 maxR=  361.5
+(2, 7, 6, 5)       SRSRSRSRSSRSRSRSRSSRSRSRSSSR closed= 83.3% to=     0 classes= 129 maxP=  29215 maxR=  138.0
+(2, 7, 6, 6)       SRSRSRSRSSRSRSRSRSSRSRSRSRSSSR closed= 49.1% to=183856 classes= 168 maxP=  95650 maxR=  216.2
+(2, 7, 6, 7)       SRSRSRSRSSRSRSRSRSSRSRSRSRSRSSSR closed= 71.3% to=     0 classes= 315 maxP=   9705 maxR=  219.9
+(2, 7, 6, 8)       SRSRSRSRSSRSRSRSRSSRSRSRSRSRSRSSSR closed= 81.9% to=     0 classes= 202 maxP=  20050 maxR=  142.3
+(2, 7, 7, 3)       SRSRSRSRSSRSRSRSRSRSSRSSSR   closed= 74.8% to=     0 classes= 269 maxP=  36665 maxR=  160.4
+(2, 7, 7, 4)       SRSRSRSRSSRSRSRSRSRSSRSRSSSR closed= 53.4% to= 38508 classes= 269 maxP=  49685 maxR=  133.3
+(2, 7, 7, 5)       SRSRSRSRSSRSRSRSRSRSSRSRSRSSSR closed= 84.4% to=     0 classes= 249 maxP=   9220 maxR=  150.0
+(2, 7, 7, 6)       SRSRSRSRSSRSRSRSRSRSSRSRSRSRSSSR closed= 65.5% to=  5925 classes= 197 maxP=  49280 maxR=  150.6
+(2, 7, 7, 7)       SRSRSRSRSSRSRSRSRSRSSRSRSRSRSRSSSR closed= 88.0% to=     0 classes= 123 maxP=   9335 maxR=  125.9
+(2, 7, 7, 8)       SRSRSRSRSSRSRSRSRSRSSRSRSRSRSRSRSSSR closed= 41.3% to=     0 classes=  83 maxP=   8585 maxR=  128.6
+(2, 7, 8, 3)       SRSRSRSRSSRSRSRSRSRSRSSRSSSR closed= 30.0% to=     0 classes= 121 maxP=  39270 maxR=  229.4
+(2, 7, 8, 4)       SRSRSRSRSSRSRSRSRSRSRSSRSRSSSR closed= 58.8% to=  8081 classes=  97 maxP=  45740 maxR=  247.9
+(2, 7, 8, 5)       SRSRSRSRSSRSRSRSRSRSRSSRSRSRSSSR closed= 45.4% to=     0 classes=  74 maxP=  14900 maxR=  188.7
+(2, 7, 8, 6)       SRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSSSR closed= 68.6% to=     0 classes= 165 maxP=  47875 maxR=  217.7
+(2, 7, 8, 7)       SRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSSSR closed= 85.4% to=     0 classes= 269 maxP=  49594 maxR=  416.2
+(2, 7, 8, 8)       SRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSRSSSR closed= 18.1% to=     0 classes= 129 maxP=  11920 maxR=  243.2
+(2, 8, 3, 3)       SRSRSRSRSRSSRSSRSSSR         closed= 79.2% to=     0 classes= 260 maxP=  18770 maxR=  138.3
+(2, 8, 3, 4)       SRSRSRSRSRSSRSSRSRSSSR       closed= 47.6% to=     0 classes= 213 maxP=  12635 maxR=  172.3
+(2, 8, 3, 5)       SRSRSRSRSRSSRSSRSRSRSSSR     closed= 48.6% to=     0 classes= 187 maxP=  58050 maxR=  249.1
+(2, 8, 3, 6)       SRSRSRSRSRSSRSSRSRSRSRSSSR   closed= 77.1% to=     0 classes= 269 maxP=  18105 maxR=  141.4
+(2, 8, 3, 7)       SRSRSRSRSRSSRSSRSRSRSRSRSSSR closed= 11.4% to=     0 classes=  22 maxP=  14905 maxR=  247.5
+(2, 8, 3, 8)       SRSRSRSRSRSSRSSRSRSRSRSRSRSSSR closed= 77.6% to=     0 classes= 276 maxP=  19890 maxR=  369.8
+(2, 8, 4, 3)       SRSRSRSRSRSSRSRSSRSSSR       closed= 18.2% to=     0 classes=  71 maxP=  48965 maxR=  215.2
+(2, 8, 4, 4)       SRSRSRSRSRSSRSRSSRSRSSSR     closed= 15.3% to=     0 classes=  25 maxP=   9119 maxR=  264.1
+(2, 8, 4, 5)       SRSRSRSRSRSSRSRSSRSRSRSSSR   closed= 61.1% to=     0 classes= 185 maxP=  46495 maxR=  169.1
+(2, 8, 4, 6)       SRSRSRSRSRSSRSRSSRSRSRSRSSSR closed= 26.8% to= 61817 classes=  69 maxP=  45095 maxR=  246.1
+(2, 8, 4, 7)       SRSRSRSRSRSSRSRSSRSRSRSRSRSSSR closed= 72.2% to=     0 classes= 198 maxP=  26561 maxR=  204.6
+(2, 8, 4, 8)       SRSRSRSRSRSSRSRSSRSRSRSRSRSRSSSR closed= 85.4% to=     0 classes= 290 maxP=   6293 maxR=  308.3
+(2, 8, 5, 3)       SRSRSRSRSRSSRSRSRSSRSSSR     closed= 69.8% to=     0 classes= 340 maxP=  35695 maxR=  179.8
+(2, 8, 5, 4)       SRSRSRSRSRSSRSRSRSSRSRSSSR   closed= 88.5% to=     0 classes= 227 maxP=  10715 maxR=  124.9
+(2, 8, 5, 5)       SRSRSRSRSRSSRSRSRSSRSRSRSSSR closed= 89.9% to=     0 classes= 190 maxP=  35555 maxR=  383.6
+(2, 8, 5, 6)       SRSRSRSRSRSSRSRSRSSRSRSRSRSSSR closed= 36.7% to=100310 classes= 167 maxP=  96710 maxR=  243.7
+(2, 8, 5, 7)       SRSRSRSRSRSSRSRSRSSRSRSRSRSRSSSR closed= 78.6% to=     0 classes= 236 maxP=  22890 maxR=  153.4
+(2, 8, 5, 8)       SRSRSRSRSRSSRSRSRSSRSRSRSRSRSRSSSR closed= 84.9% to=     0 classes= 201 maxP=  26645 maxR=  358.9
+(2, 8, 6, 3)       SRSRSRSRSRSSRSRSRSRSSRSSSR   closed= 20.3% to=135555 classes=  38 maxP=   8275 maxR=  102.3
+(2, 8, 6, 4)       SRSRSRSRSRSSRSRSRSRSSRSRSSSR closed= 84.5% to=     0 classes= 170 maxP=  16210 maxR=  137.2
+(2, 8, 6, 5)       SRSRSRSRSRSSRSRSRSRSSRSRSRSSSR closed= 48.6% to=     0 classes=  87 maxP=  11895 maxR=  143.7
+(2, 8, 6, 6)       SRSRSRSRSRSSRSRSRSRSSRSRSRSRSSSR closed= 86.1% to=     0 classes= 100 maxP=  18790 maxR=  133.7
+(2, 8, 6, 7)       SRSRSRSRSRSSRSRSRSRSSRSRSRSRSRSSSR closed= 81.9% to=     0 classes= 196 maxP=  20050 maxR=  142.3
+(2, 8, 6, 8)       SRSRSRSRSRSSRSRSRSRSSRSRSRSRSRSRSSSR closed= 80.6% to=     0 classes= 246 maxP=  11730 maxR=  381.7
+(2, 8, 7, 3)       SRSRSRSRSRSSRSRSRSRSRSSRSSSR closed= 40.0% to=     0 classes= 140 maxP=  41295 maxR=  257.1
+(2, 8, 7, 4)       SRSRSRSRSRSSRSRSRSRSRSSRSRSSSR closed= 28.3% to=     0 classes=  97 maxP=  22939 maxR=  250.4
+(2, 8, 7, 5)       SRSRSRSRSRSSRSRSRSRSRSSRSRSRSSSR closed= 44.5% to=116542 classes=  64 maxP=  68055 maxR=  191.8
+(2, 8, 7, 6)       SRSRSRSRSRSSRSRSRSRSRSSRSRSRSRSSSR closed= 80.4% to=     0 classes= 269 maxP=  27739 maxR=  376.7
+(2, 8, 7, 7)       SRSRSRSRSRSSRSRSRSRSRSSRSRSRSRSRSSSR closed= 41.3% to=     0 classes=  85 maxP=   8585 maxR=  128.6
+(2, 8, 7, 8)       SRSRSRSRSRSSRSRSRSRSRSSRSRSRSRSRSRSSSR closed= 81.7% to=     0 classes= 491 maxP=   9920 maxR=  130.3
+(2, 8, 8, 3)       SRSRSRSRSRSSRSRSRSRSRSRSSRSSSR closed= 68.6% to=     0 classes= 176 maxP=  31655 maxR=  136.4
+(2, 8, 8, 4)       SRSRSRSRSRSSRSRSRSRSRSRSSRSRSSSR closed= 21.6% to=     0 classes=  34 maxP=   7035 maxR=  260.8
+(2, 8, 8, 5)       SRSRSRSRSRSSRSRSRSRSRSRSSRSRSRSSSR closed= 83.3% to=     0 classes= 186 maxP=  19990 maxR=  142.0
+(2, 8, 8, 6)       SRSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSSSR closed= 82.4% to=     0 classes= 203 maxP=  14385 maxR=  129.9
+(2, 8, 8, 7)       SRSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSSSR closed= 18.2% to=     0 classes= 133 maxP=  11920 maxR=  243.2
+(2, 8, 8, 8)       SRSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSRSSSR closed= 73.6% to=     0 classes= 403 maxP=  11714 maxR=  419.0
+(3, 3, 3, 4)       SSRSSRSSRSRSSR               closed= 88.8% to=     0 classes= 205 maxP=   9379 maxR=  392.4
+(3, 3, 3, 5)       SSRSSRSSRSRSRSSR             closed= 98.3% to=     0 classes=  21 maxP=     75 maxR=    5.8
+(3, 3, 3, 6)       SSRSSRSSRSRSRSRSSR           closed= 98.8% to=     0 classes=  14 maxP=     40 maxR=    4.3
+(3, 3, 3, 7)       SSRSSRSSRSRSRSRSRSSR         closed= 98.7% to=     0 classes=  20 maxP=     90 maxR=    5.8
+(3, 3, 3, 8)       SSRSSRSSRSRSRSRSRSRSSR       closed= 88.0% to=     0 classes= 169 maxP=  41424 maxR=  392.9
+(3, 3, 4, 4)       SSRSSRSRSSRSRSSR             closed= 89.9% to=     0 classes= 193 maxP=   1729 maxR=   32.3
+(3, 3, 4, 5)       SSRSSRSRSSRSRSRSSR           closed= 62.0% to=     0 classes= 297 maxP=  26515 maxR=  215.9
+(3, 3, 4, 6)       SSRSSRSRSSRSRSRSRSSR         closed= 93.9% to=     0 classes= 253 maxP=   1834 maxR=   42.0
+(3, 3, 4, 7)       SSRSSRSRSSRSRSRSRSRSSR       closed= 77.9% to=     0 classes= 111 maxP=  35005 maxR=  161.3
+(3, 3, 4, 8)       SSRSSRSRSSRSRSRSRSRSRSSR     closed= 80.6% to=     0 classes= 103 maxP=  23900 maxR=  146.6
+(3, 3, 5, 4)       SSRSSRSRSRSSRSRSSR           closed= 61.8% to=     0 classes= 297 maxP=  26515 maxR=  215.9
+(3, 3, 5, 5)       SSRSSRSRSRSSRSRSRSSR         closed= 97.6% to=     0 classes=  17 maxP=    200 maxR=   12.4
+(3, 3, 5, 6)       SSRSSRSRSRSSRSRSRSRSSR       closed= 88.0% to=     0 classes= 139 maxP=  54440 maxR=  380.7
+(3, 3, 5, 7)       SSRSSRSRSRSSRSRSRSRSRSSR     closed= 83.2% to=     0 classes= 197 maxP=  17280 maxR=  159.8
+(3, 3, 5, 8)       SSRSSRSRSRSSRSRSRSRSRSRSSR   closed= 76.6% to=  5017 classes= 122 maxP=  50130 maxR=  129.7
+(3, 3, 6, 4)       SSRSSRSRSRSRSSRSRSSR         closed= 93.8% to=     0 classes= 252 maxP=   1834 maxR=   42.0
+(3, 3, 6, 5)       SSRSSRSRSRSRSSRSRSRSSR       closed= 87.9% to=     0 classes= 138 maxP=  54440 maxR=  380.7
+(3, 3, 6, 6)       SSRSSRSRSRSRSSRSRSRSRSSR     closed= 98.8% to=     0 classes=   7 maxP=     60 maxR=    4.3
+(3, 3, 6, 7)       SSRSSRSRSRSRSSRSRSRSRSRSSR   closed= 97.0% to=     0 classes=  75 maxP=    433 maxR=   14.7
+(3, 3, 6, 8)       SSRSSRSRSRSRSSRSRSRSRSRSRSSR closed= 91.7% to=     0 classes=  64 maxP=  12365 maxR=  128.9
+(3, 3, 7, 4)       SSRSSRSRSRSRSRSSRSRSSR       closed= 77.9% to=     0 classes= 115 maxP=  35005 maxR=  161.3
+(3, 3, 7, 5)       SSRSSRSRSRSRSRSSRSRSRSSR     closed= 83.3% to=     0 classes= 190 maxP=  17280 maxR=  159.8
+(3, 3, 7, 6)       SSRSSRSRSRSRSRSSRSRSRSRSSR   closed= 97.0% to=     0 classes=  69 maxP=    433 maxR=   14.7
+(3, 3, 7, 7)       SSRSSRSRSRSRSRSSRSRSRSRSRSSR closed= 38.9% to=  1059 classes= 184 maxP=   7810 maxR=   80.4
+(3, 3, 7, 8)       SSRSSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 88.8% to=     0 classes=  97 maxP=  12900 maxR=  127.5
+(3, 3, 8, 4)       SSRSSRSRSRSRSRSRSSRSRSSR     closed= 80.6% to=     0 classes= 106 maxP=  23900 maxR=  146.6
+(3, 3, 8, 5)       SSRSSRSRSRSRSRSRSSRSRSRSSR   closed= 76.6% to=  5240 classes= 123 maxP=  50130 maxR=  129.7
+(3, 3, 8, 6)       SSRSSRSRSRSRSRSRSSRSRSRSRSSR closed= 91.7% to=     0 classes=  64 maxP=  12365 maxR=  128.9
+(3, 3, 8, 7)       SSRSSRSRSRSRSRSRSSRSRSRSRSRSSR closed= 88.9% to=     0 classes= 100 maxP=  12900 maxR=  127.5
+(3, 3, 8, 8)       SSRSSRSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 57.5% to=     0 classes=  87 maxP=  50105 maxR=  210.4
+(3, 4, 3, 5)       SSRSRSSRSSRSRSRSSR           closed= 89.5% to=     0 classes= 199 maxP=  26230 maxR=  389.9
+(3, 4, 3, 6)       SSRSRSSRSSRSRSRSRSSR         closed= 92.2% to=     0 classes=  60 maxP=  13330 maxR=  124.1
+(3, 4, 3, 7)       SSRSRSSRSSRSRSRSRSRSSR       closed= 81.8% to=     0 classes= 168 maxP=  23192 maxR=  349.2
+(3, 4, 3, 8)       SSRSRSSRSSRSRSRSRSRSRSSR     closed= 89.4% to=     0 classes= 210 maxP=  28901 maxR=  374.3
+(3, 4, 4, 4)       SSRSRSSRSRSSRSRSSR           closed= 84.3% to=     0 classes= 367 maxP=   9288 maxR=  399.7
+(3, 4, 4, 5)       SSRSRSSRSRSSRSRSRSSR         closed= 80.9% to=     0 classes= 228 maxP=  17975 maxR=  132.8
+(3, 4, 4, 6)       SSRSRSSRSRSSRSRSRSRSSR       closed= 77.2% to=     0 classes= 241 maxP=  17875 maxR=  124.1
+(3, 4, 4, 7)       SSRSRSSRSRSSRSRSRSRSRSSR     closed= 67.1% to=     0 classes= 217 maxP=  42615 maxR=  244.3
+(3, 4, 4, 8)       SSRSRSSRSRSSRSRSRSRSRSRSSR   closed= 34.6% to=     0 classes= 141 maxP=  20970 maxR=  150.6
+(3, 4, 5, 4)       SSRSRSSRSRSRSSRSRSSR         closed= 86.5% to=     0 classes= 110 maxP=   9860 maxR=  126.0
+(3, 4, 5, 5)       SSRSRSSRSRSRSSRSRSRSSR       closed= 87.3% to=     0 classes=  45 maxP=  24320 maxR=  126.7
+(3, 4, 5, 6)       SSRSRSSRSRSRSSRSRSRSRSSR     closed= 47.9% to=     0 classes=  97 maxP=  12265 maxR=  289.4
+(3, 4, 5, 7)       SSRSRSSRSRSRSSRSRSRSRSRSSR   closed= 84.1% to=     0 classes= 135 maxP=   9230 maxR=  128.8
+(3, 4, 5, 8)       SSRSRSSRSRSRSSRSRSRSRSRSRSSR closed= 85.2% to=     0 classes= 147 maxP=  19835 maxR=  133.4
+(3, 4, 6, 4)       SSRSRSSRSRSRSRSSRSRSSR       closed= 92.4% to=     0 classes=  85 maxP=   8070 maxR=  125.8
+(3, 4, 6, 5)       SSRSRSSRSRSRSRSSRSRSRSSR     closed= 94.7% to=     0 classes=  55 maxP=   8375 maxR=  124.1
+(3, 4, 6, 6)       SSRSRSSRSRSRSRSSRSRSRSRSSR   closed= 88.8% to=     0 classes= 167 maxP=   8090 maxR=  144.2
+(3, 4, 6, 7)       SSRSRSSRSRSRSRSSRSRSRSRSRSSR closed= 89.8% to=     0 classes= 146 maxP=  18730 maxR=  124.1
+(3, 4, 6, 8)       SSRSRSSRSRSRSRSSRSRSRSRSRSRSSR closed= 83.0% to=     0 classes= 173 maxP=  13965 maxR=  200.3
+(3, 4, 7, 4)       SSRSRSSRSRSRSRSRSSRSRSSR     closed= 92.7% to=     0 classes=  89 maxP=   5415 maxR=  125.9
+(3, 4, 7, 5)       SSRSRSSRSRSRSRSRSSRSRSRSSR   closed= 72.4% to=     0 classes= 164 maxP=  35200 maxR=  140.5
+(3, 4, 7, 6)       SSRSRSSRSRSRSRSRSSRSRSRSRSSR closed= 84.0% to=     0 classes= 124 maxP=  63780 maxR=  388.2
+(3, 4, 7, 7)       SSRSRSSRSRSRSRSRSSRSRSRSRSRSSR closed= 95.0% to=     0 classes=  69 maxP=   1440 maxR=   26.3
+(3, 4, 7, 8)       SSRSRSSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 40.2% to=     0 classes=  89 maxP=  34285 maxR=  201.5
+(3, 4, 8, 4)       SSRSRSSRSRSRSRSRSRSSRSRSSR   closed= 84.3% to=     0 classes= 212 maxP=   8045 maxR=  166.9
+(3, 4, 8, 5)       SSRSRSSRSRSRSRSRSRSSRSRSRSSR closed= 84.1% to=     0 classes= 141 maxP=  13290 maxR=  132.3
+(3, 4, 8, 6)       SSRSRSSRSRSRSRSRSRSSRSRSRSRSSR closed= 85.2% to=     0 classes= 204 maxP=  15645 maxR=  131.2
+(3, 4, 8, 7)       SSRSRSSRSRSRSRSRSRSSRSRSRSRSRSSR closed= 15.3% to=     0 classes= 128 maxP=  18550 maxR=  162.5
+(3, 4, 8, 8)       SSRSRSSRSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 31.5% to=     0 classes=  77 maxP=  12583 maxR=  132.4
+(3, 5, 3, 6)       SSRSRSRSSRSSRSRSRSRSSR       closed= 93.9% to=     0 classes=  50 maxP=   7425 maxR=  124.1
+(3, 5, 3, 7)       SSRSRSRSSRSSRSRSRSRSRSSR     closed= 89.7% to=     0 classes= 210 maxP=  10225 maxR=  143.5
+(3, 5, 3, 8)       SSRSRSRSSRSSRSRSRSRSRSRSSR   closed= 85.1% to=     0 classes= 156 maxP=  11540 maxR=  126.4
+(3, 5, 4, 4)       SSRSRSRSSRSRSSRSRSSR         closed= 80.9% to=     0 classes= 228 maxP=  17975 maxR=  132.8
+(3, 5, 4, 5)       SSRSRSRSSRSRSSRSRSRSSR       closed= 91.4% to=     0 classes= 101 maxP=   8975 maxR=  127.3
+(3, 5, 4, 6)       SSRSRSRSSRSRSSRSRSRSRSSR     closed= 87.9% to=     0 classes= 121 maxP=   9445 maxR=  133.3
+(3, 5, 4, 7)       SSRSRSRSSRSRSSRSRSRSRSRSSR   closed= 90.6% to=     0 classes= 291 maxP=   7710 maxR=  124.0
+(3, 5, 4, 8)       SSRSRSRSSRSRSSRSRSRSRSRSRSSR closed= 47.8% to=     0 classes=  76 maxP=  13100 maxR=  284.8
+(3, 5, 5, 4)       SSRSRSRSSRSRSRSSRSRSSR       closed= 87.3% to=     0 classes=  45 maxP=  24320 maxR=  126.7
+(3, 5, 5, 5)       SSRSRSRSSRSRSRSSRSRSRSSR     closed= 93.4% to=     0 classes=  72 maxP=   5665 maxR=  127.0
+(3, 5, 5, 6)       SSRSRSRSSRSRSRSSRSRSRSRSSR   closed= 81.3% to=     0 classes= 138 maxP=  31845 maxR=  127.3
+(3, 5, 5, 7)       SSRSRSRSSRSRSRSSRSRSRSRSRSSR closed= 48.9% to=     0 classes=  88 maxP=  55528 maxR=  341.4
+(3, 5, 5, 8)       SSRSRSRSSRSRSRSSRSRSRSRSRSRSSR closed= 76.2% to=     0 classes= 118 maxP=  38655 maxR=  162.3
+(3, 5, 6, 4)       SSRSRSRSSRSRSRSRSSRSRSSR     closed= 94.7% to=     0 classes=  55 maxP=   8375 maxR=  124.1
+(3, 5, 6, 5)       SSRSRSRSSRSRSRSRSSRSRSRSSR   closed= 88.8% to=     0 classes= 135 maxP=   7990 maxR=  126.4
+(3, 5, 6, 6)       SSRSRSRSSRSRSRSRSSRSRSRSRSSR closed= 95.4% to=     0 classes=  46 maxP=   7715 maxR=  124.9
+(3, 5, 6, 7)       SSRSRSRSSRSRSRSRSSRSRSRSRSRSSR closed= 90.9% to=     0 classes=  60 maxP=  17525 maxR=  124.1
+(3, 5, 6, 8)       SSRSRSRSSRSRSRSRSSRSRSRSRSRSRSSR closed= 81.8% to=     0 classes= 143 maxP=  24530 maxR=  187.0
+(3, 5, 7, 4)       SSRSRSRSSRSRSRSRSRSSRSRSSR   closed= 72.3% to=     0 classes= 160 maxP=  35200 maxR=  140.5
+(3, 5, 7, 5)       SSRSRSRSSRSRSRSRSRSSRSRSRSSR closed= 83.5% to=     0 classes= 205 maxP=  10105 maxR=  428.7
+(3, 5, 7, 6)       SSRSRSRSSRSRSRSRSRSSRSRSRSRSSR closed= 96.7% to=     0 classes=  38 maxP=    490 maxR=   12.9
+(3, 5, 7, 7)       SSRSRSRSSRSRSRSRSRSSRSRSRSRSRSSR closed= 72.5% to=     0 classes= 150 maxP=  31780 maxR=  221.3
+(3, 5, 7, 8)       SSRSRSRSSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 69.3% to=     0 classes= 380 maxP=  31325 maxR=  173.4
+(3, 5, 8, 4)       SSRSRSRSSRSRSRSRSRSRSSRSRSSR closed= 84.2% to=     0 classes= 143 maxP=  13290 maxR=  132.3
+(3, 5, 8, 5)       SSRSRSRSSRSRSRSRSRSRSSRSRSRSSR closed= 86.5% to=     0 classes= 107 maxP=   7070 maxR=  125.5
+(3, 5, 8, 6)       SSRSRSRSSRSRSRSRSRSRSSRSRSRSRSSR closed= 75.6% to=     0 classes= 186 maxP=  46175 maxR=  389.8
+(3, 5, 8, 7)       SSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSSR closed= 12.3% to=     0 classes=  18 maxP=   1480 maxR=   37.9
+(3, 5, 8, 8)       SSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 83.7% to=     0 classes= 367 maxP=   8965 maxR=   93.8
+(3, 6, 3, 7)       SSRSRSRSRSSRSSRSRSRSRSRSSR   closed= 92.1% to=     0 classes= 168 maxP=  11047 maxR=  391.7
+(3, 6, 3, 8)       SSRSRSRSRSSRSSRSRSRSRSRSRSSR closed= 91.0% to=     0 classes=  83 maxP=   9420 maxR=  126.4
+(3, 6, 4, 4)       SSRSRSRSRSSRSRSSRSRSSR       closed= 76.8% to=     0 classes= 242 maxP=  17875 maxR=  124.1
+(3, 6, 4, 5)       SSRSRSRSRSSRSRSSRSRSRSSR     closed= 87.9% to=     0 classes= 120 maxP=   9445 maxR=  133.3
+(3, 6, 4, 6)       SSRSRSRSRSSRSRSSRSRSRSRSSR   closed= 92.1% to=     0 classes=  78 maxP=  13575 maxR=  124.1
+(3, 6, 4, 7)       SSRSRSRSRSSRSRSSRSRSRSRSRSSR closed= 52.7% to=     0 classes= 169 maxP=  24375 maxR=  149.4
+(3, 6, 4, 8)       SSRSRSRSRSSRSRSSRSRSRSRSRSRSSR closed= 46.7% to=     0 classes= 165 maxP=  14630 maxR=  152.8
+(3, 6, 5, 4)       SSRSRSRSRSSRSRSRSSRSRSSR     closed= 47.9% to=     0 classes=  93 maxP=  12265 maxR=  289.4
+(3, 6, 5, 5)       SSRSRSRSRSSRSRSRSSRSRSRSSR   closed= 81.3% to=     0 classes= 130 maxP=  31845 maxR=  127.3
+(3, 6, 5, 6)       SSRSRSRSRSSRSRSRSSRSRSRSRSSR closed= 87.5% to=     0 classes= 151 maxP=  19008 maxR=  387.6
+(3, 6, 5, 7)       SSRSRSRSRSSRSRSRSSRSRSRSRSRSSR closed= 29.9% to=     0 classes=  78 maxP=  28015 maxR=  306.0
+(3, 6, 5, 8)       SSRSRSRSRSSRSRSRSSRSRSRSRSRSRSSR closed= 62.9% to=     0 classes= 208 maxP=  41590 maxR=  251.3
+(3, 6, 6, 4)       SSRSRSRSRSSRSRSRSRSSRSRSSR   closed= 88.8% to=     0 classes= 170 maxP=   8090 maxR=  144.2
+(3, 6, 6, 5)       SSRSRSRSRSSRSRSRSRSSRSRSRSSR closed= 95.4% to=     0 classes=  48 maxP=   7715 maxR=  124.9
+(3, 6, 6, 6)       SSRSRSRSRSSRSRSRSRSSRSRSRSRSSR closed= 99.1% to=     0 classes=  15 maxP=     40 maxR=    4.3
+(3, 6, 6, 7)       SSRSRSRSRSSRSRSRSRSSRSRSRSRSRSSR closed= 88.3% to=     0 classes=  66 maxP=  14600 maxR=  132.6
+(3, 6, 6, 8)       SSRSRSRSRSSRSRSRSRSSRSRSRSRSRSRSSR closed= 91.6% to=     0 classes=  76 maxP=   9350 maxR=  124.9
+(3, 6, 7, 4)       SSRSRSRSRSSRSRSRSRSRSSRSRSSR closed= 83.9% to=     0 classes= 123 maxP=  63780 maxR=  388.2
+(3, 6, 7, 5)       SSRSRSRSRSSRSRSRSRSRSSRSRSRSSR closed= 96.7% to=     0 classes=  35 maxP=    490 maxR=   12.9
+(3, 6, 7, 6)       SSRSRSRSRSSRSRSRSRSRSSRSRSRSRSSR closed= 92.6% to=     0 classes=  52 maxP=  13105 maxR=  125.5
+(3, 6, 7, 7)       SSRSRSRSRSSRSRSRSRSRSSRSRSRSRSRSSR closed= 52.8% to=     0 classes=  97 maxP=  43086 maxR=  381.7
+(3, 6, 7, 8)       SSRSRSRSRSSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 67.5% to=     0 classes= 214 maxP=  97572 maxR=  388.4
+(3, 6, 8, 4)       SSRSRSRSRSSRSRSRSRSRSRSSRSRSSR closed= 85.2% to=     0 classes= 199 maxP=  15645 maxR=  131.2
+(3, 6, 8, 5)       SSRSRSRSRSSRSRSRSRSRSRSSRSRSRSSR closed= 75.5% to=     0 classes= 183 maxP=  46175 maxR=  389.8
+(3, 6, 8, 6)       SSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSSR closed= 87.7% to=     0 classes= 105 maxP=   8615 maxR=  128.4
+(3, 6, 8, 7)       SSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSSR closed= 46.4% to=   174 classes=  95 maxP=  39840 maxR=  216.8
+(3, 6, 8, 8)       SSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 62.7% to=     0 classes= 176 maxP=  71118 maxR=  415.2
+(3, 7, 3, 8)       SSRSRSRSRSRSSRSSRSRSRSRSRSRSSR closed= 87.9% to=     0 classes= 258 maxP=   5982 maxR=  391.1
+(3, 7, 4, 4)       SSRSRSRSRSRSSRSRSSRSRSSR     closed= 67.0% to=     0 classes= 216 maxP=  42615 maxR=  244.3
+(3, 7, 4, 5)       SSRSRSRSRSRSSRSRSSRSRSRSSR   closed= 90.6% to=     0 classes= 285 maxP=   7710 maxR=  124.0
+(3, 7, 4, 6)       SSRSRSRSRSRSSRSRSSRSRSRSRSSR closed= 52.9% to=     0 classes= 163 maxP=  24375 maxR=  149.4
+(3, 7, 4, 7)       SSRSRSRSRSRSSRSRSSRSRSRSRSRSSR closed= 74.2% to=     0 classes= 367 maxP=  15810 maxR=  192.9
+(3, 7, 4, 8)       SSRSRSRSRSRSSRSRSSRSRSRSRSRSRSSR closed= 44.9% to=   462 classes= 106 maxP=  53529 maxR=  329.1
+(3, 7, 5, 4)       SSRSRSRSRSRSSRSRSRSSRSRSSR   closed= 84.1% to=     0 classes= 136 maxP=   9230 maxR=  128.8
+(3, 7, 5, 5)       SSRSRSRSRSRSSRSRSRSSRSRSRSSR closed= 49.7% to=     0 classes=  88 maxP=  55528 maxR=  341.4
+(3, 7, 5, 6)       SSRSRSRSRSRSSRSRSRSSRSRSRSRSSR closed= 29.2% to=     0 classes=  80 maxP=   6158 maxR=  132.5
+(3, 7, 5, 7)       SSRSRSRSRSRSSRSRSRSSRSRSRSRSRSSR closed= 86.3% to=     0 classes= 164 maxP=   6940 maxR=  130.6
+(3, 7, 5, 8)       SSRSRSRSRSRSSRSRSRSSRSRSRSRSRSRSSR closed= 79.9% to=     0 classes= 131 maxP=  18975 maxR=  134.9
+(3, 7, 6, 4)       SSRSRSRSRSRSSRSRSRSRSSRSRSSR closed= 89.8% to=     0 classes= 143 maxP=  18730 maxR=  124.1
+(3, 7, 6, 5)       SSRSRSRSRSRSSRSRSRSRSSRSRSRSSR closed= 90.9% to=     0 classes=  58 maxP=  17525 maxR=  124.1
+(3, 7, 6, 6)       SSRSRSRSRSRSSRSRSRSRSSRSRSRSRSSR closed= 88.3% to=     0 classes=  65 maxP=  14600 maxR=  132.6
+(3, 7, 6, 7)       SSRSRSRSRSRSSRSRSRSRSSRSRSRSRSRSSR closed= 92.1% to=     0 classes=  74 maxP=   8500 maxR=  128.2
+(3, 7, 6, 8)       SSRSRSRSRSRSSRSRSRSRSSRSRSRSRSRSRSSR closed= 95.4% to=     0 classes=  70 maxP=   4830 maxR=  125.9
+(3, 7, 7, 4)       SSRSRSRSRSRSSRSRSRSRSRSSRSRSSR closed= 95.0% to=     0 classes=  68 maxP=   1440 maxR=   26.3
+(3, 7, 7, 5)       SSRSRSRSRSRSSRSRSRSRSRSSRSRSRSSR closed= 72.5% to=     0 classes= 154 maxP=  31780 maxR=  221.3
+(3, 7, 7, 6)       SSRSRSRSRSRSSRSRSRSRSRSSRSRSRSRSSR closed= 51.1% to=     0 classes=  93 maxP=  33030 maxR=  359.8
+(3, 7, 7, 7)       SSRSRSRSRSRSSRSRSRSRSRSSRSRSRSRSRSSR closed= 92.0% to=     0 classes= 107 maxP=   7095 maxR=  125.3
+(3, 7, 7, 8)       SSRSRSRSRSRSSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 34.2% to=  4082 classes=  98 maxP=  13205 maxR=  186.7
+(3, 7, 8, 4)       SSRSRSRSRSRSSRSRSRSRSRSRSSRSRSSR closed= 15.2% to=     0 classes= 123 maxP=  18550 maxR=  162.5
+(3, 7, 8, 5)       SSRSRSRSRSRSSRSRSRSRSRSRSSRSRSRSSR closed= 12.3% to=     0 classes=  18 maxP=   1480 maxR=   37.9
+(3, 7, 8, 6)       SSRSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSSR closed= 46.4% to=     0 classes=  92 maxP=  39840 maxR=  216.8
+(3, 7, 8, 7)       SSRSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSSR closed= 83.4% to=     0 classes= 179 maxP=   6620 maxR=  130.3
+(3, 7, 8, 8)       SSRSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 35.4% to=     0 classes= 116 maxP=  44055 maxR=  262.6
+(3, 8, 4, 4)       SSRSRSRSRSRSRSSRSRSSRSRSSR   closed= 34.6% to=     0 classes= 137 maxP=  20970 maxR=  150.6
+(3, 8, 4, 5)       SSRSRSRSRSRSRSSRSRSSRSRSRSSR closed= 48.6% to=     0 classes=  79 maxP=  19819 maxR=  341.7
+(3, 8, 4, 6)       SSRSRSRSRSRSRSSRSRSSRSRSRSRSSR closed= 46.6% to=     0 classes= 164 maxP=  14630 maxR=  152.8
+(3, 8, 4, 7)       SSRSRSRSRSRSRSSRSRSSRSRSRSRSRSSR closed= 45.8% to=  3109 classes= 107 maxP=  53529 maxR=  329.1
+(3, 8, 4, 8)       SSRSRSRSRSRSRSSRSRSSRSRSRSRSRSRSSR closed= 61.6% to=     0 classes= 217 maxP=  16460 maxR=  334.4
+(3, 8, 5, 4)       SSRSRSRSRSRSRSSRSRSRSSRSRSSR closed= 85.2% to=     0 classes= 144 maxP=  19835 maxR=  133.4
+(3, 8, 5, 5)       SSRSRSRSRSRSRSSRSRSRSSRSRSRSSR closed= 76.1% to=     0 classes= 121 maxP=  38655 maxR=  162.3
+(3, 8, 5, 6)       SSRSRSRSRSRSRSSRSRSRSSRSRSRSRSSR closed= 62.9% to=     0 classes= 214 maxP=  41590 maxR=  251.3
+(3, 8, 5, 7)       SSRSRSRSRSRSRSSRSRSRSSRSRSRSRSRSSR closed= 79.8% to=     0 classes= 126 maxP=  18975 maxR=  134.9
+(3, 8, 5, 8)       SSRSRSRSRSRSRSSRSRSRSSRSRSRSRSRSRSSR closed= 86.6% to=     0 classes= 142 maxP=   8615 maxR=  167.6
+(3, 8, 6, 4)       SSRSRSRSRSRSRSSRSRSRSRSSRSRSSR closed= 83.0% to=  6221 classes= 174 maxP=  13965 maxR=  200.3
+(3, 8, 6, 5)       SSRSRSRSRSRSRSSRSRSRSRSSRSRSRSSR closed= 81.6% to=     0 classes= 141 maxP=  24530 maxR=  187.0
+(3, 8, 6, 6)       SSRSRSRSRSRSRSSRSRSRSRSSRSRSRSRSSR closed= 91.6% to=     0 classes=  74 maxP=   9350 maxR=  124.9
+(3, 8, 6, 7)       SSRSRSRSRSRSRSSRSRSRSRSSRSRSRSRSRSSR closed= 95.4% to=     0 classes=  70 maxP=   4830 maxR=  125.9
+(3, 8, 6, 8)       SSRSRSRSRSRSRSSRSRSRSRSSRSRSRSRSRSRSSR closed= 88.0% to=     0 classes= 134 maxP=  37773 maxR=  392.2
+(3, 8, 7, 4)       SSRSRSRSRSRSRSSRSRSRSRSRSSRSRSSR closed= 41.2% to=     0 classes=  90 maxP=  34285 maxR=  259.4
+(3, 8, 7, 5)       SSRSRSRSRSRSRSSRSRSRSRSRSSRSRSRSSR closed= 69.4% to=     0 classes= 368 maxP=  31325 maxR=  173.4
+(3, 8, 7, 6)       SSRSRSRSRSRSRSSRSRSRSRSRSSRSRSRSRSSR closed= 66.6% to=     0 classes= 210 maxP=  97572 maxR=  388.4
+(3, 8, 7, 7)       SSRSRSRSRSRSRSSRSRSRSRSRSSRSRSRSRSRSSR closed= 34.2% to=     0 classes=  95 maxP=  13205 maxR=  186.7
+(3, 8, 7, 8)       SSRSRSRSRSRSRSSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 86.3% to=     0 classes= 150 maxP=   7005 maxR=  142.6
+(3, 8, 8, 4)       SSRSRSRSRSRSRSSRSRSRSRSRSRSSRSRSSR closed= 31.2% to=  5360 classes=  77 maxP=  12583 maxR=  132.4
+(3, 8, 8, 5)       SSRSRSRSRSRSRSSRSRSRSRSRSRSSRSRSRSSR closed= 83.6% to=     0 classes= 367 maxP=   8965 maxR=   93.8
+(3, 8, 8, 6)       SSRSRSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSSR closed= 62.6% to=     0 classes= 173 maxP=  71118 maxR=  415.2
+(3, 8, 8, 7)       SSRSRSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSSR closed= 35.3% to=     0 classes= 116 maxP=  44055 maxR=  262.6
+(3, 8, 8, 8)       SSRSRSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 81.1% to=     0 classes= 357 maxP=  19721 maxR=  369.6
+(4, 4, 4, 5)       SRSSRSRSSRSRSSRSRSRSSR       closed= 89.4% to=     0 classes=  86 maxP=   9420 maxR=  126.7
+(4, 4, 4, 6)       SRSSRSRSSRSRSSRSRSRSRSSR     closed= 84.9% to=     0 classes= 162 maxP=  35595 maxR=  377.4
+(4, 4, 4, 7)       SRSSRSRSSRSRSSRSRSRSRSRSSR   closed= 84.0% to=     0 classes= 367 maxP=   7830 maxR=  136.2
+(4, 4, 4, 8)       SRSSRSRSSRSRSSRSRSRSRSRSRSSR closed= 88.6% to=     0 classes= 122 maxP=  11810 maxR=  130.6
+(4, 4, 5, 5)       SRSSRSRSSRSRSRSSRSRSRSSR     closed= 84.3% to=     0 classes=  66 maxP=  14420 maxR=  127.0
+(4, 4, 5, 6)       SRSSRSRSSRSRSRSSRSRSRSRSSR   closed= 71.4% to=     0 classes= 316 maxP=  49588 maxR=  339.9
+(4, 4, 5, 7)       SRSSRSRSSRSRSRSSRSRSRSRSRSSR closed= 87.9% to=     0 classes= 183 maxP=  10215 maxR=  134.9
+(4, 4, 5, 8)       SRSSRSRSSRSRSRSSRSRSRSRSRSRSSR closed= 86.4% to=     0 classes=  73 maxP=  23025 maxR=  139.5
+(4, 4, 6, 5)       SRSSRSRSSRSRSRSRSSRSRSRSSR   closed= 71.4% to=     0 classes= 310 maxP=  49588 maxR=  339.9
+(4, 4, 6, 6)       SRSSRSRSSRSRSRSRSSRSRSRSRSSR closed= 98.0% to=     0 classes=  19 maxP=     77 maxR=    8.2
+(4, 4, 6, 7)       SRSSRSRSSRSRSRSRSSRSRSRSRSRSSR closed= 95.2% to=     0 classes=  75 maxP=    591 maxR=   24.9
+(4, 4, 6, 8)       SRSSRSRSSRSRSRSRSSRSRSRSRSRSRSSR closed= 40.7% to=     0 classes= 182 maxP=  19610 maxR=  121.6
+(4, 4, 7, 5)       SRSSRSRSSRSRSRSRSRSSRSRSRSSR closed= 88.0% to=     0 classes= 178 maxP=  10215 maxR=  134.9
+(4, 4, 7, 6)       SRSSRSRSSRSRSRSRSRSSRSRSRSRSSR closed= 95.2% to=     0 classes=  77 maxP=    591 maxR=   24.9
+(4, 4, 7, 7)       SRSSRSRSSRSRSRSRSRSSRSRSRSRSRSSR closed= 86.5% to=     0 classes= 131 maxP=   9530 maxR=  134.1
+(4, 4, 7, 8)       SRSSRSRSSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 24.1% to=     0 classes=  68 maxP=  20585 maxR=  179.7
+(4, 4, 8, 5)       SRSSRSRSSRSRSRSRSRSRSSRSRSRSSR closed= 86.4% to=     0 classes=  72 maxP=  23025 maxR=  139.5
+(4, 4, 8, 6)       SRSSRSRSSRSRSRSRSRSRSSRSRSRSRSSR closed= 40.9% to=     0 classes= 182 maxP=  19610 maxR=  121.6
+(4, 4, 8, 7)       SRSSRSRSSRSRSRSRSRSRSSRSRSRSRSRSSR closed= 24.1% to=     0 classes=  69 maxP=  20585 maxR=  179.7
+(4, 4, 8, 8)       SRSSRSRSSRSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 90.5% to=     0 classes=  72 maxP=   4555 maxR=  129.7
+(4, 5, 4, 6)       SRSSRSRSRSSRSRSSRSRSRSRSSR   closed= 88.1% to=     0 classes= 114 maxP=  16852 maxR=  391.2
+(4, 5, 4, 7)       SRSSRSRSRSSRSRSSRSRSRSRSRSSR closed= 86.9% to=     0 classes= 146 maxP=   7420 maxR=  127.3
+(4, 5, 4, 8)       SRSSRSRSRSSRSRSSRSRSRSRSRSRSSR closed= 94.5% to=     0 classes=  81 maxP=   6850 maxR=  125.8
+(4, 5, 5, 5)       SRSSRSRSRSSRSRSRSSRSRSRSSR   closed= 93.0% to=     0 classes=  74 maxP=  11495 maxR=  124.9
+(4, 5, 5, 6)       SRSSRSRSRSSRSRSRSSRSRSRSRSSR closed= 93.5% to=     0 classes=  49 maxP=   8135 maxR=  124.9
+(4, 5, 5, 7)       SRSSRSRSRSSRSRSRSSRSRSRSRSRSSR closed= 70.7% to=     0 classes= 156 maxP=  27905 maxR=  157.3
+(4, 5, 5, 8)       SRSSRSRSRSSRSRSRSSRSRSRSRSRSRSSR closed= 79.9% to=     0 classes= 344 maxP=  28555 maxR=  151.8
+(4, 5, 6, 5)       SRSSRSRSRSSRSRSRSRSSRSRSRSSR closed= 89.9% to=     0 classes= 117 maxP=  22986 maxR=  369.2
+(4, 5, 6, 6)       SRSSRSRSRSSRSRSRSRSSRSRSRSRSSR closed= 90.6% to=     0 classes=  46 maxP=  12390 maxR=  124.9
+(4, 5, 6, 7)       SRSSRSRSRSSRSRSRSRSSRSRSRSRSRSSR closed= 63.2% to=     0 classes= 137 maxP=  54188 maxR=  337.6
+(4, 5, 6, 8)       SRSSRSRSRSSRSRSRSRSSRSRSRSRSRSRSSR closed= 48.2% to=  6028 classes= 253 maxP=  23515 maxR=  130.1
+(4, 5, 7, 5)       SRSSRSRSRSSRSRSRSRSRSSRSRSRSSR closed= 88.8% to=     0 classes=  74 maxP=  18070 maxR=  125.3
+(4, 5, 7, 6)       SRSSRSRSRSSRSRSRSRSRSSRSRSRSRSSR closed= 33.2% to=     0 classes=  42 maxP=   4185 maxR=  125.5
+(4, 5, 7, 7)       SRSSRSRSRSSRSRSRSRSRSSRSRSRSRSRSSR closed= 46.5% to=     0 classes= 160 maxP=  80120 maxR=  255.6
+(4, 5, 7, 8)       SRSSRSRSRSSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 81.9% to=     0 classes= 121 maxP=  24025 maxR=  133.9
+(4, 5, 8, 5)       SRSSRSRSRSSRSRSRSRSRSRSSRSRSRSSR closed= 87.6% to=     0 classes= 126 maxP=  47974 maxR=  387.0
+(4, 5, 8, 6)       SRSSRSRSRSSRSRSRSRSRSRSSRSRSRSRSSR closed= 94.2% to=     0 classes= 212 maxP=    483 maxR=   31.0
+(4, 5, 8, 7)       SRSSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSSR closed= 45.9% to= 39377 classes= 132 maxP=  70140 maxR=  223.9
+(4, 5, 8, 8)       SRSSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 96.6% to=     0 classes=  37 maxP=    247 maxR=   12.6
+(4, 6, 4, 7)       SRSSRSRSRSRSSRSRSSRSRSRSRSRSSR closed= 91.2% to=     0 classes= 116 maxP=   5685 maxR=  131.2
+(4, 6, 4, 8)       SRSSRSRSRSRSSRSRSSRSRSRSRSRSRSSR closed= 87.1% to=     0 classes= 122 maxP=  11960 maxR=  133.5
+(4, 6, 5, 5)       SRSSRSRSRSRSSRSRSRSSRSRSRSSR closed= 93.5% to=     0 classes=  49 maxP=   8135 maxR=  124.9
+(4, 6, 5, 6)       SRSSRSRSRSRSSRSRSRSSRSRSRSRSSR closed= 91.0% to=     0 classes=  69 maxP=   5595 maxR=  124.1
+(4, 6, 5, 7)       SRSSRSRSRSRSSRSRSRSSRSRSRSRSRSSR closed= 87.1% to=     0 classes= 158 maxP=  17400 maxR=  141.8
+(4, 6, 5, 8)       SRSSRSRSRSRSSRSRSRSSRSRSRSRSRSRSSR closed= 96.9% to=     0 classes=  25 maxP=    395 maxR=   11.9
+(4, 6, 6, 5)       SRSSRSRSRSRSSRSRSRSRSSRSRSRSSR closed= 90.6% to=     0 classes=  46 maxP=  12390 maxR=  124.9
+(4, 6, 6, 6)       SRSSRSRSRSRSSRSRSRSRSSRSRSRSRSSR closed= 90.7% to=     0 classes=  60 maxP=   6420 maxR=  126.7
+(4, 6, 6, 7)       SRSSRSRSRSRSSRSRSRSRSSRSRSRSRSRSSR closed= 86.7% to=     0 classes= 213 maxP=  15065 maxR=  169.6
+(4, 6, 6, 8)       SRSSRSRSRSRSSRSRSRSRSSRSRSRSRSRSRSSR closed= 90.9% to=     0 classes=  52 maxP=  15800 maxR=  128.2
+(4, 6, 7, 5)       SRSSRSRSRSRSSRSRSRSRSRSSRSRSRSSR closed= 33.2% to=     0 classes=  43 maxP=   4185 maxR=  125.5
+(4, 6, 7, 6)       SRSSRSRSRSRSSRSRSRSRSRSSRSRSRSRSSR closed= 91.0% to=     0 classes=  59 maxP=   7910 maxR=  124.9
+(4, 6, 7, 7)       SRSSRSRSRSRSSRSRSRSRSRSSRSRSRSRSRSSR closed= 90.0% to=     0 classes=  75 maxP=  11455 maxR=  127.3
+(4, 6, 7, 8)       SRSSRSRSRSRSSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 41.9% to=     0 classes= 179 maxP=  18835 maxR=  190.3
+(4, 6, 8, 5)       SRSSRSRSRSRSSRSRSRSRSRSRSSRSRSRSSR closed= 94.1% to=     0 classes= 205 maxP=    483 maxR=   31.0
+(4, 6, 8, 6)       SRSSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSSR closed= 96.0% to=     0 classes=  56 maxP=   4020 maxR=  124.1
+(4, 6, 8, 7)       SRSSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSSR closed= 86.9% to=     0 classes= 388 maxP=  14060 maxR=  128.4
+(4, 6, 8, 8)       SRSSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 37.1% to= 12741 classes= 117 maxP=   8195 maxR=  137.4
+(4, 7, 4, 8)       SRSSRSRSRSRSRSSRSRSSRSRSRSRSRSRSSR closed= 87.8% to=     0 classes=  90 maxP=  10625 maxR=  127.3
+(4, 7, 5, 5)       SRSSRSRSRSRSRSSRSRSRSSRSRSRSSR closed= 70.7% to=     0 classes= 150 maxP=  27905 maxR=  157.3
+(4, 7, 5, 6)       SRSSRSRSRSRSRSSRSRSRSSRSRSRSRSSR closed= 87.1% to=     0 classes= 161 maxP=  17400 maxR=  141.8
+(4, 7, 5, 7)       SRSSRSRSRSRSRSSRSRSRSSRSRSRSRSRSSR closed= 88.6% to=     0 classes= 133 maxP=   7685 maxR=  127.3
+(4, 7, 5, 8)       SRSSRSRSRSRSRSSRSRSRSSRSRSRSRSRSRSSR closed= 57.9% to=     0 classes= 133 maxP=   7815 maxR=  124.7
+(4, 7, 6, 5)       SRSSRSRSRSRSRSSRSRSRSRSSRSRSRSSR closed= 63.3% to=     0 classes= 135 maxP=  54188 maxR=  337.6
+(4, 7, 6, 6)       SRSSRSRSRSRSRSSRSRSRSRSSRSRSRSRSSR closed= 86.8% to=     0 classes= 214 maxP=  15065 maxR=  169.6
+(4, 7, 6, 7)       SRSSRSRSRSRSRSSRSRSRSRSSRSRSRSRSRSSR closed= 85.5% to=     0 classes= 158 maxP=   8375 maxR=  129.0
+(4, 7, 6, 8)       SRSSRSRSRSRSRSSRSRSRSRSSRSRSRSRSRSRSSR closed= 86.7% to=     0 classes= 153 maxP=  16075 maxR=  135.9
+(4, 7, 7, 5)       SRSSRSRSRSRSRSSRSRSRSRSRSSRSRSRSSR closed= 46.4% to=     0 classes= 162 maxP=  80120 maxR=  255.6
+(4, 7, 7, 6)       SRSSRSRSRSRSRSSRSRSRSRSRSSRSRSRSRSSR closed= 89.9% to=     0 classes=  77 maxP=  11455 maxR=  127.3
+(4, 7, 7, 7)       SRSSRSRSRSRSRSSRSRSRSRSRSSRSRSRSRSRSSR closed= 78.8% to=     0 classes= 249 maxP=  48890 maxR=  377.1
+(4, 7, 7, 8)       SRSSRSRSRSRSRSSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 35.5% to=     0 classes= 184 maxP=  35180 maxR=  240.8
+(4, 7, 8, 5)       SRSSRSRSRSRSRSSRSRSRSRSRSRSSRSRSRSSR closed= 45.8% to= 38354 classes= 135 maxP=  70140 maxR=  223.9
+(4, 7, 8, 6)       SRSSRSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSSR closed= 87.0% to=     0 classes= 377 maxP=  14060 maxR=  128.4
+(4, 7, 8, 7)       SRSSRSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSSR closed= 79.7% to=     0 classes= 477 maxP=  19608 maxR=  432.9
+(4, 7, 8, 8)       SRSSRSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 43.4% to=     0 classes= 115 maxP=  52930 maxR=  218.4
+(4, 8, 5, 5)       SRSSRSRSRSRSRSRSSRSRSRSSRSRSRSSR closed= 79.8% to=     0 classes= 352 maxP=  28555 maxR=  151.8
+(4, 8, 5, 6)       SRSSRSRSRSRSRSRSSRSRSRSSRSRSRSRSSR closed= 96.9% to=     0 classes=  25 maxP=    395 maxR=   11.9
+(4, 8, 5, 7)       SRSSRSRSRSRSRSRSSRSRSRSSRSRSRSRSRSSR closed= 58.1% to=     0 classes= 132 maxP=   7815 maxR=  124.7
+(4, 8, 5, 8)       SRSSRSRSRSRSRSRSSRSRSRSSRSRSRSRSRSRSSR closed= 75.7% to=     0 classes= 309 maxP=  29651 maxR=  375.1
+(4, 8, 6, 5)       SRSSRSRSRSRSRSRSSRSRSRSRSSRSRSRSSR closed= 48.1% to=  5064 classes= 244 maxP=  23515 maxR=  130.1
+(4, 8, 6, 6)       SRSSRSRSRSRSRSRSSRSRSRSRSSRSRSRSRSSR closed= 90.9% to=     0 classes=  52 maxP=  15800 maxR=  128.2
+(4, 8, 6, 7)       SRSSRSRSRSRSRSRSSRSRSRSRSSRSRSRSRSRSSR closed= 86.9% to=     0 classes= 147 maxP=  16075 maxR=  135.9
+(4, 8, 6, 8)       SRSSRSRSRSRSRSRSSRSRSRSRSSRSRSRSRSRSRSSR closed= 82.7% to=     0 classes= 356 maxP=   8070 maxR=  130.5
+(4, 8, 7, 5)       SRSSRSRSRSRSRSRSSRSRSRSRSRSSRSRSRSSR closed= 81.9% to=     0 classes= 120 maxP=  24025 maxR=  133.9
+(4, 8, 7, 6)       SRSSRSRSRSRSRSRSSRSRSRSRSRSSRSRSRSRSSR closed= 42.2% to=     0 classes= 177 maxP=  18835 maxR=  190.3
+(4, 8, 7, 7)       SRSSRSRSRSRSRSRSSRSRSRSRSRSSRSRSRSRSRSSR closed= 34.1% to=     0 classes= 178 maxP=  35180 maxR=  240.8
+(4, 8, 7, 8)       SRSSRSRSRSRSRSRSSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 82.7% to=     0 classes= 219 maxP=  27720 maxR=  389.4
+(4, 8, 8, 5)       SRSSRSRSRSRSRSRSSRSRSRSRSRSRSSRSRSRSSR closed= 96.6% to=     0 classes=  35 maxP=    247 maxR=   12.6
+(4, 8, 8, 6)       SRSSRSRSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSSR closed= 36.9% to=     0 classes= 107 maxP=   8195 maxR=  137.4
+(4, 8, 8, 7)       SRSSRSRSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSSR closed= 43.4% to=     0 classes= 107 maxP=  52930 maxR=  218.4
+(4, 8, 8, 8)       SRSSRSRSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 82.9% to=     0 classes= 157 maxP=  11015 maxR=  128.2
+(5, 5, 5, 6)       SRSRSSRSRSRSSRSRSRSSRSRSRSRSSR closed= 90.1% to=     0 classes=  81 maxP=   9855 maxR=  127.0
+(5, 5, 5, 7)       SRSRSSRSRSRSSRSRSRSSRSRSRSRSRSSR closed= 88.6% to=     0 classes= 172 maxP=  11885 maxR=  414.4
+(5, 5, 5, 8)       SRSRSSRSRSRSSRSRSRSSRSRSRSRSRSRSSR closed= 89.2% to=     0 classes=  76 maxP=   9965 maxR=  125.3
+(5, 5, 6, 6)       SRSRSSRSRSRSSRSRSRSRSSRSRSRSRSSR closed= 93.3% to=     0 classes=  84 maxP=    990 maxR=   22.0
+(5, 5, 6, 7)       SRSRSSRSRSRSSRSRSRSRSSRSRSRSRSRSSR closed= 86.1% to=     0 classes= 201 maxP=  34648 maxR=  370.9
+(5, 5, 6, 8)       SRSRSSRSRSRSSRSRSRSRSSRSRSRSRSRSRSSR closed= 85.3% to=     0 classes= 274 maxP=   8890 maxR=  124.9
+(5, 5, 7, 6)       SRSRSSRSRSRSSRSRSRSRSRSSRSRSRSRSSR closed= 86.1% to=     0 classes= 200 maxP=  34648 maxR=  370.9
+(5, 5, 7, 7)       SRSRSSRSRSRSSRSRSRSRSRSSRSRSRSRSRSSR closed= 87.7% to=     0 classes=  83 maxP=  12380 maxR=  122.2
+(5, 5, 7, 8)       SRSRSSRSRSRSSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 34.2% to=     0 classes= 123 maxP=  16415 maxR=  172.9
+(5, 5, 8, 6)       SRSRSSRSRSRSSRSRSRSRSRSRSSRSRSRSRSSR closed= 85.2% to=     0 classes= 279 maxP=   8890 maxR=  124.9
+(5, 5, 8, 7)       SRSRSSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSSR closed= 34.2% to=     0 classes= 123 maxP=  16415 maxR=  172.9
+(5, 5, 8, 8)       SRSRSSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 90.7% to=     0 classes=  38 maxP=   6800 maxR=  125.3
+(5, 6, 5, 7)       SRSRSSRSRSRSRSSRSRSRSSRSRSRSRSRSSR closed= 90.6% to=     0 classes= 138 maxP=   7435 maxR=  127.0
+(5, 6, 5, 8)       SRSRSSRSRSRSRSSRSRSRSSRSRSRSRSRSRSSR closed= 87.6% to=     0 classes= 109 maxP=  17160 maxR=  127.0
+(5, 6, 6, 6)       SRSRSSRSRSRSRSSRSRSRSRSSRSRSRSRSSR closed= 90.8% to=     0 classes=  69 maxP=  14555 maxR=  127.3
+(5, 6, 6, 7)       SRSRSSRSRSRSRSSRSRSRSRSSRSRSRSRSRSSR closed= 87.6% to=     0 classes=  65 maxP=  27260 maxR=  124.9
+(5, 6, 6, 8)       SRSRSSRSRSRSRSSRSRSRSRSSRSRSRSRSRSRSSR closed= 89.4% to=     0 classes= 246 maxP=   5935 maxR=  124.0
+(5, 6, 7, 6)       SRSRSSRSRSRSRSSRSRSRSRSRSSRSRSRSRSSR closed= 89.8% to=     0 classes=  47 maxP=  17195 maxR=  125.5
+(5, 6, 7, 7)       SRSRSSRSRSRSRSSRSRSRSRSRSSRSRSRSRSRSSR closed= 73.9% to=     0 classes= 135 maxP=  34375 maxR=  246.9
+(5, 6, 7, 8)       SRSRSSRSRSRSRSSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 37.2% to=     0 classes=  85 maxP=  11235 maxR=  122.2
+(5, 6, 8, 6)       SRSRSSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSSR closed= 96.5% to=     0 classes=  49 maxP=   3845 maxR=  123.4
+(5, 6, 8, 7)       SRSRSSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSSR closed= 70.1% to=     0 classes= 168 maxP=  30825 maxR=  218.0
+(5, 6, 8, 8)       SRSRSSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 86.1% to=     0 classes=  87 maxP=  17130 maxR=  141.2
+(5, 7, 5, 8)       SRSRSSRSRSRSRSRSSRSRSRSSRSRSRSRSRSRSSR closed= 86.5% to=     0 classes= 157 maxP=  10265 maxR=  186.0
+(5, 7, 6, 6)       SRSRSSRSRSRSRSRSSRSRSRSRSSRSRSRSRSSR closed= 87.6% to=     0 classes=  63 maxP=  27260 maxR=  124.9
+(5, 7, 6, 7)       SRSRSSRSRSRSRSRSSRSRSRSRSSRSRSRSRSRSSR closed= 86.3% to=     0 classes= 213 maxP=   7763 maxR=  412.3
+(5, 7, 6, 8)       SRSRSSRSRSRSRSRSSRSRSRSRSSRSRSRSRSRSRSSR closed= 80.1% to=     0 classes= 184 maxP=  28450 maxR=  127.3
+(5, 7, 7, 6)       SRSRSSRSRSRSRSRSSRSRSRSRSRSSRSRSRSRSSR closed= 73.9% to=     0 classes= 130 maxP=  34375 maxR=  246.9
+(5, 7, 7, 7)       SRSRSSRSRSRSRSRSSRSRSRSRSRSSRSRSRSRSRSSR closed= 86.9% to=     0 classes= 176 maxP=  14244 maxR=  374.7
+(5, 7, 7, 8)       SRSRSSRSRSRSRSRSSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 81.8% to=     0 classes= 202 maxP=  14155 maxR=  151.3
+(5, 7, 8, 6)       SRSRSSRSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSSR closed= 70.3% to=     0 classes= 168 maxP=  30825 maxR=  218.0
+(5, 7, 8, 7)       SRSRSSRSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSSR closed= 80.9% to=     0 classes= 483 maxP=  20514 maxR=  439.4
+(5, 7, 8, 8)       SRSRSSRSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 75.3% to=     0 classes= 322 maxP=  26515 maxR=  132.3
+(5, 8, 6, 6)       SRSRSSRSRSRSRSRSRSSRSRSRSRSSRSRSRSRSSR closed= 89.3% to=     0 classes= 247 maxP=   5935 maxR=  124.0
+(5, 8, 6, 7)       SRSRSSRSRSRSRSRSRSSRSRSRSRSSRSRSRSRSRSSR closed= 80.2% to=     0 classes= 183 maxP=  28450 maxR=  127.3
+(5, 8, 6, 8)       SRSRSSRSRSRSRSRSRSSRSRSRSRSSRSRSRSRSRSRSSR closed= 92.4% to=     0 classes=  77 maxP=   5755 maxR=  129.8
+(5, 8, 7, 6)       SRSRSSRSRSRSRSRSRSSRSRSRSRSRSSRSRSRSRSSR closed= 37.5% to=     0 classes=  90 maxP=  11235 maxR=  122.2
+(5, 8, 7, 7)       SRSRSSRSRSRSRSRSRSSRSRSRSRSRSSRSRSRSRSRSSR closed= 81.7% to=     0 classes= 198 maxP=  14155 maxR=  151.3
+(5, 8, 7, 8)       SRSRSSRSRSRSRSRSRSSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 87.1% to=     0 classes= 168 maxP=  11250 maxR=  130.4
+(5, 8, 8, 6)       SRSRSSRSRSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSSR closed= 86.1% to=     0 classes=  86 maxP=  17130 maxR=  141.2
+(5, 8, 8, 7)       SRSRSSRSRSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSSR closed= 75.4% to=     0 classes= 309 maxP=  26515 maxR=  132.3
+(5, 8, 8, 8)       SRSRSSRSRSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 88.3% to=     0 classes= 104 maxP=  14095 maxR=  128.2
+(6, 6, 6, 7)       SRSRSRSSRSRSRSRSSRSRSRSRSSRSRSRSRSRSSR closed= 91.8% to=     0 classes=  62 maxP=   6295 maxR=  126.7
+(6, 6, 6, 8)       SRSRSRSSRSRSRSRSSRSRSRSRSSRSRSRSRSRSRSSR closed= 92.1% to=     0 classes=  55 maxP=  10670 maxR=  126.4
+(6, 6, 7, 7)       SRSRSRSSRSRSRSRSSRSRSRSRSRSSRSRSRSRSRSSR closed= 82.2% to=     0 classes=  59 maxP=  14445 maxR=  127.9
+(6, 6, 7, 8)       SRSRSRSSRSRSRSRSSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 90.2% to=     0 classes=  59 maxP=  19915 maxR=  128.9
+(6, 6, 8, 7)       SRSRSRSSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSSR closed= 90.2% to=     0 classes=  59 maxP=  19915 maxR=  128.9
+(6, 6, 8, 8)       SRSRSRSSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 92.3% to=     0 classes=  41 maxP=   5935 maxR=  123.4
+(6, 7, 6, 8)       SRSRSRSSRSRSRSRSRSSRSRSRSRSSRSRSRSRSRSRSSR closed= 92.0% to=     0 classes=  68 maxP=  12265 maxR=  125.5
+(6, 7, 7, 7)       SRSRSRSSRSRSRSRSRSSRSRSRSRSRSSRSRSRSRSRSSR closed= 85.8% to=     0 classes= 169 maxP=   9065 maxR=  127.3
+(6, 7, 7, 8)       SRSRSRSSRSRSRSRSRSSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 88.1% to=     0 classes=  95 maxP=  14235 maxR=  127.0
+(6, 7, 8, 7)       SRSRSRSSRSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSSR closed= 87.1% to=     0 classes= 183 maxP=  13830 maxR=  125.5
+(6, 7, 8, 8)       SRSRSRSSRSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 84.0% to=     0 classes= 366 maxP=   7036 maxR=   96.3
+(6, 8, 7, 7)       SRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSSRSRSRSRSRSSR closed= 88.1% to=     0 classes=  97 maxP=  14235 maxR=  127.0
+(6, 8, 7, 8)       SRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 81.4% to=     0 classes= 257 maxP=  35950 maxR=  404.4
+(6, 8, 8, 7)       SRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSSR closed= 84.3% to=     0 classes= 359 maxP=   7036 maxR=   96.3
+(6, 8, 8, 8)       SRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 86.1% to=     0 classes= 226 maxP=  18890 maxR=  392.8
+(7, 7, 7, 8)       SRSRSRSRSSRSRSRSRSRSSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 87.5% to=     0 classes= 124 maxP=   9240 maxR=  127.3
+(7, 7, 8, 8)       SRSRSRSRSSRSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 38.6% to=     0 classes=  96 maxP=   4350 maxR=  164.5
+(7, 8, 8, 8)       SRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSRSSRSRSRSRSRSRSSR closed= 83.9% to=     0 classes= 286 maxP=  10700 maxR=  142.9
+(2, 2, 2, 2, 3)    SSSSSSR                      closed= 87.7% to=     0 classes=  82 maxP=  18400 maxR=  135.5
+(2, 2, 2, 2, 4)    SRSSSSSSR                    closed= 55.1% to=     0 classes= 318 maxP=  21384 maxR=  354.2
+(2, 2, 2, 3, 3)    SSRSSSSSR                    closed= 75.5% to=     0 classes= 268 maxP=  17400 maxR=  262.6
+(2, 2, 2, 3, 4)    SSRSRSSSSSR                  closed=  9.4% to=     0 classes=  49 maxP=   4980 maxR=  117.0
+(2, 2, 2, 4, 3)    SRSSRSSSSSR                  closed=  9.5% to=     0 classes=  50 maxP=   4980 maxR=  117.0
+(2, 2, 2, 4, 4)    SRSSRSRSSSSSR                closed= 70.2% to=     0 classes= 392 maxP=  21920 maxR=  452.1
+(2, 2, 3, 2, 3)    SSSRSSSSR                    closed= 75.8% to=     0 classes= 271 maxP=  12670 maxR=  193.1
+(2, 2, 3, 2, 4)    SSSRSRSSSSR                  closed=  8.0% to=     0 classes=  15 maxP=  12110 maxR=  173.0
+(2, 2, 3, 3, 3)    SSRSSRSSSSR                  closed= 77.7% to=     0 classes= 192 maxP=  20440 maxR=  135.6
+(2, 2, 3, 3, 4)    SSRSSRSRSSSSR                closed= 15.6% to=     0 classes= 113 maxP=  16430 maxR=  261.3
+(2, 2, 3, 4, 3)    SSRSRSSRSSSSR                closed= 55.9% to=     0 classes= 310 maxP=   8942 maxR=  329.0
+(2, 2, 3, 4, 4)    SSRSRSSRSRSSSSR              closed= 12.3% to=     0 classes=  84 maxP=   3544 maxR=   91.2
+(2, 2, 4, 2, 3)    SRSSSRSSSSR                  closed=  8.0% to= 20175 classes=  15 maxP=  12110 maxR=  173.0
+(2, 2, 4, 2, 4)    SRSSSRSRSSSSR                closed= 55.3% to=     0 classes= 239 maxP=  24672 maxR=  445.9
+(2, 2, 4, 3, 3)    SRSSRSSRSSSSR                closed= 15.6% to=     0 classes= 116 maxP=  16430 maxR=  261.3
+(2, 2, 4, 3, 4)    SRSSRSSRSRSSSSR              closed= 65.0% to=     0 classes= 344 maxP=  20360 maxR=  458.5
+(2, 2, 4, 4, 3)    SRSSRSRSSRSSSSR              closed= 12.3% to=     0 classes=  85 maxP=   3544 maxR=   91.2
+(2, 2, 4, 4, 4)    SRSSRSRSSRSRSSSSR            closed= 55.7% to=     0 classes= 519 maxP=   9330 maxR=  378.7
+(2, 3, 2, 3, 3)    SSSRSSRSSSR                  closed= 79.7% to=     0 classes= 332 maxP=  23500 maxR=  433.7
+(2, 3, 2, 3, 4)    SSSRSSRSRSSSR                closed= 10.0% to=     0 classes=  11 maxP=   1220 maxR=   66.9
+(2, 3, 2, 4, 3)    SSSRSRSSRSSSR                closed= 10.0% to=     0 classes=  12 maxP=   1220 maxR=   66.9
+(2, 3, 2, 4, 4)    SSSRSRSSRSRSSSR              closed= 78.3% to=     0 classes= 168 maxP=  19070 maxR=  133.5
+(2, 3, 3, 2, 4)    SSRSSSRSRSSSR                closed= 84.0% to=     0 classes= 133 maxP=  12850 maxR=  133.5
+(2, 3, 3, 3, 3)    SSRSSRSSRSSSR                closed= 86.5% to=     0 classes= 121 maxP=  13950 maxR=  124.9
+(2, 3, 3, 3, 4)    SSRSSRSSRSRSSSR              closed= 10.3% to=     0 classes=  20 maxP=  15320 maxR=  103.8
+(2, 3, 3, 4, 3)    SSRSSRSRSSRSSSR              closed= 14.7% to=     0 classes=  52 maxP=   3040 maxR=   57.0
+(2, 3, 3, 4, 4)    SSRSSRSRSSRSRSSSR            closed=  3.6% to=     0 classes=   3 maxP=   3700 maxR=  116.4
+(2, 3, 4, 2, 4)    SSRSRSSSRSRSSSR              closed= 37.8% to=     0 classes= 170 maxP=  19170 maxR=  202.0
+(2, 3, 4, 3, 3)    SSRSRSSRSSRSSSR              closed= 14.7% to=     0 classes=  54 maxP=   3040 maxR=   57.0
+(2, 3, 4, 3, 4)    SSRSRSSRSSRSRSSSR            closed= 25.3% to= 16999 classes=  33 maxP=  51726 maxR=  238.0
+(2, 3, 4, 4, 3)    SSRSRSSRSRSSRSSSR            closed= 73.3% to=     0 classes= 230 maxP=  44564 maxR=  381.5
+(2, 3, 4, 4, 4)    SSRSRSSRSRSSRSRSSSR          closed= 24.8% to=     0 classes=  98 maxP=  10090 maxR=  125.6
+(2, 4, 2, 4, 3)    SRSSSRSRSSRSSSR              closed= 37.7% to=     0 classes= 167 maxP=  19170 maxR=  202.0
+(2, 4, 2, 4, 4)    SRSSSRSRSSRSRSSSR            closed= 76.2% to=     0 classes= 195 maxP=  26980 maxR=  400.4
+(2, 4, 3, 3, 3)    SRSSRSSRSSRSSSR              closed= 10.2% to=     0 classes=  20 maxP=  15320 maxR=  103.8
+(2, 4, 3, 3, 4)    SRSSRSSRSSRSRSSSR            closed= 76.7% to=     0 classes= 258 maxP=   8540 maxR=  184.9
+(2, 4, 3, 4, 3)    SRSSRSSRSRSSRSSSR            closed= 22.2% to= 34784 classes=  32 maxP=  51726 maxR=  238.0
+(2, 4, 3, 4, 4)    SRSSRSSRSRSSRSRSSSR          closed= 22.0% to=161120 classes=  35 maxP=  19980 maxR=  170.7
+(2, 4, 4, 3, 3)    SRSSRSRSSRSSRSSSR            closed=  3.6% to=     0 classes=   3 maxP=   3700 maxR=  116.4
+(2, 4, 4, 3, 4)    SRSSRSRSSRSSRSRSSSR          closed= 21.9% to=162042 classes=  34 maxP=  19980 maxR=  170.7
+(2, 4, 4, 4, 3)    SRSSRSRSSRSRSSRSSSR          closed= 24.8% to=     0 classes=  92 maxP=  10090 maxR=  125.6
+(2, 4, 4, 4, 4)    SRSSRSRSSRSRSSRSRSSSR        closed= 74.8% to=     0 classes= 354 maxP=  15530 maxR=  139.8
+(3, 3, 3, 3, 4)    SSRSSRSSRSSRSRSSR            closed= 87.6% to=     0 classes= 130 maxP=  11338 maxR=  413.9
+(3, 3, 3, 4, 4)    SSRSSRSSRSRSSRSRSSR          closed= 80.5% to=     0 classes= 224 maxP=  16030 maxR=  171.5
+(3, 3, 4, 3, 4)    SSRSSRSRSSRSSRSRSSR          closed= 85.1% to=     0 classes= 134 maxP=  12840 maxR=  131.2
+(3, 3, 4, 4, 4)    SSRSSRSRSSRSRSSRSRSSR        closed= 75.8% to=     0 classes= 323 maxP=  29516 maxR=  413.8
+(3, 4, 3, 4, 4)    SSRSRSSRSSRSRSSRSRSSR        closed= 56.1% to=     0 classes= 308 maxP=  22250 maxR=  373.3
+(3, 4, 4, 4, 4)    SSRSRSSRSRSSRSRSSRSRSSR      closed= 68.3% to=     0 classes= 447 maxP=  12820 maxR=  233.8
+(2, 2, 2, 2, 2, 3) SSSSSSSR                     closed= 80.8% to=     0 classes= 412 maxP=   8010 maxR=  138.9
+(2, 2, 2, 2, 2, 4) SRSSSSSSSR                   closed= 76.1% to=     0 classes= 234 maxP=  26110 maxR=  188.8
+(2, 2, 2, 2, 3, 3) SSRSSSSSSR                   closed= 14.8% to=     0 classes=  42 maxP=    692 maxR=   50.1
+(2, 2, 2, 2, 3, 4) SSRSRSSSSSSR                 closed= 32.2% to=149413 classes= 117 maxP=  87018 maxR=  390.9
+(2, 2, 2, 2, 4, 3) SRSSRSSSSSSR                 closed= 32.6% to= 49385 classes= 116 maxP=  87018 maxR=  390.9
+(2, 2, 2, 2, 4, 4) SRSSRSRSSSSSSR               closed=  3.3% to=     0 classes=  51 maxP=   1965 maxR=  246.1
+(2, 2, 2, 3, 2, 3) SSSRSSSSSR                   closed= 78.9% to=     0 classes= 384 maxP=  20353 maxR=  353.5
+(2, 2, 2, 3, 2, 4) SSSRSRSSSSSR                 closed= 31.6% to=     0 classes= 152 maxP=  11940 maxR=  133.2
+(2, 2, 2, 3, 3, 3) SSRSSRSSSSSR                 closed= 78.7% to=     0 classes= 338 maxP=  19445 maxR=  437.4
+(2, 2, 2, 3, 3, 4) SSRSSRSRSSSSSR               closed= 21.4% to=     0 classes= 112 maxP=  45410 maxR=  224.9
+(2, 2, 2, 3, 4, 3) SSRSRSSRSSSSSR               closed= 60.8% to=     0 classes= 596 maxP=  10144 maxR=  426.5
+(2, 2, 2, 3, 4, 4) SSRSRSSRSRSSSSSR             closed=  9.3% to=     0 classes=  32 maxP=  20185 maxR=  192.9
+(2, 2, 2, 4, 2, 3) SRSSSRSSSSSR                 closed= 31.6% to=     0 classes= 152 maxP=  11940 maxR=  133.2
+(2, 2, 2, 4, 2, 4) SRSSSRSRSSSSSR               closed= 77.4% to=     0 classes= 384 maxP=  25977 maxR=  369.0
+(2, 2, 2, 4, 3, 3) SRSSRSSRSSSSSR               closed= 24.4% to=     0 classes= 111 maxP=  91644 maxR=  385.9
+(2, 2, 2, 4, 3, 4) SRSSRSSRSRSSSSSR             closed= 78.3% to=     0 classes= 478 maxP=   8154 maxR=  389.6
+(2, 2, 2, 4, 4, 3) SRSSRSRSSRSSSSSR             closed=  9.3% to=     0 classes=  31 maxP=  20185 maxR=  192.9
+(2, 2, 2, 4, 4, 4) SRSSRSRSSRSRSSSSSR           closed= 56.1% to=     0 classes= 419 maxP=   9343 maxR=  390.4
+(2, 2, 3, 2, 2, 4) SSSSRSRSSSSR                 closed= 76.9% to=     0 classes= 325 maxP=   9695 maxR=  146.7
+(2, 2, 3, 2, 3, 3) SSSRSSRSSSSR                 closed= 43.0% to=     0 classes= 133 maxP=  23745 maxR=  247.4
+(2, 2, 3, 2, 3, 4) SSSRSSRSRSSSSR               closed= 18.4% to=     0 classes=  83 maxP=   2980 maxR=  210.2
+(2, 2, 3, 2, 4, 3) SSSRSRSSRSSSSR               closed= 12.4% to=     0 classes=  25 maxP=   2095 maxR=  120.1
+(2, 2, 3, 2, 4, 4) SSSRSRSSRSRSSSSR             closed= 27.3% to=     0 classes= 212 maxP=  14475 maxR=  151.0
+(2, 2, 3, 3, 2, 3) SSRSSSRSSSSR                 closed= 43.0% to=     0 classes= 135 maxP=  23745 maxR=  247.4
+(2, 2, 3, 3, 2, 4) SSRSSSRSRSSSSR               closed= 50.9% to=     0 classes= 168 maxP=  40300 maxR=  248.7
+(2, 2, 3, 3, 3, 3) SSRSSRSSRSSSSR               closed= 83.6% to=     0 classes= 198 maxP=   8725 maxR=  101.0
+(2, 2, 3, 3, 3, 4) SSRSSRSSRSRSSSSR             closed= 88.5% to=     0 classes= 353 maxP=   4560 maxR=   59.9
+(2, 2, 3, 3, 4, 3) SSRSSRSRSSRSSSSR             closed= 20.8% to=     0 classes=  73 maxP=  15650 maxR=  219.3
+(2, 2, 3, 3, 4, 4) SSRSSRSRSSRSRSSSSR           closed= 16.4% to=     0 classes=  85 maxP=  26635 maxR=  159.6
+(2, 2, 3, 4, 2, 3) SSRSRSSSRSSSSR               closed= 12.5% to=     0 classes=  26 maxP=   2095 maxR=  120.1
+(2, 2, 3, 4, 2, 4) SSRSRSSSRSRSSSSR             closed= 27.9% to=     0 classes=  95 maxP=   5080 maxR=  152.3
+(2, 2, 3, 4, 3, 3) SSRSRSSRSSRSSSSR             closed= 20.8% to=     0 classes=  72 maxP=  15650 maxR=  219.3
+(2, 2, 3, 4, 3, 4) SSRSRSSRSSRSRSSSSR           closed= 24.4% to=     0 classes= 108 maxP=  80775 maxR=  286.5
+(2, 2, 3, 4, 4, 3) SSRSRSSRSRSSRSSSSR           closed= 85.7% to=     0 classes= 365 maxP=   1667 maxR=   41.9
+(2, 2, 3, 4, 4, 4) SSRSRSSRSRSSRSRSSSSR         closed= 12.9% to=127149 classes=  81 maxP=  25550 maxR=  216.8
+(2, 2, 4, 2, 3, 3) SRSSSRSSRSSSSR               closed= 50.9% to=     0 classes= 175 maxP=  40300 maxR=  248.7
+(2, 2, 4, 2, 3, 4) SRSSSRSSRSRSSSSR             closed= 40.3% to= 26313 classes=  97 maxP=   8165 maxR=  107.0
+(2, 2, 4, 2, 4, 3) SRSSSRSRSSRSSSSR             closed= 27.9% to=     0 classes=  98 maxP=   5080 maxR=  152.3
+(2, 2, 4, 2, 4, 4) SRSSSRSRSSRSRSSSSR           closed= 37.0% to= 50046 classes=  54 maxP=  66130 maxR=  179.3
+(2, 2, 4, 3, 2, 3) SRSSRSSSRSSSSR               closed= 18.3% to=     0 classes=  77 maxP=   2980 maxR=  210.2
+(2, 2, 4, 3, 2, 4) SRSSRSSSRSRSSSSR             closed= 39.7% to=     0 classes=  92 maxP=   8165 maxR=  107.0
+(2, 2, 4, 3, 3, 3) SRSSRSSRSSRSSSSR             closed= 88.6% to=     0 classes= 361 maxP=   4560 maxR=   59.9
+(2, 2, 4, 3, 3, 4) SRSSRSSRSSRSRSSSSR           closed= 21.7% to=     0 classes= 114 maxP=  42864 maxR=  322.6
+(2, 2, 4, 3, 4, 3) SRSSRSSRSRSSRSSSSR           closed= 25.2% to=     0 classes= 109 maxP=  80775 maxR=  286.5
+(2, 2, 4, 3, 4, 4) SRSSRSSRSRSSRSRSSSSR         closed= 19.8% to=     0 classes= 100 maxP=  13500 maxR=  221.0
+(2, 2, 4, 4, 2, 3) SRSSRSRSSSRSSSSR             closed= 27.4% to=     0 classes= 207 maxP=  14475 maxR=  151.0
+(2, 2, 4, 4, 2, 4) SRSSRSRSSSRSRSSSSR           closed= 37.3% to= 48241 classes=  56 maxP=  66130 maxR=  179.3
+(2, 2, 4, 4, 3, 3) SRSSRSRSSRSSRSSSSR           closed= 16.2% to= 11972 classes=  83 maxP=  26635 maxR=  159.6
+(2, 2, 4, 4, 3, 4) SRSSRSRSSRSSRSRSSSSR         closed= 19.8% to=     0 classes=  99 maxP=  13500 maxR=  221.0
+(2, 2, 4, 4, 4, 3) SRSSRSRSSRSRSSRSSSSR         closed= 12.9% to= 29377 classes=  86 maxP=  25550 maxR=  216.8
+(2, 2, 4, 4, 4, 4) SRSSRSRSSRSRSSRSRSSSSR       closed= 18.1% to=     0 classes= 193 maxP=  13450 maxR=  166.2
+(2, 3, 2, 3, 2, 4) SSSRSSSRSRSSSR               closed= 67.8% to=     0 classes= 461 maxP=  10375 maxR=  347.3
+(2, 3, 2, 3, 3, 3) SSSRSSRSSRSSSR               closed= 88.7% to=     0 classes= 165 maxP=   7815 maxR=  137.0
+(2, 3, 2, 3, 3, 4) SSSRSSRSSRSRSSSR             closed= 68.3% to=     0 classes= 299 maxP=  24582 maxR=  387.3
+(2, 3, 2, 3, 4, 3) SSSRSSRSRSSRSSSR             closed= 83.4% to=     0 classes= 215 maxP=  13672 maxR=  379.3
+(2, 3, 2, 3, 4, 4) SSSRSSRSRSSRSRSSSR           closed= 44.8% to=     0 classes= 127 maxP=  44685 maxR=  179.9
+(2, 3, 2, 4, 2, 4) SSSRSRSSSRSRSSSR             closed= 84.8% to=     0 classes= 229 maxP=  24743 maxR=  390.5
+(2, 3, 2, 4, 3, 3) SSSRSRSSRSSRSSSR             closed= 68.3% to=     0 classes= 303 maxP=  24582 maxR=  387.3
+(2, 3, 2, 4, 3, 4) SSSRSRSSRSSRSRSSSR           closed= 72.8% to=     0 classes= 396 maxP=  11358 maxR=  347.4
+(2, 3, 2, 4, 4, 3) SSSRSRSSRSRSSRSSSR           closed= 44.9% to=     0 classes= 126 maxP=  44685 maxR=  179.9
+(2, 3, 2, 4, 4, 4) SSSRSRSSRSRSSRSRSSSR         closed= 79.7% to=     0 classes= 231 maxP=  14270 maxR=  134.3
+(2, 3, 3, 2, 3, 4) SSRSSSRSSRSRSSSR             closed= 44.0% to=     0 classes=  72 maxP=  11840 maxR=  253.1
+(2, 3, 3, 2, 4, 3) SSRSSSRSRSSRSSSR             closed= 44.0% to=     0 classes=  72 maxP=  11840 maxR=  253.1
+(2, 3, 3, 2, 4, 4) SSRSSSRSRSSRSRSSSR           closed= 52.5% to=     0 classes=  84 maxP=  17290 maxR=  171.9
+(2, 3, 3, 3, 2, 4) SSRSSRSSSRSRSSSR             closed= 87.3% to=     0 classes= 166 maxP=  23155 maxR=  385.1
+(2, 3, 3, 3, 3, 3) SSRSSRSSRSSRSSSR             closed= 93.7% to=     0 classes= 111 maxP=   6825 maxR=  124.1
+(2, 3, 3, 3, 3, 4) SSRSSRSSRSSRSRSSSR           closed= 52.4% to=     0 classes= 123 maxP=  58420 maxR=  222.4
+(2, 3, 3, 3, 4, 3) SSRSSRSSRSRSSRSSSR           closed= 95.1% to=     0 classes=  89 maxP=   3945 maxR=  125.8
+(2, 3, 3, 3, 4, 4) SSRSSRSSRSRSSRSRSSSR         closed= 34.1% to=140242 classes= 166 maxP=  38145 maxR=  173.8
+(2, 3, 3, 4, 2, 4) SSRSSRSRSSSRSRSSSR           closed= 42.5% to=     0 classes=  79 maxP=  24305 maxR=  246.2
+(2, 3, 3, 4, 3, 3) SSRSSRSRSSRSSRSSSR           closed= 79.3% to=     0 classes= 265 maxP=  14924 maxR=  449.6
+(2, 3, 3, 4, 3, 4) SSRSSRSRSSRSSRSRSSSR         closed= 29.9% to=     0 classes=  78 maxP=   7338 maxR=  178.0
+(2, 3, 3, 4, 4, 3) SSRSSRSRSSRSRSSRSSSR         closed= 38.1% to= 48289 classes= 124 maxP=  40500 maxR=  160.3
+(2, 3, 3, 4, 4, 4) SSRSSRSRSSRSRSSRSRSSSR       closed= 30.2% to=  2475 classes=  68 maxP=  15710 maxR=  209.6
+(2, 3, 4, 2, 4, 3) SSRSRSSSRSRSSRSSSR           closed= 87.0% to=     0 classes= 263 maxP=   9715 maxR=  134.9
+(2, 3, 4, 2, 4, 4) SSRSRSSSRSRSSRSRSSSR         closed=  9.3% to=     0 classes=  60 maxP=  21260 maxR=  199.6
+(2, 3, 4, 3, 2, 4) SSRSRSSRSSSRSRSSSR           closed= 71.9% to=     0 classes= 236 maxP=  22206 maxR=  423.9
+(2, 3, 4, 3, 3, 3) SSRSRSSRSSRSSRSSSR           closed= 95.1% to=     0 classes=  90 maxP=   3945 maxR=  125.8
+(2, 3, 4, 3, 3, 4) SSRSRSSRSSRSSRSRSSSR         closed= 27.0% to=     0 classes= 111 maxP=  21509 maxR=  314.6
+(2, 3, 4, 3, 4, 3) SSRSRSSRSSRSRSSRSSSR         closed= 83.7% to=     0 classes= 167 maxP=  24354 maxR=  354.4
+(2, 3, 4, 3, 4, 4) SSRSRSSRSSRSRSSRSRSSSR       closed= 28.3% to=     0 classes= 121 maxP=   3795 maxR=  173.8
+(2, 3, 4, 4, 2, 4) SSRSRSSRSRSSSRSRSSSR         closed= 11.5% to=     0 classes=  72 maxP=   9390 maxR=  157.6
+(2, 3, 4, 4, 3, 3) SSRSRSSRSRSSRSSRSSSR         closed= 38.9% to= 52557 classes= 122 maxP=  40500 maxR=  160.3
+(2, 3, 4, 4, 3, 4) SSRSRSSRSRSSRSSRSRSSSR       closed= 16.6% to=     0 classes=  93 maxP=  33995 maxR=  203.6
+(2, 3, 4, 4, 4, 3) SSRSRSSRSRSSRSRSSRSSSR       closed= 77.5% to=     0 classes= 403 maxP=   7785 maxR=  412.8
+(2, 3, 4, 4, 4, 4) SSRSRSSRSRSSRSRSSRSRSSSR     closed= 78.8% to=     0 classes= 447 maxP=  11970 maxR=  149.0
+(2, 4, 2, 4, 3, 3) SRSSSRSRSSRSSRSSSR           closed= 42.5% to=     0 classes=  79 maxP=  24305 maxR=  246.2
+(2, 4, 2, 4, 3, 4) SRSSSRSRSSRSSRSRSSSR         closed= 72.4% to=     0 classes= 414 maxP=  14540 maxR=  462.1
+(2, 4, 2, 4, 4, 3) SRSSSRSRSSRSRSSRSSSR         closed= 11.7% to=     0 classes=  68 maxP=   9390 maxR=  157.6
+(2, 4, 2, 4, 4, 4) SRSSSRSRSSRSRSSRSRSSSR       closed= 71.2% to=     0 classes= 376 maxP=  25620 maxR=  390.0
+(2, 4, 3, 2, 4, 4) SRSSRSSSRSRSSRSRSSSR         closed=  9.2% to=     0 classes=  62 maxP=  21260 maxR=  199.6
+(2, 4, 3, 3, 3, 3) SRSSRSSRSSRSSRSSSR           closed= 52.4% to=     0 classes= 122 maxP=  58420 maxR=  222.4
+(2, 4, 3, 3, 3, 4) SRSSRSSRSSRSSRSRSSSR         closed= 80.8% to=     0 classes= 305 maxP=  16513 maxR=  379.7
+(2, 4, 3, 3, 4, 3) SRSSRSSRSSRSRSSRSSSR         closed= 25.5% to=     0 classes= 106 maxP=  11540 maxR=  166.7
+(2, 4, 3, 3, 4, 4) SRSSRSSRSSRSRSSRSRSSSR       closed= 22.4% to=     0 classes=  82 maxP=  18980 maxR=  146.5
+(2, 4, 3, 4, 3, 3) SRSSRSSRSRSSRSSRSSSR         closed= 29.6% to=     0 classes=  80 maxP=   7338 maxR=  178.0
+(2, 4, 3, 4, 3, 4) SRSSRSSRSRSSRSSRSRSSSR       closed= 75.2% to=     0 classes= 393 maxP=  15388 maxR=  371.5
+(2, 4, 3, 4, 4, 3) SRSSRSSRSRSSRSRSSRSSSR       closed= 16.6% to=     0 classes=  96 maxP=  33995 maxR=  203.6
+(2, 4, 3, 4, 4, 4) SRSSRSSRSRSSRSRSSRSRSSSR     closed= 25.3% to=     0 classes=  85 maxP=  47770 maxR=  322.8
+(2, 4, 4, 3, 3, 3) SRSSRSRSSRSSRSSRSSSR         closed= 34.1% to= 36531 classes= 165 maxP=  38145 maxR=  173.8
+(2, 4, 4, 3, 3, 4) SRSSRSRSSRSSRSSRSRSSSR       closed= 22.3% to=     0 classes=  78 maxP=  18980 maxR=  146.5
+(2, 4, 4, 3, 4, 3) SRSSRSRSSRSSRSRSSRSSSR       closed= 28.3% to=     0 classes= 121 maxP=   3795 maxR=  173.8
+(2, 4, 4, 3, 4, 4) SRSSRSRSSRSSRSRSSRSRSSSR     closed= 75.8% to=     0 classes= 328 maxP=   6640 maxR=  411.6
+(2, 4, 4, 4, 3, 3) SRSSRSRSSRSRSSRSSRSSSR       closed= 30.2% to=  3969 classes=  70 maxP=  15710 maxR=  209.6
+(2, 4, 4, 4, 3, 4) SRSSRSRSSRSRSSRSSRSRSSSR     closed= 25.2% to=     0 classes=  82 maxP=  47770 maxR=  322.8
+(2, 4, 4, 4, 4, 3) SRSSRSRSSRSRSSRSRSSRSSSR     closed= 78.7% to=     0 classes= 436 maxP=  11970 maxR=  149.0
+(2, 4, 4, 4, 4, 4) SRSSRSRSSRSRSSRSRSSRSRSSSR   closed= 77.6% to=     0 classes= 385 maxP=  11952 maxR=  329.9
+(3, 3, 3, 3, 3, 4) SSRSSRSSRSSRSSRSRSSR         closed= 89.0% to=     0 classes= 129 maxP=   8380 maxR=  126.4
+(3, 3, 3, 3, 4, 4) SSRSSRSSRSSRSRSSRSRSSR       closed= 76.9% to=     0 classes= 382 maxP=   8365 maxR=  127.2
+(3, 3, 3, 4, 3, 4) SSRSSRSSRSRSSRSSRSRSSR       closed= 89.1% to=     0 classes= 295 maxP=  19035 maxR=  412.3
+(3, 3, 3, 4, 4, 4) SSRSSRSSRSRSSRSRSSRSRSSR     closed= 78.0% to=     0 classes= 341 maxP=   7575 maxR=  407.3
+(3, 3, 4, 3, 4, 4) SSRSSRSRSSRSSRSRSSRSRSSR     closed= 58.8% to= 66024 classes= 148 maxP=  73635 maxR=  153.1
+(3, 3, 4, 4, 3, 4) SSRSSRSRSSRSRSSRSSRSRSSR     closed= 58.9% to= 64622 classes= 150 maxP=  73635 maxR=  153.1
+(3, 3, 4, 4, 4, 4) SSRSSRSRSSRSRSSRSRSSRSRSSR   closed= 32.1% to=     0 classes= 174 maxP=  26825 maxR=  209.0
+(3, 4, 3, 4, 4, 4) SSRSRSSRSSRSRSSRSRSSRSRSSR   closed= 73.9% to=     0 classes= 465 maxP=  14540 maxR=  159.7
+(3, 4, 4, 4, 4, 4) SSRSRSSRSRSSRSRSSRSRSSRSRSSR closed= 72.1% to=     0 classes= 476 maxP=  22476 maxR=  386.7

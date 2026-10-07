@@ -1,0 +1,37 @@
+triangle atlas from sigma^8(sun): 15970 triangles, 30 marked coronas (rot36 classes), 89s
+closure check: 0 coronas outside atlas -> CLOSED
+corona sizes (triangles): [11, 11, 13, 13, 13, 13, 15, 15, 15, 15, 15, 15, 15, 15, 17, 17, 17, 17, 17, 17, 17, 17, 17, 17, 19, 19, 19, 19, 19, 19]
+margin delta0 = 0.5878; at level n=7: phi^n*delta0 = 17.07
+  corona   0 (15 tris): patch    6201 rhombs, starts    1288, closed    1288, escape     0, timeout    0  [0s]
+  corona   1 (19 tris): patch    8344 rhombs, starts    2068, closed    2068, escape     0, timeout    0  [0s]
+  corona   2 (17 tris): patch    7365 rhombs, starts    2068, closed    2068, escape     0, timeout    0  [0s]
+  corona   3 (15 tris): patch    6760 rhombs, starts    2068, closed    2068, escape     0, timeout    0  [0s]
+  corona   4 (11 tris): patch    4435 rhombs, starts    1288, closed    1288, escape     0, timeout    0  [0s]
+  corona   5 (19 tris): patch    7972 rhombs, starts    2068, closed    2068, escape     0, timeout    0  [0s]
+  corona   6 (13 tris): patch    5786 rhombs, starts    1288, closed    1288, escape     0, timeout    0  [0s]
+  corona   7 (17 tris): patch    7365 rhombs, starts    2068, closed    2068, escape     0, timeout    0  [0s]
+  corona   8 (13 tris): patch    5409 rhombs, starts    2068, closed    2068, escape     0, timeout    0  [0s]
+  corona   9 (11 tris): patch    4435 rhombs, starts    1288, closed    1288, escape     0, timeout    0  [0s]
+  corona  10 (15 tris): patch    6201 rhombs, starts    1288, closed    1288, escape     0, timeout    0  [0s]
+  corona  11 (17 tris): patch    6993 rhombs, starts    2068, closed    2068, escape     0, timeout    0  [0s]
+  corona  12 (19 tris): patch    8344 rhombs, starts    2068, closed    2068, escape     0, timeout    0  [0s]
+  corona  13 (15 tris): patch    6573 rhombs, starts    1288, closed    1288, escape     0, timeout    0  [0s]
+  corona  14 (17 tris): patch    7365 rhombs, starts    2068, closed    2068, escape     0, timeout    0  [0s]
+  corona  15 (19 tris): patch    7972 rhombs, starts    2068, closed    2068, escape     0, timeout    0  [0s]
+  corona  16 (15 tris): patch    6760 rhombs, starts    2068, closed    2068, escape     0, timeout    0  [0s]
+  corona  17 (13 tris): patch    5786 rhombs, starts    1288, closed    1288, escape     0, timeout    0  [0s]
+  corona  18 (17 tris): patch    6993 rhombs, starts    2068, closed    2068, escape     0, timeout    0  [1s]
+  corona  19 (13 tris): patch    5409 rhombs, starts    2068, closed    2068, escape     0, timeout    0  [1s]
+  corona  20 (15 tris): patch    6201 rhombs, starts    1288, closed    1288, escape     0, timeout    0  [1s]
+  corona  21 (17 tris): patch    6993 rhombs, starts    2068, closed    2068, escape     0, timeout    0  [1s]
+  corona  22 (15 tris): patch    6201 rhombs, starts    1288, closed    1288, escape     0, timeout    0  [1s]
+  corona  23 (19 tris): patch    8344 rhombs, starts    2068, closed    2068, escape     0, timeout    0  [1s]
+  corona  24 (17 tris): patch    6993 rhombs, starts    2068, closed    2068, escape     0, timeout    0  [1s]
+  corona  25 (19 tris): patch    8344 rhombs, starts    2068, closed    2068, escape     0, timeout    0  [1s]
+  corona  26 (15 tris): patch    6573 rhombs, starts    1288, closed    1288, escape     0, timeout    0  [1s]
+  corona  27 (17 tris): patch    7365 rhombs, starts    2068, closed    2068, escape     0, timeout    0  [1s]
+  corona  28 (17 tris): patch    6993 rhombs, starts    2068, closed    2068, escape     0, timeout    0  [1s]
+  corona  29 (17 tris): patch    6993 rhombs, starts    2068, closed    2068, escape     0, timeout    0  [1s]
+program (SSRSRSRSRSSR)*, n=7: total starts 54240, escapes 0, timeouts 0 -> ALL CLOSED: theorem verified
+period spectrum: {1: 1530, 5: 7900, 6: 8100, 13: 10040, 14: 3940, 25: 12480, 40: 10250}
+CERTIFICATE: VALID (atlas closed, all starts closed)

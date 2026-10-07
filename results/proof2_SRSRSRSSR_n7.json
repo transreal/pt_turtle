@@ -1,0 +1,288 @@
+{
+ "prog": "SRSRSRSSR",
+ "n": 7,
+ "N_atlas": 8,
+ "n_coronas": 30,
+ "closure_new": 0,
+ "margin0": 0.5877852522924674,
+ "ok": true,
+ "per_entry": [
+  {
+   "entry": 0,
+   "ntris_corona": 15,
+   "rhombs_patch": 6201,
+   "starts": 1288,
+   "closed": 1288,
+   "escape": 0,
+   "timeout": 0
+  },
+  {
+   "entry": 1,
+   "ntris_corona": 19,
+   "rhombs_patch": 8344,
+   "starts": 2068,
+   "closed": 2068,
+   "escape": 0,
+   "timeout": 0
+  },
+  {
+   "entry": 2,
+   "ntris_corona": 17,
+   "rhombs_patch": 7365,
+   "starts": 2068,
+   "closed": 2068,
+   "escape": 0,
+   "timeout": 0
+  },
+  {
+   "entry": 3,
+   "ntris_corona": 15,
+   "rhombs_patch": 6760,
+   "starts": 2068,
+   "closed": 2068,
+   "escape": 0,
+   "timeout": 0
+  },
+  {
+   "entry": 4,
+   "ntris_corona": 11,
+   "rhombs_patch": 4435,
+   "starts": 1288,
+   "closed": 1288,
+   "escape": 0,
+   "timeout": 0
+  },
+  {
+   "entry": 5,
+   "ntris_corona": 19,
+   "rhombs_patch": 7972,
+   "starts": 2068,
+   "closed": 2068,
+   "escape": 0,
+   "timeout": 0
+  },
+  {
+   "entry": 6,
+   "ntris_corona": 13,
+   "rhombs_patch": 5786,
+   "starts": 1288,
+   "closed": 1288,
+   "escape": 0,
+   "timeout": 0
+  },
+  {
+   "entry": 7,
+   "ntris_corona": 17,
+   "rhombs_patch": 7365,
+   "starts": 2068,
+   "closed": 2068,
+   "escape": 0,
+   "timeout": 0
+  },
+  {
+   "entry": 8,
+   "ntris_corona": 13,
+   "rhombs_patch": 5409,
+   "starts": 2068,
+   "closed": 2068,
+   "escape": 0,
+   "timeout": 0
+  },
+  {
+   "entry": 9,
+   "ntris_corona": 11,
+   "rhombs_patch": 4435,
+   "starts": 1288,
+   "closed": 1288,
+   "escape": 0,
+   "timeout": 0
+  },
+  {
+   "entry": 10,
+   "ntris_corona": 15,
+   "rhombs_patch": 6201,
+   "starts": 1288,
+   "closed": 1288,
+   "escape": 0,
+   "timeout": 0
+  },
+  {
+   "entry": 11,
+   "ntris_corona": 17,
+   "rhombs_patch": 6993,
+   "starts": 2068,
+   "closed": 2068,
+   "escape": 0,
+   "timeout": 0
+  },
+  {
+   "entry": 12,
+   "ntris_corona": 19,
+   "rhombs_patch": 8344,
+   "starts": 2068,
+   "closed": 2068,
+   "escape": 0,
+   "timeout": 0
+  },
+  {
+   "entry": 13,
+   "ntris_corona": 15,
+   "rhombs_patch": 6573,
+   "starts": 1288,
+   "closed": 1288,
+   "escape": 0,
+   "timeout": 0
+  },
+  {
+   "entry": 14,
+   "ntris_corona": 17,
+   "rhombs_patch": 7365,
+   "starts": 2068,
+   "closed": 2068,
+   "escape": 0,
+   "timeout": 0
+  },
+  {
+   "entry": 15,
+   "ntris_corona": 19,
+   "rhombs_patch": 7972,
+   "starts": 2068,
+   "closed": 2068,
+   "escape": 0,
+   "timeout": 0
+  },
+  {
+   "entry": 16,
+   "ntris_corona": 15,
+   "rhombs_patch": 6760,
+   "starts": 2068,
+   "closed": 2068,
+   "escape": 0,
+   "timeout": 0
+  },
+  {
+   "entry": 17,
+   "ntris_corona": 13,
+   "rhombs_patch": 5786,
+   "starts": 1288,
+   "closed": 1288,
+   "escape": 0,
+   "timeout": 0
+  },
+  {
+   "entry": 18,
+   "ntris_corona": 17,
+   "rhombs_patch": 6993,
+   "starts": 2068,
+   "closed": 2068,
+   "escape": 0,
+   "timeout": 0
+  },
+  {
+   "entry": 19,
+   "ntris_corona": 13,
+   "rhombs_patch": 5409,
+   "starts": 2068,
+   "closed": 2068,
+   "escape": 0,
+   "timeout": 0
+  },
+  {
+   "entry": 20,
+   "ntris_corona": 15,
+   "rhombs_patch": 6201,
+   "starts": 1288,
+   "closed": 1288,
+   "escape": 0,
+   "timeout": 0
+  },
+  {
+   "entry": 21,
+   "ntris_corona": 17,
+   "rhombs_patch": 6993,
+   "starts": 2068,
+   "closed": 2068,
+   "escape": 0,
+   "timeout": 0
+  },
+  {
+   "entry": 22,
+   "ntris_corona": 15,
+   "rhombs_patch": 6201,
+   "starts": 1288,
+   "closed": 1288,
+   "escape": 0,
+   "timeout": 0
+  },
+  {
+   "entry": 23,
+   "ntris_corona": 19,
+   "rhombs_patch": 8344,
+   "starts": 2068,
+   "closed": 2068,
+   "escape": 0,
+   "timeout": 0
+  },
+  {
+   "entry": 24,
+   "ntris_corona": 17,
+   "rhombs_patch": 6993,
+   "starts": 2068,
+   "closed": 2068,
+   "escape": 0,
+   "timeout": 0
+  },
+  {
+   "entry": 25,
+   "ntris_corona": 19,
+   "rhombs_patch": 8344,
+   "starts": 2068,
+   "closed": 2068,
+   "escape": 0,
+   "timeout": 0
+  },
+  {
+   "entry": 26,
+   "ntris_corona": 15,
+   "rhombs_patch": 6573,
+   "starts": 1288,
+   "closed": 1288,
+   "escape": 0,
+   "timeout": 0
+  },
+  {
+   "entry": 27,
+   "ntris_corona": 17,
+   "rhombs_patch": 7365,
+   "starts": 2068,
+   "closed": 2068,
+   "escape": 0,
+   "timeout": 0
+  },
+  {
+   "entry": 28,
+   "ntris_corona": 17,
+   "rhombs_patch": 6993,
+   "starts": 2068,
+   "closed": 2068,
+   "escape": 0,
+   "timeout": 0
+  },
+  {
+   "entry": 29,
+   "ntris_corona": 17,
+   "rhombs_patch": 6993,
+   "starts": 2068,
+   "closed": 2068,
+   "escape": 0,
+   "timeout": 0
+  }
+ ],
+ "spectrum": {
+  "2": 2865,
+  "10": 10125,
+  "12": 11000,
+  "26": 19870,
+  "50": 10380
+ }
+}

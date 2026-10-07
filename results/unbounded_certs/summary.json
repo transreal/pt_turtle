@@ -1,0 +1,464 @@
+[
+ {
+  "prog": "SLSR",
+  "B": 6,
+  "npass": 12,
+  "nports": 24,
+  "indep_ok": true,
+  "root": 7,
+  "root_type": [
+   1,
+   -1
+  ],
+  "m0": 7,
+  "N": [
+   98,
+   386,
+   1538,
+   6146
+  ],
+  "a": 4,
+  "b": -6,
+  "identities": 64
+ },
+ {
+  "prog": "SSSR",
+  "B": 6,
+  "npass": 60,
+  "nports": 120,
+  "indep_ok": true,
+  "root": 6,
+  "root_type": [
+   1,
+   -1
+  ],
+  "m0": 7,
+  "N": [
+   204,
+   876,
+   3564,
+   14316
+  ],
+  "a": 4,
+  "b": 60,
+  "identities": 320
+ },
+ {
+  "prog": "SRSSR",
+  "B": 8,
+  "npass": 132,
+  "nports": 264,
+  "indep_ok": true,
+  "root": 1,
+  "root_type": [
+   1,
+   -1
+  ],
+  "m0": 9,
+  "N": [
+   1270,
+   5446,
+   22150,
+   88966
+  ],
+  "a": 4,
+  "b": 366,
+  "identities": 704
+ },
+ {
+  "prog": "SSRSR",
+  "B": 8,
+  "npass": 132,
+  "nports": 264,
+  "indep_ok": true,
+  "root": 7,
+  "root_type": [
+   1,
+   -1
+  ],
+  "m0": 9,
+  "N": [
+   1270,
+   5446,
+   22150,
+   88966
+  ],
+  "a": 4,
+  "b": 366,
+  "identities": 704
+ },
+ {
+  "prog": "SLSRSR",
+  "B": 8,
+  "npass": 84,
+  "nports": 168,
+  "indep_ok": true,
+  "root": 96,
+  "root_type": [
+   1,
+   1
+  ],
+  "m0": 9,
+  "N": [
+   591,
+   2415,
+   9711,
+   38895
+  ],
+  "a": 4,
+  "b": 51,
+  "identities": 448
+ },
+ {
+  "prog": "SSLSSR",
+  "B": 8,
+  "npass": 72,
+  "nports": 144,
+  "indep_ok": true,
+  "root": 178,
+  "root_type": [
+   1,
+   1
+  ],
+  "m0": 9,
+  "N": [
+   703,
+   2943,
+   11903,
+   47743
+  ],
+  "a": 4,
+  "b": 131,
+  "identities": 384
+ },
+ {
+  "prog": "SSSRSR",
+  "B": 8,
+  "npass": 168,
+  "nports": 336,
+  "indep_ok": true,
+  "root": 230,
+  "root_type": [
+   1,
+   -1
+  ],
+  "m0": 9,
+  "N": [
+   1910,
+   8054,
+   32630,
+   130934
+  ],
+  "a": 4,
+  "b": 414,
+  "identities": 896
+ },
+ {
+  "prog": "SSSSSR",
+  "B": 8,
+  "npass": 108,
+  "nports": 216,
+  "indep_ok": true,
+  "root": 14,
+  "root_type": [
+   1,
+   1
+  ],
+  "m0": 9,
+  "N": [
+   922,
+   3962,
+   16122,
+   64762
+  ],
+  "a": 4,
+  "b": 274,
+  "identities": 576
+ },
+ {
+  "prog": "SSRSRSR",
+  "B": 8,
+  "npass": 396,
+  "nports": 792,
+  "indep_ok": true,
+  "root": 5,
+  "root_type": [
+   1,
+   -1
+  ],
+  "m0": 9,
+  "N": [
+   4421,
+   18757,
+   76101,
+   305477
+  ],
+  "a": 4,
+  "b": 1073,
+  "identities": 2112
+ },
+ {
+  "prog": "SSSRSSR",
+  "B": 8,
+  "npass": 564,
+  "nports": 1128,
+  "indep_ok": true,
+  "root": 13,
+  "root_type": [
+   1,
+   1
+  ],
+  "m0": 9,
+  "N": [
+   4651,
+   20331,
+   83051,
+   333931
+  ],
+  "a": 4,
+  "b": 1727,
+  "identities": 3008
+ },
+ {
+  "prog": "SSSSRSR",
+  "B": 8,
+  "npass": 264,
+  "nports": 528,
+  "indep_ok": true,
+  "root": 294,
+  "root_type": [
+   1,
+   -1
+  ],
+  "m0": 9,
+  "N": [
+   2042,
+   9082,
+   37242,
+   149882
+  ],
+  "a": 4,
+  "b": 914,
+  "identities": 1408
+ },
+ {
+  "prog": "SLSRSLSR",
+  "B": 6,
+  "npass": 24,
+  "nports": 48,
+  "indep_ok": true,
+  "root": 62,
+  "root_type": [
+   1,
+   -1
+  ],
+  "m0": 7,
+  "N": [
+   98,
+   386,
+   1538,
+   6146
+  ],
+  "a": 4,
+  "b": -6,
+  "identities": 128
+ },
+ {
+  "prog": "SLSRSRSR",
+  "B": 8,
+  "npass": 60,
+  "nports": 120,
+  "indep_ok": true,
+  "root": 17,
+  "root_type": [
+   1,
+   1
+  ],
+  "m0": 9,
+  "N": [
+   1070,
+   4398,
+   17710,
+   70958
+  ],
+  "a": 4,
+  "b": 118,
+  "identities": 320
+ },
+ {
+  "prog": "SSLSSRSR",
+  "B": 8,
+  "npass": 108,
+  "nports": 216,
+  "indep_ok": true,
+  "root": 7,
+  "root_type": [
+   1,
+   1
+  ],
+  "m0": 9,
+  "N": [
+   633,
+   2553,
+   10233,
+   40953
+  ],
+  "a": 4,
+  "b": 21,
+  "identities": 576
+ },
+ {
+  "prog": "SSRSLSSR",
+  "B": 8,
+  "npass": 204,
+  "nports": 408,
+  "indep_ok": true,
+  "root": 10,
+  "root_type": [
+   1,
+   -1
+  ],
+  "m0": 9,
+  "N": [
+   2177,
+   9377,
+   38177,
+   153377
+  ],
+  "a": 4,
+  "b": 669,
+  "identities": 1088
+ },
+ {
+  "prog": "SSRSRSSR",
+  "B": 8,
+  "npass": 108,
+  "nports": 216,
+  "indep_ok": true,
+  "root": 9,
+  "root_type": [
+   1,
+   1
+  ],
+  "m0": 9,
+  "N": [
+   1194,
+   5034,
+   20394,
+   81834
+  ],
+  "a": 4,
+  "b": 258,
+  "identities": 576
+ },
+ {
+  "prog": "SSSLSSSR",
+  "B": 8,
+  "npass": 84,
+  "nports": 168,
+  "indep_ok": true,
+  "root": 88,
+  "root_type": [
+   1,
+   1
+  ],
+  "m0": 9,
+  "N": [
+   705,
+   3009,
+   12225,
+   49089
+  ],
+  "a": 4,
+  "b": 189,
+  "identities": 448
+ },
+ {
+  "prog": "SSSRSRSR",
+  "B": 8,
+  "npass": 96,
+  "nports": 192,
+  "indep_ok": true,
+  "root": 13,
+  "root_type": [
+   1,
+   1
+  ],
+  "m0": 9,
+  "N": [
+   1281,
+   5281,
+   21281,
+   85281
+  ],
+  "a": 4,
+  "b": 157,
+  "identities": 512
+ },
+ {
+  "prog": "SSSRSSSR",
+  "B": 6,
+  "npass": 60,
+  "nports": 120,
+  "indep_ok": true,
+  "root": 6,
+  "root_type": [
+   1,
+   -1
+  ],
+  "m0": 7,
+  "N": [
+   204,
+   876,
+   3564,
+   14316
+  ],
+  "a": 4,
+  "b": 60,
+  "identities": 320
+ },
+ {
+  "prog": "SRSRSRSRSSR",
+  "B": 8,
+  "npass": 780,
+  "nports": 1560,
+  "indep_ok": true,
+  "root": 788,
+  "root_type": [
+   1,
+   1
+  ],
+  "m0": 9,
+  "N": [
+   3446,
+   14390,
+   58166,
+   233270
+  ],
+  "a": 4,
+  "b": 606,
+  "identities": 4160
+ },
+ {
+  "prog": "SRSRSRSRSRSSR",
+  "B": 8,
+  "npass": 192,
+  "nports": 384,
+  "indep_ok": true,
+  "root": 21,
+  "root_type": [
+   1,
+   -1
+  ],
+  "m0": 9,
+  "N": [
+   2738,
+   12482,
+   51458,
+   207362
+  ],
+  "a": 4,
+  "b": 1530,
+  "identities": 1024
+ }
+]
