@@ -1,0 +1,7 @@
+"coronas: "30"; candidate distances per corona: "{42, 90}
+"every candidate squared distance >= (5 - sqrt 5)/8, for all coronas (exact): "True
+"some candidate equal to (5 - sqrt 5)/8, for all coronas (exact): "True
+"delta_C^2 (exact minimum of the candidates) for the 30 coronas: "{(5 - Sqrt[5])/8}
+"all delta_C^2 equal to sin^2 36 = (5 - sqrt 5)/8 (exact): "True
+"delta = sqrt(min) >= 0.58 (exact, i.e. min >= (29/50)^2): "True"   numerically delta = "0.5877852522924731291687059546390727686`12." (for information only)"
+"[done ""corona_margin_exact.wl"" "37.6"s]"

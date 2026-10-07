@@ -148,3 +148,26 @@ Changes made after a critical review of the ASCAT 2027 manuscript:
   table B no longer carry the internal "@level" suffix.
 * `notebook_src/verify_classes.wl force` recomputes all class data, ignoring the cached `verify_classes.wxf`
   (the cache distributed with the tag was regenerated with the hash-free comparison; see `data/verify_classes_force.log`).
+
+## Revision of 2026-10-07, third round (tag `ascat2027` moved to this commit)
+
+* `collect_cert_roots.py` — the constant term of the recurrence is printed by `verify_cert.py` as `+ 66` or `+ -6`;
+  the collector read only unsigned numbers after the sign, so the two certificates with a negative constant
+  (`cert_SLSR.json`, `cert_SLSRSLSR.json`, recurrence N(m+2) = 4 N(m) - 6) had no root families in
+  `certs_roots.json` and were missing from table C of `PROGRAMS.md`.  The collector now reads signed constants,
+  only reads `cert_*.json` and `cert2_*.json` (its own output `certs_roots.json` was matched by the earlier pattern),
+  checks the structure of every input and the exit code of every checker, and stops if the root families reported by
+  `verify_cert.py` are not exactly the roots designated in the certificate.
+* `PROGRAMS.md` regenerated: table C has 22 rows (one per designated root of the 22 certificate files; 20 programs up
+  to cyclic shifts and mirroring, 18 up to powers, as in the paper), and table A has the number of classes for all
+  59 bounded programs.  The previous table had been generated while `verify_classes.wl force` was still running, so 25
+  entries of the class column were "-"; `programs_md.wl` now stops with an error when class data or a `verify_all.wl`
+  record is missing, when a certificate file has no root family, or when the records do not cover the certificate files.
+* `notebook_src/programs_md.wl` and `notebook_src/verify_classes.wl` (with the `force` option) are the versions that
+  produced `PROGRAMS.md` and `data/verify_classes_force.log`; the previous commit had updated the outputs but not these
+  two sources.
+* `notebook_src/corona_margin_exact.wl` — the signs and the minimum are now decided without any numerical
+  approximation: every compared quantity is written as a + b sqrt 5 with rational a, b (the script stops if a quantity
+  is not of this form) and its sign is decided by rational arithmetic.  For each of the 30 coronas the script checks
+  that every candidate squared distance is >= (5 - sqrt 5)/8 and that one of them is equal to it
+  (`data/corona_margin_exact.log`).

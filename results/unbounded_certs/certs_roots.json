@@ -41,7 +41,28 @@
   "npass": 12,
   "nports": 24,
   "identities": 64,
-  "roots": [],
+  "roots": [
+   {
+    "id": 7,
+    "type": [
+     1,
+     -1
+    ],
+    "parity": 1,
+    "N": [
+     98,
+     386,
+     1538,
+     6146,
+     24578,
+     98306,
+     393218
+    ],
+    "a": 4,
+    "b": -6,
+    "m0": 7
+   }
+  ],
   "valid": true,
   "o5_surplus": 2.52,
   "o5_exact_ok": true,
@@ -55,7 +76,28 @@
   "npass": 24,
   "nports": 48,
   "identities": 128,
-  "roots": [],
+  "roots": [
+   {
+    "id": 62,
+    "type": [
+     1,
+     -1
+    ],
+    "parity": 1,
+    "N": [
+     98,
+     386,
+     1538,
+     6146,
+     24578,
+     98306,
+     393218
+    ],
+    "a": 4,
+    "b": -6,
+    "m0": 7
+   }
+  ],
   "valid": true,
   "o5_surplus": 2.52,
   "o5_exact_ok": true,

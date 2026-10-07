@@ -20,7 +20,10 @@ extra = Association[Table[StringJoin[ConstantArray["SR", k - 3]] <> "SSR" -> <|"
 all = Join[pm, extra];
 byN = GroupBy[Keys[all], all[#]["n"] &];
 outFile = FileNameJoin[{$dataDir, "verify_classes.wxf"}];
-out = If[FileExistsQ[outFile], Import[outFile], <||>];
+(* "force" as the second argument recomputes everything, ignoring the cached verify_classes.wxf
+   (the data distributed since 2026-10-07 were regenerated this way with the hash-free comparison) *)
+force = Length[$args] >= 2 && $args[[2]] === "force";
+out = If[FileExistsQ[outFile] && ! force, Import[outFile], <||>];
 Do[
   If[! SubsetQ[Keys[out], byN[n]],
    Module[{patches, t1 = AbsoluteTime[]},
