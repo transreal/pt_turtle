@@ -11,6 +11,8 @@ is not included before publication.
 | `lib.wl` | exact arithmetic, substitution, rhombs, navigation, compiled turtle, coronas, exact D10 canonical forms, pentagrid |
 | `check_atlas.wl`, `verify_all.wl`, `verify_classes.wl`, `verify_extra.wl` | atlas (30 coronas), closure, V(P, n) for the 59 programs of `results/proof_many.json` and 15 further programs, exact class counts |
 | `py_extra.py` | the 15 further programs re-checked with the repository's Python code (numpy path) |
+| `verify_orbit_classes.wl` | exact classification of the closed orbits of a program on the verification patches as cyclic sequences of states, up to translations and rotations by multiples of 36 degrees ((SSR)* at level 7: 7 orbits, one per period) |
+| `review_data.wl`, `programs_md.wl` | numbers quoted in the survey section (initial states per window, corona margins) and the generator of `PROGRAMS.md` |
 | `bigwin.wl`, `survey_exact.wl` | pentagrid windows 46 / 160 / 300 and window surveys with exact congruence classes |
 | `figs_basic.wl`, `figs_subst.wl`, `figs_orbits.wl`, `figs_pass.wl`, `figs_tables.wl` | figures and tables of the paper (PNG, 1800 px wide, written to `figs/`) |
 | `data/` | small result files (`*.wxf`) and logs of the runs used in the paper |

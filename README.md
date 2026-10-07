@@ -100,3 +100,30 @@ Wolfram 15.0 for `notebook_src/` and `wl_verify.wl`.
 Please cite the ASCAT 2027 paper, and the preceding paper for SR8 on Penrose tilings:
 Katsunobu Imai, *Signal propagation and reversibility on Penrose tiling*, in: Understanding
 Reversibility, World Scientific (to appear).
+
+## Revision of 2026-10-07 (tag `ascat2027`)
+
+Changes made after a critical review of the ASCAT 2027 manuscript:
+
+* `PROGRAMS.md` — complete lists of the programs of the theorems: the 59 bounded programs (with the
+  verification level, the number of initial states, the period spectrum, the number of swept-set classes
+  and the agreement of the two implementations), the 15 further bounded programs, and the 21
+  unboundedness certificates with their root pass family, lengths, exact recurrence and checker results.
+* `notebook_src/verify_orbit_classes.wl` — exact classification of the closed orbits of a program on the
+  verification patches as *cyclic sequences of states* (rhomb vertices and heading edge in Z[zeta]) up to
+  translations and rotations by multiples of 36 degrees, i.e. the orientation-preserving part of G.
+  For (SSR)* at level 7 this gives 7 orbits, one for each period, so the 7 swept-set classes of the paper
+  are also 7 dynamical orbit classes (log in `notebook_src/data/orbit_classes_SSR_n7.log`).
+* `notebook_src/lib.wl`, `verify_classes.wl` — congruence classes are identified by comparing the exact
+  canonical forms themselves; the earlier version compared hash values of the canonical forms.
+* `notebook_src/review_data.wl` — the numbers quoted in the survey section: initial states per window
+  (tiles whose four neighbours lie in the window: 15 902 / 195 801 / 690 036 tiles, i.e. 63 608 / 783 204 /
+  2 760 144 states for the windows 46 / 160 / 300) and the distance from the centre of each of the 30 coronas
+  to the boundary of the corona (minimum sin 36 degrees, up to rounding).
+* Exactness: all coincidences of points and all congruence tests are integer computations in Z[zeta].
+  The only floating-point quantities in the proofs are the distance margins of obligation O5 / (V3) of the
+  pass-substitution certificates, whose minimum margin (1.89 for (SSSR)*) exceeds the rounding error of the
+  double-precision evaluation (below 1e-9) by many orders of magnitude.
+* The survey of the "43 programs" enumerates the programs of length at most 8 that contain `S` and at least
+  one turn, with no two turns cyclically adjacent, up to cyclic shifts and mirroring (powers are not
+  identified); `progs.py`.

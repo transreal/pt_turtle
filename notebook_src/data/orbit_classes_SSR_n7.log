@@ -1,0 +1,4 @@
+"(""SSR"")* level "7": starts "54240" escaped "0" timeout "0"  ["15"s]"
+"distinct closed orbits (up to translation + rotation by multiples of 36 deg, as cyclic state sequences): "7
+"by period: "<|10 -> 1, 12 -> 1, 28 -> 1, 30 -> 1, 50 -> 1, 80 -> 1, 100 -> 1|>"   orbits per class: "{{10, 720}, {12, 550}, {28, 570}, {30, 160}, {50, 320}, {80, 380}, {100, 160}}
+"[done ""verify_orbit_classes.wl"" "14.700000000000001"s]"

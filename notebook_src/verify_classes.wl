@@ -37,9 +37,9 @@ Do[
          spec = Merge[{spec, Counts[Select[res, #[[1]] == 0 &][[All, 2]]]}, Total];
          reps = DeleteDuplicatesBy[Select[res, #[[1]] == 0 &], #[[3]] &];
          Do[Module[{cells = DeleteDuplicates[ptOrbitRhombsC[pt[[1]], p, r[[3]], r[[2]]]], q, key},
-           q = pt[[3]][[cells]]; key = {r[[2]], Hash[ptTransCanon[q]]};
+           q = pt[[3]][[cells]]; key = {r[[2]], ptTransCanon[q]};   (* canonical forms are compared directly, not hashed *)
            If[! KeyExistsQ[tr, key], tr[key] = q]], {r, reps}]], {pt, patches}];
-       KeyValueMap[Function[{key, q}, cls[{key[[1]], Hash[ptD10Canon[q]]}] = Length[q]], tr];
+       KeyValueMap[Function[{key, q}, cls[{key[[1]], ptD10Canon[q]}] = Length[q]], tr];
        out[prog] = <|"n" -> n, "starts" -> tot, "escape" -> esc, "timeout" -> to, "spectrum" -> KeySort[spec], "nclasses" -> Length[cls], "ntrans" -> Length[tr],
          "classes" -> Sort[KeyValueMap[{#1[[1]], #2} &, cls]]|>;
        Print["  (", prog, ")* n=", n, " starts ", tot, " esc ", esc, " to ", to, " classes ", Length[cls], " trans ", Length[tr], " periods ", Keys[KeySort[spec]], "  [", Round[AbsoluteTime[] - t2], "s]"];

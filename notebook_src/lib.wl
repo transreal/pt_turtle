@@ -309,11 +309,11 @@ ptExactClasses[quad_, sNext_, cent_, prog_, res_] := Module[{ok, reps, tr = <||>
    reps = DeleteDuplicatesBy[ok, #[[3]] &];
    (* translation classes *)
    Do[Module[{cells = DeleteDuplicates[ptOrbitRhombsC[sNext, prog, r[[3]], r[[2]]]], key},
-     key = {r[[2]], Hash[ptTransCanon[quad[[cells]]]]};
+     key = {r[[2]], ptTransCanon[quad[[cells]]]};   (* the canonical form itself is the key (no hashing) *)
      If[KeyExistsQ[tr, key], tr[key] = {tr[key][[1]] + 1, tr[key][[2]]}, tr[key] = {1, r[[3]]}]], {r, reps}];
    (* D10 classes of the translation classes *)
    KeyValueMap[Function[{key, val}, Module[{cells = DeleteDuplicates[ptOrbitRhombsC[sNext, prog, val[[2]], key[[1]]]], k2, cs, m},
-       k2 = {key[[1]], Hash[ptD10Canon[quad[[cells]]]]};
+       k2 = {key[[1]], ptD10Canon[quad[[cells]]]};
        cs = cent[[cells]]; m = Mean[cs];
        If[KeyExistsQ[cls, k2], cls[k2] = Join[cls[k2], <|"norbits" -> cls[k2]["norbits"] + val[[1]], "ntrans" -> cls[k2]["ntrans"] + 1|>],
         cls[k2] = <|"period" -> key[[1]], "ncells" -> Length[cells], "norbits" -> val[[1]], "ntrans" -> 1, "rep" -> val[[2]], "centre" -> m, "radius" -> Max[Sqrt[Total[(Transpose[cs] - m)^2]]]|>]]], tr];
