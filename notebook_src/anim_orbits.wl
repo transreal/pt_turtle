@@ -8,7 +8,9 @@
    from the centre of the window until it reaches the border, with a log-log plot of its distance from the start.
    usage : wolfram -noinit -noprompt -script run.wl anim_orbits.wl [name ...]        (default: all)
            wolfram -noinit -noprompt -script run.wl anim_orbits.wl test [name ...]   (4 still frames per orbit)
-   output: anim/turtle-<name>.mp4 (1920x1080, 30 fps, H.264) and anim/turtle-<name>-final.png.
+           wolfram -noinit -noprompt -script run.wl anim_orbits.wl gif [name ...]    (GIF previews of existing videos)
+   output: anim/turtle-<name>.mp4 (1920x1080, 30 fps, H.264), anim/turtle-<name>-final.png (last frame) and
+           anim/turtle-<name>-preview.gif (time-lapse of 6-8 s, 640 px wide, 10 fps, last frame held 1.5 s).
    needs ffmpeg on the PATH or in the environment variable FFMPEG.  A window of side n is read from
    data/win<n>.wxf when present (bigwin.wl n), otherwise generated (side 300: about a minute). *)
 
@@ -292,6 +294,20 @@ renderOrbit[spec_, {s0_, period_, mode_ : "closed"}, seg_, nSeg_, frameDir_, fno
     {pass, 1, 2}];
    fno];
 
+(* GIF preview of a video: time-lapse of 6-8 s (a quarter of the video), 640 px wide, 10 fps, the last frame held 1.5 s *)
+videoDuration[mp4_String] := Module[{probe = FileNameJoin[{DirectoryName[ffmpegExe], "ffprobe" <> If[$OperatingSystem === "Windows", ".exe", ""]}], r},
+   r = RunProcess[{probe, "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", mp4}, "StandardOutput"];
+   If[StringQ[r] && StringMatchQ[StringTrim[r], NumberString], ToExpression[StringTrim[r]], $Failed]];
+gifPreview[mp4_String, dur0_ : Automatic] := Module[{dur = If[dur0 === Automatic, videoDuration[mp4], dur0], gif = StringDrop[mp4, -4] <> "-preview.gif", sp, r},
+   If[! NumericQ[dur], Print["  no duration for ", mp4]; Return[$Failed]];
+   sp = dur/Clip[dur/4, {6, 8}];
+   r = RunProcess[{ffmpegExe, "-y", "-loglevel", "error", "-i", mp4, "-filter_complex",
+      "[0:v]setpts=PTS/" <> ToString[NumberForm[N[sp], {6, 3}]] <> ",fps=10,scale=640:-1:flags=lanczos,tpad=stop_mode=clone:stop_duration=1.5,split[a][b];" <>
+       "[a]palettegen=max_colors=128:stats_mode=diff[p];[b][p]paletteuse=dither=bayer:bayer_scale=5:diff_mode=rectangle", "-loop", "0", gif}];
+   If[r["ExitCode"] != 0, Print["  GIF failed: ", r["StandardError"]]; Return[$Failed]];
+   Print["  wrote ", gif, ": ", Round[dur/sp + 1.5, 0.1], " s, ", Round[FileByteCount[gif]/2.^20, 0.01], " MB"];
+   gif];
+
 makeAnim[spec_, testOnly_ : False] := Module[{name = spec["name"], orbits, frameDir = None, fno = 0, out, tStart = AbsoluteTime[]},
    useWindow[Lookup[spec, "window", 90]];
    orbits = orbitList[spec];
@@ -308,9 +324,12 @@ makeAnim[spec_, testOnly_ : False] := Module[{name = spec["name"], orbits, frame
     If[r["ExitCode"] != 0, Print["  ffmpeg failed: ", r["StandardError"]]; Return[frameDir]]];
    DeleteDirectory[frameDir, DeleteContents -> True];
    Print["  wrote ", out, ": ", fno, " frames = ", Round[fno/fps, 0.1], " s, ", Round[FileByteCount[out]/2.^20, 0.1], " MB  [", Round[AbsoluteTime[] - tStart], "s]"];
+   gifPreview[out, fno/fps];
    out];
 
 $animArgs = Rest[$args];
 $animTest = MemberQ[$animArgs, "test"];
-$animNames = DeleteCases[$animArgs, "test"];
-Do[If[$animNames === {} || MemberQ[$animNames, spec["name"]], makeAnim[spec, $animTest]], {spec, animSpecs}];
+$animGif = MemberQ[$animArgs, "gif"];
+$animNames = DeleteCases[$animArgs, "test" | "gif"];
+Do[If[$animNames === {} || MemberQ[$animNames, spec["name"]],
+   If[$animGif, gifPreview[FileNameJoin[{$animDir, "turtle-" <> spec["name"] <> ".mp4"}]], makeAnim[spec, $animTest]]], {spec, animSpecs}];

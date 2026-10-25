@@ -58,8 +58,9 @@ it enters, and the colour of a rhomb is the number of times it has been entered 
 3 red-orange, 4 crimson, 5 magenta, 6 purple, 7 violet, 8 indigo, and darker blues for more.  The panel on the
 right (in Japanese) shows the program with the current command, the numbers of cycles, S moves and painted
 rhombs, and the histogram of the rhombs by number of visits.  The first cycles run one command at a time, then
-the turtle speeds up; a periodic orbit is followed until the turtle is back in its initial state.  Click a
-picture (the last frame of the video) to open the video.
+the turtle speeds up; a periodic orbit is followed until the turtle is back in its initial state.  The pictures
+below are GIF previews (time-lapses of 6–8 s, 640 px wide); click one to open the MP4, which GitHub offers for
+download ("View raw").  The last frame of every video is `notebook_src/anim/turtle-<name>-final.png`.
 
 All eight animations use one Penrose rhomb tiling, the pentagrid tiling with offsets (0, 0.1, −0.1, 0.2, −0.2)
 of the surveys.  The windows of side 90 and 300 are cut from it at the same corner (−3, −3), so the window of
@@ -69,14 +70,14 @@ of side 90 show orbits near its centre, the two on the window of side 300 orbits
 
 | animation (click to play) | program and orbit |
 |---|---|
-| <a href="notebook_src/anim/turtle-sr.mp4"><img src="notebook_src/anim/turtle-sr-final.png" width="400" alt="(SR)*"></a> | **(SR)\*** — bounded.  The simplest program: the turtle goes once around a vertex and is back after as many cycles as there are rhombs at the vertex (3 to 7); every rhomb is entered once.  One orbit for each of the seven vertex stars (up to congruence), in turn. |
-| <a href="notebook_src/anim/turtle-ssr.mp4"><img src="notebook_src/anim/turtle-ssr-final.png" width="400" alt="(SSR)*"></a> | **(SSR)\*** — bounded; the head of the shortest SR8 worm.  The orbit of period 100, the largest of the periods {10, 12, 28, 30, 50, 80, 100}: 70 rhombs, each entered 1, 3, 4 or 5 times. |
-| <a href="notebook_src/anim/turtle-sr3ssr.mp4"><img src="notebook_src/anim/turtle-sr3ssr-final.png" width="400" alt="(SR)^3(SSR)"></a> | **(SR)^3(SSR)** — bounded.  Period 50, 30 rhombs.  While S and R alternate, the turtle stays in a small region, so the rhombs are entered 2, 8, 10 or 18 times. |
-| <a href="notebook_src/anim/turtle-ssr-ssssr.mp4"><img src="notebook_src/anim/turtle-ssr-ssssr-final.png" width="400" alt="(SSR)(SSSSR)"></a> | **(SSR)(SSSSR)** — bounded.  The largest of its 13 orbit classes: period 309, 554 rhombs, each entered 1 to 11 times; the rhombs near the centre are entered most often. |
-| <a href="notebook_src/anim/turtle-sssr.mp4"><img src="notebook_src/anim/turtle-sssr-final.png" width="400" alt="(SSSR)*"></a> | **(SSSR)\*** — unbounded, hierarchical.  Period 1385, 2675 rhombs, each entered 1, 2 or 4 times: a ring with fivefold symmetry.  Larger windows contain orbits of larger periods (the periods are unbounded, see Main results). |
-| <a href="notebook_src/anim/turtle-sr2sssr.mp4"><img src="notebook_src/anim/turtle-sr2sssr-final.png" width="400" alt="(SR)^2(SSSR)"></a> | **(SR)^2(SSSR)** — unbounded, hierarchical.  Period 16 265, the largest on the window of side 300; 18 770 rhombs, each entered 1 to 9 times.  A snowflake-like (Koch-curve-like) orbit; the camera zooms out with the turtle.  The whole outline is drawn in the first half of the period, and the second half runs along it again, adding rhombs and visits. |
-| <a href="notebook_src/anim/turtle-sslsr.mp4"><img src="notebook_src/anim/turtle-sslsr-final.png" width="400" alt="(SSLSR)* closed orbit"></a> | **(SSLSR)\*** — diffusive, a rare closed orbit.  Period 370, 1030 rhombs, each entered once or twice; the only class of closed orbits on the window of side 90 (almost all orbits of this program escape). |
-| <a href="notebook_src/anim/turtle-sslsr-walk.mp4"><img src="notebook_src/anim/turtle-sslsr-walk-final.png" width="400" alt="(SSLSR)* diffusive walk"></a> | **(SSLSR)\*** — diffusive, a typical orbit.  Of the four headings of the rhomb at the centre of the window of side 300, the one that reaches the border last: the turtle wanders like a random walk and reaches the border after 8925 cycles (23 388 rhombs, each entered 1 to 4 times); the camera zooms out with the turtle.  The panel adds a log-log plot of the distance from the start, which grows roughly like the square root of the time (dashed line: slope 1/2). |
+| <a href="notebook_src/anim/turtle-sr.mp4"><img src="notebook_src/anim/turtle-sr-preview.gif" width="480" alt="(SR)*"></a> | **(SR)\*** — bounded.  The simplest program: the turtle goes once around a vertex and is back after as many cycles as there are rhombs at the vertex (3 to 7); every rhomb is entered once.  One orbit for each of the seven vertex stars (up to congruence), in turn. |
+| <a href="notebook_src/anim/turtle-ssr.mp4"><img src="notebook_src/anim/turtle-ssr-preview.gif" width="480" alt="(SSR)*"></a> | **(SSR)\*** — bounded; the head of the shortest SR8 worm.  The orbit of period 100, the largest of the periods {10, 12, 28, 30, 50, 80, 100}: 70 rhombs, each entered 1, 3, 4 or 5 times. |
+| <a href="notebook_src/anim/turtle-sr3ssr.mp4"><img src="notebook_src/anim/turtle-sr3ssr-preview.gif" width="480" alt="(SR)^3(SSR)"></a> | **(SR)^3(SSR)** — bounded.  Period 50, 30 rhombs.  While S and R alternate, the turtle stays in a small region, so the rhombs are entered 2, 8, 10 or 18 times. |
+| <a href="notebook_src/anim/turtle-ssr-ssssr.mp4"><img src="notebook_src/anim/turtle-ssr-ssssr-preview.gif" width="480" alt="(SSR)(SSSSR)"></a> | **(SSR)(SSSSR)** — bounded.  The largest of its 13 orbit classes: period 309, 554 rhombs, each entered 1 to 11 times; the rhombs near the centre are entered most often. |
+| <a href="notebook_src/anim/turtle-sssr.mp4"><img src="notebook_src/anim/turtle-sssr-preview.gif" width="480" alt="(SSSR)*"></a> | **(SSSR)\*** — unbounded, hierarchical.  Period 1385, 2675 rhombs, each entered 1, 2 or 4 times: a ring with fivefold symmetry.  Larger windows contain orbits of larger periods (the periods are unbounded, see Main results). |
+| <a href="notebook_src/anim/turtle-sr2sssr.mp4"><img src="notebook_src/anim/turtle-sr2sssr-preview.gif" width="480" alt="(SR)^2(SSSR)"></a> | **(SR)^2(SSSR)** — unbounded, hierarchical.  Period 16 265, the largest on the window of side 300; 18 770 rhombs, each entered 1 to 9 times.  A snowflake-like (Koch-curve-like) orbit; the camera zooms out with the turtle.  The whole outline is drawn in the first half of the period, and the second half runs along it again, adding rhombs and visits. |
+| <a href="notebook_src/anim/turtle-sslsr.mp4"><img src="notebook_src/anim/turtle-sslsr-preview.gif" width="480" alt="(SSLSR)* closed orbit"></a> | **(SSLSR)\*** — diffusive, a rare closed orbit.  Period 370, 1030 rhombs, each entered once or twice; the only class of closed orbits on the window of side 90 (almost all orbits of this program escape). |
+| <a href="notebook_src/anim/turtle-sslsr-walk.mp4"><img src="notebook_src/anim/turtle-sslsr-walk-preview.gif" width="480" alt="(SSLSR)* diffusive walk"></a> | **(SSLSR)\*** — diffusive, a typical orbit.  Of the four headings of the rhomb at the centre of the window of side 300, the one that reaches the border last: the turtle wanders like a random walk and reaches the border after 8925 cycles (23 388 rhombs, each entered 1 to 4 times); the camera zooms out with the turtle.  The panel adds a log-log plot of the distance from the start, which grows roughly like the square root of the time (dashed line: slope 1/2). |
 
 ## Layout
 
@@ -95,7 +96,7 @@ of side 90 show orbits near its centre, the two on the window of side 300 orbits
 | `results/` | boundedness certificates (`proof2_*.json`, `proof_many.json`), survey outputs (`surveyall_*.json`, `surveyexits_300.json`, `surveyronly*.json`), unboundedness certificates (`unbounded_certs/`) |
 | `logs/`, `figs/` | logs of the runs and figures produced by the Python scripts |
 | `notebook_src/` | Wolfram Language code of a third, self-contained implementation (exact substitution, atlas, verification, exact congruence classes, window surveys) and the figure scripts of the paper; see `notebook_src/README.md` |
-| `notebook_src/anim/` | the animations of the Examples section (MP4 and the last frame as PNG), made by `notebook_src/anim_orbits.wl` |
+| `notebook_src/anim/` | the animations of the Examples section (MP4, GIF preview and the last frame as PNG), made by `notebook_src/anim_orbits.wl` |
 
 ## Reproduce
 
