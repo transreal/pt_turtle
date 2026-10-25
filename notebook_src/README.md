@@ -16,6 +16,7 @@ is not included before publication.
 | `review_data.wl`, `programs_md.wl` | numbers quoted in the survey section (initial states per window, corona margins) and the generator of `PROGRAMS.md` |
 | `bigwin.wl`, `survey_exact.wl` | pentagrid windows 46 / 160 / 300 and window surveys with exact congruence classes |
 | `figs_basic.wl`, `figs_subst.wl`, `figs_orbits.wl`, `figs_pass.wl`, `figs_tables.wl` | figures and tables of the paper (PNG, 1800 px wide, written to `figs/`) |
+| `anim_orbits.wl`, `anim/` | animations of a turtle sweeping its orbit, every tile coloured by the number of times it has been entered so far: (SR)\* (one orbit per vertex star, 7 in turn), (SSR)\*, (SR)^3(SSR), (SSR)(SSSSR), (SSSR)\*, (SSLSR)\* on a window of side 90, the snowflake-like orbit of period 16265 of (SR)^2(SSSR) on the window of side 300 with a zooming camera, and a diffusive walk of (SSLSR)\* from the centre of the window of side 300 to its border with a log-log plot of the distance; MP4 1920x1080 via ffmpeg and the last frame as PNG, in `anim/` (see the Examples section of the top-level README) |
 | `data/` | small result files (`*.wxf`) and logs of the runs used in the paper |
 
 Run a script with
@@ -26,7 +27,9 @@ wolfram -noinit -noprompt -script run.wl figs_basic.wl
 
 (`run.wl` loads `lib.wl` and the target file as UTF-8; `w.sh` is the same for Git Bash).
 `bigwin.wl 300` must be run before `figs_orbits.wl` / `survey_exact.wl` (the cached window is ~170 MB and
-is not included).
+is not included).  `anim_orbits.wl [name ...]` renders all or some of its animations (`sr`, `ssr`, `sr3ssr`,
+`ssr-ssssr`, `sssr`, `sslsr`, `sr2sssr`, `sslsr-walk`; ffmpeg on the PATH or in the environment variable `FFMPEG`);
+`anim_orbits.wl test [name ...]` writes only four still frames per orbit.
 
 Notes:
 
